@@ -1,0 +1,675 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.14)  4 MAR 2022 14:02
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**A1-COVER-1.tex
+(./A1-COVER-1.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \noindent
+             {{\zihao{4} {\large 2020} 届研究生硕士学位论文}}\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.4 \noindent{{\zihao
+                     {4} {\large 2020} 届研究生硕士学位论文}}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 4 ("34) in font nullfont!
+! Undefined control sequence.
+l.4 \noindent{{\zihao{4} {\large
+                                 2020} 届研究生硕士学位论文}}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 届 ("5C4A) in font nullfont!
+Missing character: There is no 研 ("7814) in font nullfont!
+Missing character: There is no 究 ("7A76) in font nullfont!
+Missing character: There is no 生 ("751F) in font nullfont!
+Missing character: There is no 硕 ("7855) in font nullfont!
+Missing character: There is no 士 ("58EB) in font nullfont!
+Missing character: There is no 学 ("5B66) in font nullfont!
+Missing character: There is no 位 ("4F4D) in font nullfont!
+Missing character: There is no 论 ("8BBA) in font nullfont!
+Missing character: There is no 文 ("6587) in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 9.
+! Undefined control sequence.
+l.10 \noindent{{\zihao
+                      {4} 分类号：\underline{\qquad\qquad\qquad\qquad\qquad\qqua...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 4 ("34) in font nullfont!
+Missing character: There is no 分 ("5206) in font nullfont!
+Missing character: There is no 类 ("7C7B) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no ： ("FF1A) in font nullfont!
+! Undefined control sequence.
+l.11 \noindent{{\zihao
+                      {4} 密~~~~级：\underline{\qquad\qquad\qquad\qquad\qquad\q...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 4 ("34) in font nullfont!
+Missing character: There is no 密 ("5BC6) in font nullfont!
+Missing character: There is no 级 ("7EA7) in font nullfont!
+Missing character: There is no ： ("FF1A) in font nullfont!
+! Undefined control sequence.
+l.16 \noindent{{\zihao
+                      {4} 学校代码：\underline{10269~~~\qquad}}}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 4 ("34) in font nullfont!
+Missing character: There is no 学 ("5B66) in font nullfont!
+Missing character: There is no 校 ("6821) in font nullfont!
+Missing character: There is no 代 ("4EE3) in font nullfont!
+Missing character: There is no 码 ("7801) in font nullfont!
+Missing character: There is no ： ("FF1A) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 6 ("36) in font nullfont!
+Missing character: There is no 9 ("39) in font nullfont!
+! Undefined control sequence.
+l.17 \noindent{{\zihao
+                      {4} 学~~~~~~~~号：\underline{51174500048}}}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 4 ("34) in font nullfont!
+Missing character: There is no 学 ("5B66) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no ： ("FF1A) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 7 ("37) in font nullfont!
+Missing character: There is no 4 ("34) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 4 ("34) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 23--23
+[] 
+ []
+
+! Undefined control sequence.
+l.24 \scalebox
+              {1.0}{\includegraphics[width=1.5cm]{fig/ecnulogo.png}}  %原来为wi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+! Undefined control sequence.
+l.24 \scalebox{1.0}{\includegraphics
+                                    [width=1.5cm]{fig/ecnulogo.png}}  %原来为wi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no w ("77) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no h ("68) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+! Undefined control sequence.
+l.26 \scalebox
+              {1.0}{\includegraphics[width=8cm]{fig/ecnulabel.png}}^^I%原来为wi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+! Undefined control sequence.
+l.26 \scalebox{1.0}{\includegraphics
+                                    [width=8cm]{fig/ecnulabel.png}}^^I%原来为wi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no w ("77) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no h ("68) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+! Undefined control sequence.
+<argument> {\xiaoer 
+                    East China Normal University}
+l.28 ...bf{{\xiaoer East China Normal University}}
+                                                  }\\ \vskip 0.2cm
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (22.16pt too wide) in paragraph at lines 28--28
+ []\TU/lmr/bx/n/10 East 
+ []
+
+
+Overfull \hbox (29.87pt too wide) in paragraph at lines 28--28
+ \TU/lmr/bx/n/10 China 
+ []
+
+
+Overfull \hbox (23.32pt too wide) in paragraph at lines 28--28
+ \TU/lmr/bx/n/10 Nor- 
+ []
+
+
+Overfull \hbox (18.36pt too wide) in paragraph at lines 28--28
+ \TU/lmr/bx/n/10 mal 
+ []
+
+
+Overfull \hbox (22.26pt too wide) in paragraph at lines 28--28
+ \TU/lmr/bx/n/10 Uni- 
+ []
+
+
+Overfull \hbox (19.59pt too wide) in paragraph at lines 28--28
+ \TU/lmr/bx/n/10 ver- 
+ []
+
+
+Overfull \hbox (17.95pt too wide) in paragraph at lines 28--28
+ \TU/lmr/bx/n/10 sity 
+ []
+
+! Undefined control sequence.
+<recently read> \erhao 
+                       
+l.30 {\textbf{\erhao 硕~士~学~位~论~文}
+                                 }\\ \vskip 0.2cm
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 硕 (U+7855) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no 士 (U+58EB) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no 学 (U+5B66) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no 位 (U+4F4D) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no 论 (U+8BBA) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no 文 (U+6587) in font [lmroman10-bold]:mapping=tex-
+text;!
+
+Overfull \hbox (29.56674pt too wide) in paragraph at lines 30--30
+ []\TU/lmr/bx/n/10 硕 士 学 位 论 文 
+ []
+
+! Undefined control sequence.
+<recently read> \xiaoer 
+                        
+l.31 {\textbf{\xiaoer MASTER'S DISSERTATION}
+                                            }\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (59.77pt too wide) in paragraph at lines 31--31
+ []\TU/lmr/bx/n/10 MASTER’S 
+ []
+
+
+Overfull \hbox (23.4pt too wide) in paragraph at lines 31--31
+ \TU/lmr/bx/n/10 DIS- 
+ []
+
+
+Overfull \hbox (26.41pt too wide) in paragraph at lines 31--31
+ \TU/lmr/bx/n/10 SER- 
+ []
+
+
+Overfull \hbox (19.56pt too wide) in paragraph at lines 31--31
+ \TU/lmr/bx/n/10 TA- 
+ []
+
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 31--31
+ \TU/lmr/bx/n/10 TION 
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 37--37
+[] 
+ []
+
+! Undefined control sequence.
+l.38 {\erhao
+             \bf 论文题目：\underline{~面向智能系统的混成时钟
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.38 {\erhao \bf
+                 论文题目：\underline{~面向智能系统的混成时钟
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 论 ("8BBA) in font nullfont!
+Missing character: There is no 文 ("6587) in font nullfont!
+Missing character: There is no 题 ("9898) in font nullfont!
+Missing character: There is no 目 ("76EE) in font nullfont!
+Missing character: There is no ： ("FF1A) in font nullfont!
+Missing character: There is no 面 ("9762) in font nullfont!
+Missing character: There is no 向 ("5411) in font nullfont!
+Missing character: There is no 智 ("667A) in font nullfont!
+Missing character: There is no 能 ("80FD) in font nullfont!
+Missing character: There is no 系 ("7CFB) in font nullfont!
+Missing character: There is no 统 ("7EDF) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 混 ("6DF7) in font nullfont!
+Missing character: There is no 成 ("6210) in font nullfont!
+Missing character: There is no 时 ("65F6) in font nullfont!
+Missing character: There is no 钟 ("949F) in font nullfont!
+! Undefined control sequence.
+l.41 ...~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~{\erhao
+                                                   \bf \underline{逻辑系统构建及应用}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.41 ...~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~{\erhao \bf
+                                                   \underline{逻辑系统构建及应用}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 逻 ("903B) in font nullfont!
+Missing character: There is no 辑 ("8F91) in font nullfont!
+Missing character: There is no 系 ("7CFB) in font nullfont!
+Missing character: There is no 统 ("7EDF) in font nullfont!
+Missing character: There is no 构 ("6784) in font nullfont!
+Missing character: There is no 建 ("5EFA) in font nullfont!
+Missing character: There is no 及 ("53CA) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 用 ("7528) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 45--45
+[] 
+ []
+
+! Undefined control sequence.
+l.49 {\sihao
+             \bf 院\qquad\ \ \ ~~~系:}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.49 {\sihao \bf
+                 院\qquad\ \ \ ~~~系:}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 院 ("9662) in font nullfont!
+Missing character: There is no 系 ("7CFB) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+! Undefined control sequence.
+l.50 {\sihao
+             \bf 专\qquad\ \ \ ~~~业:}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.50 {\sihao \bf
+                 专\qquad\ \ \ ~~~业:}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 专 ("4E13) in font nullfont!
+Missing character: There is no 业 ("4E1A) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+! Undefined control sequence.
+l.51 {\sihao
+             \bf 研~~究~~方~~向:}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.51 {\sihao \bf
+                 研~~究~~方~~向:}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 研 ("7814) in font nullfont!
+Missing character: There is no 究 ("7A76) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 向 ("5411) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+! Undefined control sequence.
+l.52 {\sihao
+             \bf 指~~导~~教~~师:}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.52 {\sihao \bf
+                 指~~导~~教~~师:}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 指 ("6307) in font nullfont!
+Missing character: There is no 导 ("5BFC) in font nullfont!
+Missing character: There is no 教 ("6559) in font nullfont!
+Missing character: There is no 师 ("5E08) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+! Undefined control sequence.
+l.53 {\sihao
+             \bf 学~位~申~请~人:}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.53 {\sihao \bf
+                 学~位~申~请~人:}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 学 ("5B66) in font nullfont!
+Missing character: There is no 位 ("4F4D) in font nullfont!
+Missing character: There is no 申 ("7533) in font nullfont!
+Missing character: There is no 请 ("8BF7) in font nullfont!
+Missing character: There is no 人 ("4EBA) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+! Undefined control sequence.
+l.56 {\sihao
+             \bf  软件工程学院}        \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.56 {\sihao \bf
+                  软件工程学院}        \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 软 ("8F6F) in font nullfont!
+Missing character: There is no 件 ("4EF6) in font nullfont!
+Missing character: There is no 工 ("5DE5) in font nullfont!
+Missing character: There is no 程 ("7A0B) in font nullfont!
+Missing character: There is no 学 ("5B66) in font nullfont!
+Missing character: There is no 院 ("9662) in font nullfont!
+! Undefined control sequence.
+l.57 \hline {\sihao
+                    \bf 软件工程}              \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.57 \hline {\sihao \bf
+                        软件工程}              \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 软 ("8F6F) in font nullfont!
+Missing character: There is no 件 ("4EF6) in font nullfont!
+Missing character: There is no 工 ("5DE5) in font nullfont!
+Missing character: There is no 程 ("7A0B) in font nullfont!
+! Undefined control sequence.
+l.58 \hline {\sihao
+                    \bf 形式化方法}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.58 \hline {\sihao \bf
+                        形式化方法}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 形 ("5F62) in font nullfont!
+Missing character: There is no 式 ("5F0F) in font nullfont!
+Missing character: There is no 化 ("5316) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 法 ("6CD5) in font nullfont!
+! Undefined control sequence.
+l.59 \hline {\sihao
+                    \bf 陈仪香~~教授}  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.59 \hline {\sihao \bf
+                        陈仪香~~教授}  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 陈 ("9648) in font nullfont!
+Missing character: There is no 仪 ("4EEA) in font nullfont!
+Missing character: There is no 香 ("9999) in font nullfont!
+Missing character: There is no 教 ("6559) in font nullfont!
+Missing character: There is no 授 ("6388) in font nullfont!
+! Undefined control sequence.
+l.60 \hline {\sihao
+                    \bf 王佩芬}      \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.60 \hline {\sihao \bf
+                        王佩芬}      \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 王 ("738B) in font nullfont!
+Missing character: There is no 佩 ("4F69) in font nullfont!
+Missing character: There is no 芬 ("82AC) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 68--68
+[] 
+ []
+
+! Undefined control sequence.
+l.69 {\sihao
+             2020年5月}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 年 ("5E74) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no 月 ("6708) in font nullfont!
+)
+! Emergency stop.
+<*> A1-COVER-1.tex
+                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 23 strings out of 476919
+ 434 string characters out of 5816463
+ 295906 words of memory out of 5000000
+ 20125 multiletter control sequences out of 15000+600000
+ 403438 words of font info for 28 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 19i,9n,15p,120b,146s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.

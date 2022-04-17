@@ -1,0 +1,328 @@
+   
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                           %
+%          LaTeX File for Doctor (Master) Thesis of ECNU                    %
+%            华东师范大学博士（硕士）论文模板 ____lizb                         %
+%                                                                           %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\documentclass[12pt,openany,a4paper,fancyhdr,oneside]{ctexbook}
+
+%draft 选项可以使插入的图形只显示外框，以加快预览速度。
+%\documentclass[11pt,a4paper,openany,draft]{book}
+
+\usepackage[CJKbookmarks]{hyperref}
+\usepackage{shortvrb,indentfirst,ulem,makeidx}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{indentfirst,latexsym,colortbl,subfigure,clrscode}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{float}
+%\usepackage{algpseudocode}
+\usepackage{bm}                     % 处理数学公式中的黑斜体的宏包
+\usepackage{amsmath}                % AMSLaTeX宏包 用来排出更加漂亮的公式
+\usepackage{amsthm}
+\usepackage{amssymb}                % AMSLaTeX宏包 用来排出更加漂亮的公式
+  \usepackage{mathrsfs}
+\usepackage[subnum]{cases}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{hypernat}
+\usepackage{geometry}
+\usepackage{enumerate}
+\usepackage{enumitem}
+%\usepackage{diagbox} % 加载宏包
+\usepackage{xcolor} 
+\DeclareMathOperator*{\argmin}{argmin}    %argmin或argmax公式的排版 
+
+\usepackage{times}
+\usepackage{fontspec}
+%\usepackage{libertine}
+
+\usepackage{subfigure}
+\usepackage{CJKfntef}
+
+\usepackage{caption}
+\usepackage{titletoc}
+\usepackage{listings}
+
+% 控制图片不乱跑
+\usepackage{float}
+% 长表格
+\usepackage{supertabular}
+\usepackage{longtable}
+% 参考文献格式
+\usepackage{gbt7714}
+
+
+\usepackage{url} %use for reference
+\usepackage{tikz}
+\usetikzlibrary{automata}
+\usetikzlibrary{arrows,shapes,chains}
+\definecolor{lightgrey}{rgb}{0.9,0.95,0.98}
+\usetikzlibrary{intersections}%坐标系
+\usepackage{multirow}
+\usepackage{booktabs}%三线表
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}%用于表格单元格内多行显示
+\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
+\makeindex
+\pagestyle{fancy}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyfoot[CO,CE]{\thepage}
+
+\renewcommand{\algorithmicrequire}{\textbf{输入:}}
+\renewcommand{\algorithmicensure}{\textbf{输出:}}
+%\newenvironment{varalgorithm}[1]{\algorithm\renewcommand{\thealgorithm}{#1}}{\endalgorithm}
+
+%                    根据自己正文需要做的一些定义                 %
+%==================================================================
+\def\diag{{\rm diag}}
+\def\rank{{\rm rank}}
+\def\RR{{\cal R}}
+\def\NN{{\cal N}}
+\def\R{{\mathbb R}}
+\def\C{{\mathbb C}}
+\let\dis=\displaystyle
+
+\def\p{\partial}
+\def\f{\frac}
+\def\mr{\mathrm}
+\def\mb{\mathbf}
+\def\mc{\mathcal}
+\def\b{\begin}
+\def\e{\end}
+
+\newtheorem{thm1}{Theorem}[part]
+\newtheorem{thm2}{Theorem}[section]
+\newtheorem{thm3}{Theorem}[subsection]
+\newtheorem{them}[thm2]{定理}
+\newtheorem{theorem}[thm2]{定理}
+\newtheorem{defn}[thm2]{定义}
+\newtheorem{define}[thm2]{定义}
+\newtheorem{ex}[thm2]{例}
+\newtheorem{exs}[thm2]{例}
+\newtheorem{example}[thm2]{例}
+\newtheorem{prop}[thm2]{命题}
+\newtheorem{lemma}[thm2]{引理}
+\newtheorem{cor}[thm2]{推论}
+\newtheorem{remark}[thm2]{注释}
+\newtheorem{notation}[thm2]{记号}
+\newtheorem{abbre}[thm2]{缩写}
+% \newtheorem{algorithm}[thm2]{算法}
+\newtheorem{problem}[thm2]{问题}
+\newtheorem{assert}[thm2]{断言}
+\newtheorem{prof}[thm2]{证明}
+
+%\newcommand{\Switch}[1]{\State \textbf{switch} (#1)}
+%\newcommand{\EndSwitch}{\State \textbf{end switch}}
+%\newcommand{\Case}[1]{\State \textbf{case} #1\textbf{:} \begin{ALC@g}}
+%	\newcommand{\EndCase}{\end{ALC@g}}
+%\newcommand{\CaseLine}[1]{\State \textbf{case} #1\textbf{:} }
+%\newcommand{\Default}{\State \textbf{default:} \begin{ALC@g}}
+	%\newcommand{\EndDefault}{\end{ALC@g}}
+%\newcommand{\DEFAULTLINE}[1]{\STATE \textbf{default:} }
+\newcommand{\SWITCH}[1]{\STATE \textbf{switch} (#1)}
+\newcommand{\ENDSWITCH}{\STATE \textbf{end switch}}
+\newcommand{\CASE}[1]{\STATE \textbf{case} #1\textbf{:} \begin{ALC@g}}
+\newcommand{\ENDCASE}{\end{ALC@g}}
+\newcommand{\CASELINE}[1]{\STATE \textbf{case} #1\textbf{:} }
+\newcommand{\DEFAULT}{\STATE \textbf{default:} \begin{ALC@g}}
+\newcommand{\ENDDEFAULT}{\end{ALC@g}}
+\newcommand{\DEFAULTLINE}[1]{\STATE \textbf{default:} }
+
+\newcommand{\yihao}{\fontsize{26pt}{36pt}\selectfont}           % 一号, 1.4 倍行距
+\newcommand{\erhao}{\fontsize{22pt}{28pt}\selectfont}          % 二号, 1.25倍行距
+\newcommand{\xiaoer}{\fontsize{18pt}{18pt}\selectfont}          % 小二, 单倍行距
+\newcommand{\sanhao}{\fontsize{16pt}{24pt}\selectfont}        % 三号, 1.5倍行距
+\newcommand{\xiaosan}{\fontsize{15pt}{22pt}\selectfont}        % 小三, 1.5倍行距
+\newcommand{\sihao}{\fontsize{14pt}{21pt}\selectfont}            % 四号, 1.5 倍行距
+\newcommand{\banxiaosi}{\fontsize{13pt}{19.5pt}\selectfont}    % 半小四, 1.5倍行距
+\newcommand{\xiaosi}{\fontsize{12pt}{18pt}\selectfont}            % 小四, 1.5倍行距
+\newcommand{\dawuhao}{\fontsize{11pt}{11pt}\selectfont}       % 大五号, 单倍行距
+\newcommand{\wuhao}{\fontsize{10.5pt}{15.75pt}\selectfont}    % 五号, 单倍行距
+
+%============================ 可以自定义文字块 ================================%
+
+\newcommand{\aaa}{这是我给你们的一个示例}
+\newcommand{\bbb}{\aaa \aaa \aaa}
+\newcommand{\ccc}{\bbb \bbb \bbb \bbb \bbb
+
+\bbb \bbb \bbb \bbb \bbb }
+\newcommand{\abc}{abcdefg1234567890}
+\newcommand{\upabc}{ABCDEFGHIJK}
+%%% ----------------------------------------------------------------------
+
+
+
+%============================= 版芯控制 ================================%
+\setlength{\oddsidemargin}{0.57cm}
+\setlength{\evensidemargin}{\oddsidemargin}
+\voffset-6mm \textwidth=150mm \textheight=230mm \headwidth=150mm
+%\rightmargin=35mm
+%                                                                       %
+
+
+%============================= 页面设置 ================================%
+%-------------------- 定义页眉和页脚 使用fancyhdr 宏包 -----------------%
+% 定义页眉与正文间双隔线
+\newcommand{\makeheadrule}{%
+\makebox[0pt][l]{\rule[.7\baselineskip]{\headwidth}{0.4pt}}%
+\rule[0.85\baselineskip]{\headwidth}{0.4pt} \vskip-.8\baselineskip}
+\makeatletter
+\renewcommand{\headrule}{%
+{\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi
+\makeheadrule}} \makeatother
+
+\newcommand{\adots}{\mathinner{\mkern 2mu%
+\raisebox{0.1em}{.}\mkern 2mu\raisebox{0.4em}{.}%
+\mkern2mu\raisebox{0.7em}{.}\mkern 1mu}}
+
+\setmainfont{Times New Roman}
+\dottedcontents{chapter}[1.5cm]{\xiaosi\heiti}{3.8em}{9.5pt}
+
+%\dottedcontents{section}[1.5cm]{\xiaosi\heiti}{2.8em}{9.5pt}
+\lhead{华东师范大学硕士学位论文}
+
+
+
+%=============================== 正文部分 ================================%
+%\include{A1-COVER-1.tex}
+%\include{A2-COVER-E.tex}
+%\include{A3-COPYRIGHT.tex}
+%\include{A4-MEMBERLIST.tex}
+%\include{B1-ABSTRACT.tex}
+%\include{B2-ABSTRACT-E.tex}
+%\include{B3-FIGURES.tex}
+%\include{B4-SYMBOLS.tex}
+%\include{B5-TABLES.tex}
+%\include{C1-CHAP1.tex}
+%\include{C2-CHAP2.tex}
+%\include{C3-CHAP3.tex}
+%\include{C4-CHAP4.tex}
+%\include{C5-CHAP5.tex}
+%\include{C6-CHAP6.tex}
+%\include{C7-CHAP7.tex}
+%\include{CC-APPENDIX.tex}
+%\include{D2-ACHNOWLEDGEMENT.tex}
+%\include{D3-MYACHIEVEMENTS.tex}
+%\include{D1-REFRENCE.tex}
+
+
+
+\makeatletter
+\newenvironment{breakablealgorithm}
+{% \begin{breakablealgorithm}
+	\begin{center}
+		\refstepcounter{algorithm}% New algorithm
+		\hrule height.8pt depth0pt \kern2pt% \@fs@pre for \@fs@ruled
+		\renewcommand{\caption}[2][\relax]{% Make a new \caption
+			{\raggedright\textbf{\ALG@name~\thealgorithm} ##2\par}%
+			\ifx\relax##1\relax % #1 is \relax
+			\addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##2}%
+			\else % #1 is not \relax
+			\addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##1}%
+			\fi
+			\kern2pt\hrule\kern2pt
+		}
+	}{% \end{breakablealgorithm}
+		\kern2pt\hrule\relax% \@fs@post for \@fs@ruled
+	\end{center}
+}
+\makeatother
+
+
+
+
+\begin{document}
+
+\newpage
+\pagestyle{plain}
+\input A1-COVER-1.tex
+\input A2-COVER-E.tex
+%解开
+%\input A3-COPYRIGHT.tex
+\input A4-MEMBERLIST.tex
+
+\newpage
+\pagenumbering{roman}
+\pagestyle{plain}
+\input B1-ABSTRACT.tex
+\input B2-ABSTRACT-E.tex
+
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+\input{B3-FIGURES.tex}
+\input{B5-TABLES.tex}
+%\input{B4-SYMBOLS.tex}
+
+\newpage
+\pagenumbering{arabic}
+\pagestyle{fancy}
+
+%\CTEXsetup[format+={\zihao{3}}]{chapter}
+%\CTEXsetup[format+={\raggedright\zihao{4}}]{section}
+%\CTEXsetup[format+={\zihao{-4}}]{subsection}
+\CTEXsetup[format+={\zihao{3}\heiti}]{chapter}
+\CTEXsetup[format+={\raggedright\zihao{4}\heiti}]{section}
+\CTEXsetup[format+={\zihao{-4}\heiti}]{subsection}
+
+\setlength{\baselineskip}{25pt}  %%正文设为25磅行间距
+
+\input C1-CHAP1.tex
+\input C2-CHAP2.tex
+%\input C3-CHAP3.tex
+\input C4-CHAP4.tex
+%\clearpage
+%\phantom{s}
+%\clearpage
+\input C5-CHAP5.tex
+%\clearpage
+%\phantom{s}
+%\clearpage
+\input C6-CHAP6.tex
+
+\input C7-CHAP7.tex
+%\input CC-APPENDIX.tex
+
+%\clearpage
+%\phantomsection
+\addcontentsline{toc}{chapter}{参考文献}
+%\input D1-REFRENCE.tex
+%\bibliographystyle{GBT7714-2005}
+\bibliographystyle{gbt7714-numerical}
+\bibliography{bibs/all}
+
+%\clearpage
+%\pagestyle{plain}
+%\phantomsection %空白页
+\appendix      
+\setcounter{table}{0}   %从零开始编号
+%定义编号格式，在数字序号前加字符“A"
+\renewcommand{\thetable}{A\arabic{table}}
+\addcontentsline{toc}{chapter}{附录}
+\input D4-APPENDIX.tex
+
+%解开
+\clearpage
+\pagestyle{plain}
+\phantomsection
+\addcontentsline{toc}{chapter}{致谢}
+\input D2-ACHNOWLEDGEMENT.tex
+
+\clearpage
+\pagestyle{plain}
+\phantomsection %空白页
+\addcontentsline{toc}{chapter}{发表论文和科研情况}
+\input D3-MYACHIEVEMENTS.tex
+
+
+\printindex
+
+\end{document}
+

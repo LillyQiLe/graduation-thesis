@@ -1,0 +1,626 @@
+\chapter{可信证据}
+\label{ch3}
+\vspace{-0.7cm}
+
+\begin{kaishu}
+本章主要介绍可信证据的基本概念以及收集可信证据方法，建立软件可信性树型逻辑结构，确定软件属性、子属性、度量元以及由可信证据组成的指标，组成软件全生命周期可信度量表。
+%本章首先给出具体的失信以及失信证据的概念，根据定义从软件历史上的重大事故中提取典型的失信证据进行分析。然后根据失信证据对软件造成的影响，将失信证据映射到软件属性。接着给出三种失信证据分类方法，并根据失信证据的数据类型分别给出获得其可信等级的模型。最后对CWE中的失信证据进行统计分析。
+%本章首先根据在软件全生命周期过程，给出定量指标与定性指标的概
+\end{kaishu}
+
+\section{可信证据基本概念 }
+
+%软件造成的事故乃至灾难接连发生，人们从上个世纪开始研究如何提高软件可靠性、软件安全等，其研究成果层出不穷。然而至今每年由于软件问题造成的事故仍不间断，甚至一些典型的错误屡次出现却得不到重视。本文通过调查研究，找出近年来重大事故的相关资料，分析事故原因，提取出反映在源代码中的事故证据。
+%这里首先明确两个概念：“失信”和“失信证据”。本文采用文献\cite{liuke2008}中对软件可信的定义，根据该定义，从逆向思维出发，得到失信的定义。
+在实际软件开发活动中，在测试阶段有不执行程序的静态分析和执行程序的动态测试,必然会有相应的测试报告和文档。在软件需求阶段、软件设计阶段、软件编码阶段
+项目立项和评审等一系列活动中必然有确认、调查、走查、审查等方式留下相应的文档资料。所以在软件可信性评估过程中，收集支持确认、调查、走查、审查、静态分析、动态测试等多种度量手段有助于软件可信度量的数据和文档
+
+在对软件可信性进行评估，需要能反映软件某种属性的过程、数据或者其他信息。评价一个可信属性，需要从不同角度收集在软件全生命周期的各种数据或者证据。因此，软件可信性评估的证据是根据软件全生命周期的各个阶段过程中形成的数据、数据组合等可信性证据集合。本文是基于测试中，从需求分析阶段、软件设计阶段、软件编码阶段和软件测试阶段收集数据或证据构成可信度量指标。定量指标具有客观和直观的特点，尽量使用定量的度量指标会提供评估结果的准确性，但受限于软件自身及软件评估特有的主观性、应用背景和开发技术等很多因素，有些指标还无法采用定量的方式进行评估，仍需要通过专家评判或专业测评人员等方式进行定性评估。所以在可信指标模型中需要包含定量指标和定性指标。若两者结果值初始范围不同，量纲不一致，在取得原始度量值后还需要进行处理，统一量纲处理，以便于后续的数据处理。
+
+,作为满足软件全生命周期度量数据采集、划分、度量与分析的需求，建立相关的软件可信度量表。
+
+\begin{defn}
+%软件失信\cite{liyan2016}是指软件系统的动态行为或结果偏离用户预期，或在遭受干扰时不能提供连续的服务。如响应时间长，操作复杂等。
+\end{defn}
+
+%与软件失信定义类似的是软件失效。
+\begin{defn}
+%软件失效\cite{Luminyan2011}是指程序动态运行结果与需求结果不一致，这种情况是由于软件运行过程中触发软件缺陷而造成的，如死机、错误的输出结果、没有在规定的时间内响应。
+\end{defn}
+%与软件失效的定义相比，软件失信强调的是用户的体验，只要用户体验不符合预期，那么软件就会失信于用户；而软件失效强调动态运行的结果，并不关心用户是否对软件行为满意，只要确保软件功能和性能达到需求。
+\begin{defn}
+%失信证据\cite{liyan2016}是指隐藏在源代码中的缺陷，能够导致软件失信的程序元素或程序单元，用六元组表示：
+\begin{align*}
+%Evidence=<Description, Type, Property, T-Value, T-Level, Attributes>
+\end{align*}
+%其中，$Description$是证据的描述；$Type$是证据的数据类型；$Property$表示证据需要满足的可信性质；$T-Value$表示失信证据的度量值；$T-Level$表示证据的失信等级；$Attributes$表示证据影响的可信属性。
+\end{defn}
+
+%该定义中的程序元素和程序单元引用文献\cite{陶红伟2011}中的相关定义，认为程序元素是由变量、常量、数据类型、算术表达式、逻辑表达式、空语句、赋值语句、顺序语句、条件语句、循环语句以及对变量的声明构成；而程序单元则是一个为实现特定目标所编写的可以被调用的程序，如C语言中的函数等。
+
+\section{属性分层}
+%软件历史上出现的重大事故虽然很多，但是有公开地详细记录事故原因的并不多。从这些公开事故原因的资料\cite{Luminyan2011,Jinzhonghe2016}中筛选出与软件源代码相关的错误，整理成失信证据列表。表\ref{shixinzhengju}列举了部分典型的失信证据，其中包含了软件事故、发生原因和失信证据。下面通过两个实例说明失信证据的提取分析过程。
+由于软件自身的复杂性以及运行环境的不确定性，它的质量属性间存在各种错综复杂的关系，如何正确均衡和评价他们存在困难。因此国内外组织及研究机构针对软件质量属性的模型研究提出了很多方法。比如有面向软件体系结构的评价方法,包含通过控制用例的方法\cite{Pavlovski2009Non}、半监督文本分类方法\cite{Casamayor2010Identification}、功能规模度量方法\cite{Rajski2002Embedded}
+等，面向属性对象的评价方法主要包含基准数据法\cite{Yoji2014The}、模糊层次分析法\cite{Chang2009Applying}、基于影响分析的线性回归方法\cite{Liu1996An}、模糊神经网络\cite{Liao2006Method}以及专家判断方法\cite{王小艺2008一种基于专家知识的软件质量多属性评价方法}等。因此质量模型也层出不穷，这里面有影响的比如McCall模型\cite{Mccall1977Factors}、Boehm模型\cite{Boehm1976Quantitative}、FURPS模型\cite{Grady1987Software}、Dromey\cite{Oliver1995SAFE}、ISO/IEC916软件质量模型\cite{Jung2004Measuring}和“高可信软件生产工具及集成环境”课题组提出的软件可信属性模型\cite{Yin2011Construction}。如表\ref{shixinzhengju}，不同模型准则含有的可信属性，打勾表示该模型拥有的属性。虽然不同的模型属性的界定与划分没有一致的统一，但是通过详细分析各自质量特性的定义，可以试图减少各个质量特性之间的重叠。从文献中详细调查各个模型对于属性的定义，可以发现定义名称不同，但是定义要求有所重叠的，比如可用性和功能性描述的都是软件产品为了满足需求而需要实现的功能。软件可信性基本要求为功能性，表示软件产品为了满足需求而需要实现的功能。其他可信属性主要表示约束的条件，如何去正确和更好的实现功能。
+在嵌入式领域，对软件的可靠性、安全性和实时性要求较高 ，所以本文属性模型里面需要含有功能性、可靠性、安全性和实时性这四个基本属性，软件需要具备一定的生存性和扩展性，所以，本文属性选取了可生存性和可扩展性。所以本文属性选取了功能性、可靠性、安全性、实时性、可生存性和可维护性，基本可以涵盖众多的软件质量特性。
+
+本文结合按照GB/T 16260-2006《软件工程产品质量》、GJB 5236-2004《军用软件质量度量》和结合嵌入式软件等关键系统实际情况，属性包含相应的子属性。因为属性和子属性都是抽象的，描述软件质量的属性每个阶段都应按照相同的标准去执行，属性和子属性分布在需求分析阶段、设计阶段、编码实现阶段、测试阶段设计成相同的，具体见图\ref{attribute}。根据项目实际的情况，每个阶段具体的度量目标是不同，采集的可信指标也是不同的，所以每个阶段的可信度量元和可信指标不同。
+
+
+。依据GJB 5236-2004《军用软件质量度量》中对质量特性的定义对可信属性、子属性的定义或内涵进行了适当调整和修改，结合嵌入式软件等关键系统实际情况，对其进行调整和扩展，构造完整地、互斥地属性、子属性、度量和指标4层面向全生命周期的可信度属性分层模型。其中需求分析阶段、设计阶段、编码实现阶段、测试阶段设计由可信属性、可信子属性相同。具体见图\ref{attribute}。本小节对可信属性、子属性的定义进行了描述。 
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=13cm]{fig/attribute.png}
+	\caption{软件可信属性分层}
+	\label{attribute}
+\end{figure}
+功能性指当软件在指定条件下使用时，软件产品提供满足明确和隐含要求的功能的能力。功能性是软件可信性的基本要求，它与软件为了满足要求而需要做什么有关，而其他软件可信属性则主要与何时满足要求以及如何满足要求有关。功能性子属性包括适合性、准确性和互操作性。
+可靠性指在指定条件下使用时，软件产品维持规定的功能或性能级别的能力。可靠性包括成熟性、容错性等子属性。
+安全性包括两个方面，一方面指的是系统需具备抵抗意外或蓄意的访问、使用、修改、毁坏或泄密的能力；另一方面指的是在出现故障或意外失效后，软件尽量避免灾难性后果发生的能力。安全性包括安全保密性与防危性。
+实时性指的是软件在指定时间内完成操作或提交输出的能力。实时性包括处理及时性和实时稳定性两个子属性。
+可维护性指的是软件可被修改的能力，修改可能包括纠正（正确性维护）、改进（完善性维护）或软件对环境、需求和功能规格说明变化的适应（适应性维护）。可维护性包含易分析性、易改变性、易测试性等可信子属性。
+可生存性是软件在受到攻击或失效出现时连续提供服务并在规定时间内恢复所有或有限服务的能力。可生存性包括易恢复性和健壮性等可性子属性。
+
+\begin{table}[!h]
+	\centering
+	\renewcommand\arraystretch{1.3}
+	\caption{模型准则}
+	%    \lable{tab:ModelASymbol}
+	\begin{tabular}{|p{2cm}<{\centering}|p{1.2cm}<{\centering}|p{1.3cm}<{\centering}|p{1.3cm}<{\centering}|p{1.3cm}<{\centering}|p{2.2cm}<{\centering}|p{2.7cm}<{\centering}|}%几列就有几个c
+		\hline
+		\textbf{属性} & \textbf{McCall} & \textbf{Boehm} & \textbf{FURPS}& \textbf{Dromey}& \textbf{ISO/IEC916}& \textbf{可信属性模型} \\
+		\hline
+		功能性 &  &  &  &  &  &  \\
+		\hline
+		可用性 &  &  &  &  &  &    \\
+		\hline
+		可靠性 &  &  &  &  &  &  \\
+		\hline
+		完整性 &  &  &  &  &  &   \\
+		\hline
+		效率性  &  &  &  &  &  &   \\
+		\hline
+		适应性 &  &  &  &  &  &  \\
+		\hline
+		明确性 &  &  &  &  &  &  \\
+		\hline
+		文档化 &  &  &  &  &  &   \\
+		\hline
+		恢复力 &  &  &  &  &  &   \\
+		\hline
+		易懂性 &  &  &  &  &  &  \\
+		\hline
+		有效性 & &  &  &  &  &   \\
+		\hline
+		正确性 &  &  &  &  &  &   \\
+		\hline
+		普遍性  &  &  &  &  &  &  \\
+		\hline
+		经济性 &  &  &  &  &  &  \\
+		\hline
+		环境性 &  &  &  &  &  &   \\
+		\hline
+		描述性 &  &  &  &  &  &  \\
+		\hline
+		可维护性 &  &  &  &  &  &  \\
+		\hline
+		可测试性  &  &  &  &  &  &  \\
+		\hline
+		可操作性 &  &  &  &  &  & \\
+		\hline
+		可重用性  &  &  &  &  &  &  \\
+		\hline
+		可移植性 &  &  &  &  &  & \\
+		\hline
+		可变更性 &  &  &  &  &  & \\
+		\hline
+		互操作性 &  &  &  &  &  & \\
+		\hline
+	\end{tabular}
+	\label{shixinzhengju}
+\end{table}
+
+\textbf{例1}~1998年，NASA火星探测器MCO误入火星低空大气层，在大气的剧烈摩擦下损毁，导致该事件的根本原因是探测器程序与地面监测站程序中对应数据处理使用的单位不一致。在嵌入式软件中，软件使用的物理场景大多与硬件资源相关，这就导致程序中声明的变量隐含物理单位。若相关变量或接口参数隐含的单位不一致，并且没有相应的单位换算处理，很容易造成数据不一致，这就是“量纲”问题。C语言分析验证工具CPF\cite{Hills2008Pluggable}通过在程序中添加注释的方法解决了对该问题的检测，然而这需要开发人员在程序中对应程序语句中添加相应的注释，对变量隐含的单位加以说明。如果测试人员不了解程序中变量的物理含义，很有可能会忽略这类问题。因此，在特殊物理场景执行的程序中，“变量在其声明处是否有注释”成为衡量这一类问题的可信性质；相应的，“变量在其声明处没有注释”则是该类问题的失信证据。
+
+\textbf{例2}~1997年，“约克城”号军舰突然停止导致严重损失。该事故的原因是操作系统发生“除零错误”，导致数据溢出。在数学上和计算机中，没有哪个数字可以被0整除，然而程序员在编程时常常会忽略这一点。在程序中，如果两个变量或表达式进行除法运算，必须在该语句前对除数是否为零进行判断。然而对于浮点数是否为零的判断需要经过特殊处理。由于浮点数在计算机中的表示有精度限制，浮点数在计算机中存储的值和实际数值会产生微小的误差，例如，$(0.02)_{10}=(0.0000010100011...)_2$，存储在寄存器中的0.02输出到屏幕上却是0.0199999995529...，这种微小的误差在不同环境、不同需求中的影响程度是不同的。因此，在进行浮点数为零判断时，需要将由于精度问题或计算过程产生的误差考虑进去。另外，C语言国际标准\cite{informationtechnologyindustrylanguages1984}规定在对两个浮点数进行大小比较时使用EPSILON常量进行约束。C语言标准头文件$<float.h>$提供了浮点型的范围和与精度相关的宏，其中就有对FLT\_ EPSILON（1.19209290E-07F）、DBL\_ EPSILON(2.2204460492503131E-16)和LDBL\_ EPSILON(1.084202172485504E-19)的精确定义。程序中可以直接引用这些宏，但如果程序对精确度要求更高，则需要程序员自己去定义该常量的宏。例如，表\ref{compare1}中的程序Compare\_ 1理论上应该输出“1”，执行结果却输出“0”；表\ref{compare2}中的程序Compare\_ 2使用了FLT\_ EPSILON，结果输出“1”。由此可见，在浮点数比较中使用EPSILON常量提高了程序的可信性。
+\begin{table}[htb]
+\begin{minipage}{.5\linewidth}
+\centering
+\caption{示例程序Compare\_ 1}
+\begin{tabular}{|l|}
+\hline
+void main()\\
+\{\\
+~~~~float x = 1.0f;\\
+~~~~float y = 1.0f / 3;\\
+~~~~float z = 3 * y - x;\\
+~~~~if (z == 0)\\
+~~~~~~~~printf("1");\\
+~~~~else\\
+~~~~~~~~printf("0");\\
+\}\\
+\hline
+\end{tabular}
+\label{compare1}
+\end{minipage}
+\begin{minipage}{.5\linewidth}
+\centering
+\caption{示例程序Compare\_ 2}
+\begin{tabular}{|l|}
+\hline
+void main()\\
+\{\\
+~~~~float x = 1.0f;\\
+~~~~float y = 1.0f / 3;\\
+~~~~float z = 3 * y - x;\\
+~~~~if (z <= FLT\_ EPSILON)\\
+~~~~~~~~printf("1");\\
+~~~~else\\
+~~~~~~~~printf("0");\\
+\}\\
+\hline
+\end{tabular}
+\label{compare2}
+\end{minipage}
+\end{table}
+\section{全生命周期度量表}
+
+\subsection{软件需求阶段}
+在软件工程中，软件需求分析不仅是软件开发过程的第一步，用于指导软件设计以及后续的开发过程，还作为软件测试
+的参照系，确认最终的软件产品是否满足用户需求。在软件开发过程中，需求分析是整个流程中关键的一个过程，一个良好的需求分析有助于避免或尽早剔除早期错误，改进软件的质量。
+在嵌入式软件开发过程中，软件需求非常重要，需求分析结果是整个软件系统开发的基础。嵌入式软件需求规格不仅需要描述软件要“做什么”，即软件的功能需求，还需要关注非功能需求和设计约束。王崑声等\cite{王崑声2015嵌入式软件安全保证技术}提出嵌入式需求规格需要从5个方面详述。(1) 软件的功能需求包含软件应该实现的 ，主要描述软件要“做什么”的问题。(2)软件的非功能需求需要包含性能需求，比如软件的响应时间、恢复时间、软件的执行速度等；需要包含接口需求；需要包含软件属性：可靠性，安全性、可维护性。(3)背景情况：包含软件的用途、参考资料等(4)软件的设计约束：用户、任务委托方提出的对软件设计的约束。(5)服务型的内容：包含软件需求文档名称等基本信息。
+
+\subsection{软件设计阶段}
+\subsection{软件编码阶段}
+\subsection{软件测试阶段}
+
+\section{失信证据对可信属性的影响}
+失信证据对软件可信性的影响可以分解到对一个或多个可信属性的影响，根据陶红伟\cite{陶红伟2011}提出的程序元素、程序单元与属性对应关系清单，为每一条失信证据构造与属性的对应关系表\ref{tab:evidenceMatchAttr}。一条失信证据可能同时影响多个软件属性，在这里我们只给出了失信证据能够影响到的主要属性，每条失信证据具体可以影响到多少属性主要是凭经验进行判断。
+\begin{table}[H]
+ \centering
+  \caption{失信证据与属性对应列表}
+%    \lable{tab:ModelASymbol}
+ \begin{tabular}{|l|l|}%几列就有几个c
+\hline
+\textbf{失信证据} & \textbf{可信属性} \\
+\hline
+不恰当的UI设计 & 功能性，可维护性\\
+\hline
+Break语句使用不当 & 功能性，可靠性\\
+\hline
+误差累计 & 可靠性\\
+\hline
+数据溢出 & 功能性，可靠性，可生存性\\
+\hline
+除零错误（数据溢出）& 功能性，可靠性，可生存性\\
+\hline
+统一量纲问题 & 功能性，可维护性\\
+\hline
+逻辑错误 & 功能性，可维护性\\
+\hline
+进程调度问题 & 功能性，可靠性\\
+\hline
+路径错误 & 功能性\\
+\hline
+复杂度过高 & 可靠性，可维护性，可生存性\\
+\hline
+缺少注释 & 可维护性\\
+\hline
+ \end{tabular}
+ \label{tab:evidenceMatchAttr}
+\end{table}
+
+从原始清单中统计得到程序中的可信性质影响的属性主要有功能性、可靠性、可维护性和可生存性，其中涉及可维护性的六个子属性以及可生存性的一个子属性。当程序违背可信性质时，就会产生相应的失信证据，而每一条可信性质的违反可能是多方面的，因此每一条可信性质都对应一个失信证据的集合，从该清单中可以得到各属性中包含的失信证据集合数。由于该清单中可信性质并非完备的，因此通过清单得到的失信证据集合数也不是完备的，用户可以根据实际需要对其进行扩充。
+%\begin{figure}[H]
+%\centering
+%\includegraphics[width=10cm]{fig/zhuzhuangtu.png}
+%\caption{各属性对应的失信证据集合数}
+%\label{zhuzhuangtu}
+%\end{figure}
+
+\section{失信证据分类}
+失信证据包括程序中任意类型的错误语句以及并非错误但能够对软件属性造成失信影响的语句，因此失信证据的种类繁多。参考部分软件缺陷分类，我们提出三种失信证据的分类方法：
+
+（1）按照软件的运行过程“编译--链接--运行”分为：编译时失信证据、链接时失信证据和运行时失信证据。编译时失信证据主要包括能够被编译器和检查器检查出来的语法错误、风格错误和警告等；链接时失信证据包括链接库错误、路径错误等；运行时失信证据是能够被部分检查器检测但不能被编译器检测到的错误，还包括自定义的规则违反等，如图\ref{fenlei1}。
+\begin{figure}[htb]
+\centering
+\scriptsize
+\tikzstyle{root}=[rectangle, minimum width = 2cm, minimum height = 0.5cm, text centered, draw = black, fill=lightgrey]
+\begin{tikzpicture}[node distance=2cm, auto, >=latex', thin, start chain=going below, every join/.style={norm},]
+\node(n0)[root]{失信证据分类};
+\node(n1)[root,above of=n0,xshift=3cm]{编译时失信证据};
+\node(n2)[root,below of=n1]{链接时失信证据};
+\node(n3)[root,below of=n2,yshift=-2cm]{运行时失信证据};
+\node(m1)[root,right of=n1,yshift=0.5cm,xshift=1cm]{语法问题};
+\node(m2)[root,below of=m1,yshift=1cm]{风格问题};
+\node(m3)[root,below of=m2,yshift=1cm]{程序问题};
+\node(m4)[root,below of=m3,yshift=1cm]{链接库问题};
+\node(m5)[root,below of=m4,yshift=1cm]{误差累计};
+\node(m6)[root,below of=m5,yshift=1cm]{除零错误};
+\node(m7)[root,below of=m6,yshift=1cm]{量纲问题};
+\node(m8)[root,below of=m7,yshift=1cm]{逻辑问题};
+\node(m9)[root,below of=m8,yshift=1cm]{溢出问题};
+\node(m10)[root,below of=m9,yshift=1cm]{......};
+\coordinate(point1) at (1.5cm,2cm);
+\coordinate(point2) at (1.5cm,-4cm);
+\coordinate(point3) at (4.5cm,2.5cm);
+\coordinate(point4) at (4.5cm,1.5cm);
+\coordinate(point5) at (4.5cm,2cm);
+\coordinate(point6) at (4.5cm,0cm);
+\coordinate(point7) at (4.5cm,0.5cm);
+\coordinate(point8) at (4.5cm,-0.5cm);
+\coordinate(point9) at (4.5cm,-4cm);
+\coordinate(point10) at (4.5cm,-1.5cm);
+\coordinate(point11) at (4.5cm,-2.5cm);
+\coordinate(point12) at (4.5cm,-3.5cm);
+\coordinate(point13) at (4.5cm,-4.5cm);
+\coordinate(point14) at (4.5cm,-5.5cm);
+\coordinate(point15) at (4.5cm,-6.5cm);
+\draw(point1) -- (point2);
+\draw(n0) -- (n2);
+\draw(n1) -- (point1);
+\draw(n3) -- (point2);
+\draw(n1) -- (point5);
+\draw(point3) -- (point5);
+\draw(point4) -- (point5);
+\draw(m1) -- (point3);
+\draw(m2) -- (point4);
+\draw(n2) -- (point6);
+\draw(point7) -- (point8);
+\draw(m3) -- (point7);
+\draw(m4) -- (point8);
+\draw(n3) -- (point9);
+\draw(point10) -- (point15);
+\draw(m5) -- (point10);
+\draw(m6) -- (point11);
+\draw(m7) -- (point12);
+\draw(m8) -- (point13);
+\draw(m9) -- (point14);
+\draw(m10) -- (point15);
+\end{tikzpicture}
+\caption{按照软件运行过程对失信证据分类}
+\label{fenlei1}
+\end{figure}
+
+（2）参考Thayer对软件错误的分类方法\cite{黄锡滋1993}，按照性质对失信证据进行分类，具体分为6个类和类下面的14个子类。其中，6个失信证据类有：1）计算类；2）逻辑类；3）I/O类；4）接口类；5）数据库类；6）配置类。每个失信证据类中包含的子类分布如图\ref{fenlei2}。
+\begin{figure}[htb]
+\centering
+\scriptsize
+\tikzstyle{root}=[rectangle, minimum width = 2cm, minimum  height = 0.5cm, text centered, draw = black, fill=lightgrey]
+\begin{tikzpicture}[node distance=2cm, auto, >=latex', thin, start chain=going below, every join/.style={norm},]
+\node(n0)[root]{失信证据分类};
+\node(n1)[root,above of=n0,xshift=3cm,yshift=3cm]{计算类};
+\node(n2)[root,below of=n1]{逻辑类};
+\node(n3)[root,below of=n2]{I/O类};
+\node(n4)[root,below of=n3]{接口类};
+\node(n5)[root,below of=n4]{数据库类};
+\node(n6)[root,below of=n5]{配置类};
+\node(m1)[root,right of=n1,yshift=0.5cm,xshift=1cm]{表达式类};
+\node(m2)[root,below of=m1,yshift=1cm]{变量处理类};
+\node(m3)[root,below of=m2,yshift=1.25cm]{循环语句类};
+\node(m4)[root,right of=n2,xshift=1cm]{跳转语句类};
+\node(m5)[root,below of=m4,yshift=1.25cm]{条件组合类};
+\node(m6)[root,below of=m5,yshift=1.25cm]{输入数据类};
+\node(m7)[root,below of=m6,yshift=1cm]{输出数据类};
+\node(m8)[root,below of=m7,yshift=1cm]{函数调用类};
+\node(m9)[root,below of=m8,yshift=1cm]{函数声明类};
+\node(m10)[root,below of=m9,yshift=1.25cm]{数据库连接类};
+\node(m11)[root,right of=n5,xshift=1cm]{数据库查询类};
+\node(m12)[root,below of=m11,yshift=1.25cm]{数据库写入类};
+\node(m13)[root,below of=m12,yshift=1.25cm]{系统配置类};
+\node(m14)[root,below of=m13,yshift=1cm]{软件配置类};
+\coordinate(point1) at (1.5cm,0cm);
+\coordinate(point2) at (1.5cm,5cm);
+\coordinate(point3) at (1.5cm,3cm);
+\coordinate(point4) at (1.5cm,1cm);
+\coordinate(point5) at (1.5cm,-1cm);
+\coordinate(point6) at (1.5cm,-3cm);
+\coordinate(point7) at (1.5cm,-5cm);
+\coordinate(point8) at (4.5cm,5cm);
+\coordinate(point9) at (4.5cm,5.5cm);
+\coordinate(point10) at (4.5cm,4.5cm);
+\coordinate(point11) at (4.5cm,3cm);
+\coordinate(point12) at (4.5cm,3.75cm);
+\coordinate(point13) at (4.5cm,2.25cm);
+\coordinate(point14) at (4.5cm,1.5cm);
+\coordinate(point15) at (4.5cm,0.5cm);
+\coordinate(point16) at (4.5cm,1cm);
+\coordinate(point17) at (4.5cm,-1cm);
+\coordinate(point18) at (4.5cm,-0.5cm);
+\coordinate(point19) at (4.5cm,-1.5cm);
+\coordinate(point20) at (4.5cm,-2.25cm);
+\coordinate(point21) at (4.5cm,-3cm);
+\coordinate(point22) at (4.5cm,-3.75cm);
+\coordinate(point23) at (4.5cm,-4.5cm);
+\coordinate(point24) at (4.5cm,-5.5cm);
+\coordinate(point25) at (4.5cm,-5cm);
+%\draw(point1) -- (point2);
+\draw(n0) -- (point1);
+\draw(point2) -- (point7);
+\draw(n1) -- (point2);
+\draw(n2) -- (point3);
+\draw(n3) -- (point4);
+\draw(n4) -- (point5);
+\draw(n5) -- (point6);
+\draw(n6) -- (point7);
+\draw(n1) -- (point8);
+\draw(point9) -- (point10);
+\draw(m1) -- (point9);
+\draw(m2) -- (point10);
+\draw(n2) -- (point11);
+\draw(point12) -- (point13);
+\draw(m3) -- (point12);
+\draw(m4) -- (point11);
+\draw(m5) -- (point13);
+\draw(n3) -- (point16);
+\draw(point14) -- (point15);
+\draw(m6) -- (point14);
+\draw(m7) -- (point15);
+\draw(n4) -- (point17);
+\draw(point18) -- (point19);
+\draw(m8) -- (point18);
+\draw(m9) -- (point19);
+\draw(n5) -- (point21);
+\draw(point20) -- (point22);
+\draw(m10) -- (point20);
+\draw(m11) -- (point21);
+\draw(m12) -- (point22);
+\draw(n6) -- (point25);
+\draw(point23) -- (point24);
+\draw(m13) -- (point23);
+\draw(m14) -- (point24);
+\end{tikzpicture}
+\caption{按照缺陷性质对失信证据分类}
+\label{fenlei2}
+\end{figure}
+
+（3）参考文献\cite{陶红伟2011}中程序元素和程序单元的可信性质与属性对应清单，将失信证据按照C语言结构分为变量类、常量类、数组类、算术表达式类、逻辑表达式类、赋值语句类、顺序语句类、条件语句类、循环语句类以及程序单元类。这里的程序单元指的是可以独立运行的模块。每个类别中包含若干条可信性质，若在程序中违反这些可信性质，软件的可信程序就相应地降低。因此，根据清单中的可信性质得到相应的失信证据。例如，变量中的可信性质有“变量是否没有被声明为固定的上下界”，对应变量中的失信证据有“变量没有被声明为固定的上下界”，这里不一一列举。也就是说，每类下面的可信性质数目就是该类中包含的失信证据集合数，统计清单中的条目得到图\ref{fenlei3}。由图中可以看出，程序单元中的失信证据相对而言最多，从而证明了越复杂的程序，包含的失信证据越多，且发生失信的概率越大。
+\begin{figure}[H]
+\centering
+\includegraphics[width=12cm]{fig/zhuzhuangtu.eps}\\
+\caption{按照C语言结构划分的失信证据类及子类数}
+\label{fenlei3}
+\end{figure}
+
+\section{失信证据的可信性分析}
+\subsection{等级划分}
+首先，根据失信证据对软件造成的影响严重程度，对失信证据的可信级别从高到低进行划分。基于可信值越大提高的难度越大，可信级别越高对应失信证据的数量和影响程度要求也越严格的原则，在失信证据分级模型中，分级值域之间不是等分的。从最低级向上增加可信级别的值区间近似黄金分割比例递减，划分结果见表\ref{level}，黄金分割比例计算方法如下：
+\begin{align*}
+& 0.45 \cdot (\sqrt{5}-1) /2 \approx 0.25,\\
+& 0.25 \cdot (\sqrt{5}-1) /2 \approx 0.15,\\
+& 0.15 \cdot (\sqrt{5}-1) /2 \approx 0.10,\\
+& 0.10 \cdot (\sqrt{5}-1) /2 \approx 0.05.
+\end{align*}
+\begin{center}
+\begin{table}[htb]
+ \centering
+  \caption{失信证据的可信等级划分}
+%    \lable{tab:ModelASymbol}
+ \begin{tabular}{|c|c|c|}%几列就有几个c
+\hline
+\textbf{可信级别} & \textbf{定义} & \textbf{可信度}\\
+\hline
+\uppercase\expandafter{\romannumeral5} & 基本无影响 & 1.0\\
+\hline
+\uppercase\expandafter{\romannumeral4} & 轻微影响 & 0.95\\
+\hline
+\uppercase\expandafter{\romannumeral3} & 影响部分非关键功能或性能 & 0.85\\
+\hline
+\uppercase\expandafter{\romannumeral2} & 影响部分关键功能或严重影响性能 & 0.70\\
+\hline
+\uppercase\expandafter{\romannumeral1} & 软件不能运行或运行结果不正确 & 0.45\\
+\hline
+ \end{tabular}
+ \label{level}
+\end{table}
+\end{center}
+\subsection{可信性分析模型}
+程序中的失信证据类型多种多样，单一的可信性分析方法很难覆盖所有的失信证据，因此将失信证据的数据类型分为三种：布尔型（用“B”表示）、数值型（用“D”表示）、百分比型（用“P”表示）。
+\subsubsection{布尔型失信证据}
+布尔型失信证据的度量值分布是离散分布，即只有两个度量值：“1”或“0”（“是”或“否”）。一般规定，“0”表示失信证据不满足可信性质；“1”表示失信证据满足可信性质。当失信证据满足可信性质，即证据所代表的程序语句是可信的，则失信证据的度量值取1，失信证据级别为该类型所能够取到的最大级别；当失信证据不满足可信性质，即证据所代表的程序语句是不可信的，则失信证据的度量值取0，失信证据级别为\uppercase\expandafter{\romannumeral1}级。这里的最大级别不一定是等级划分中的最大级别，而是该失信证据所能达到的最大可信程度。
+例如，失信证据“if-else语句不匹配”的具体形式如表\ref{example1}。
+\begin{table}[htb]
+\centering
+\caption{失信证据“if-else语句不匹配”示例}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Description & Type & Property & T-Value & T-Level & Attribute \\
+\hline
+if-else语句不匹配 & B & \tabincell{c}{条件组合语句\\是否匹配正确} & 0 & 3 & 功能性\\
+\hline
+\end{tabular}
+\label{example1}
+\end{table}
+
+用模型来表示布尔型失信证据等级判断如下：
+\begin{align}
+& T-Value=\left\{
+\begin{array}{lr}
+1, & if~Evidence.Performance \vdash Evidence.Property \\
+0, & if~Evidence.Performance \nvdash Evidence.Property
+\end{array}
+\right.\\
+& T-Level=\left\{
+\begin{array}{lr}
+highest\_level, & if~T-value=1 \\
+\uppercase\expandafter{\romannumeral1}, & if~T-value=0
+\end{array}
+\right.
+\end{align}
+
+\subsubsection{数值型失信证据}
+数值型失信证据的度量值是数字，这个数字可以是连续的也可以是离散的。将度量值的取值范围划分为不同区间分别对应不同等级。
+例如，失信证据“循环复杂度”，根据Maccabe\cite{Maccabe1976}提出的圈复杂度与出错率关系，将循环复杂度的取值范围划分如表\ref{maccabe}。若失信证据“循环复杂度为20”，则该失信证据的具体形式如表\ref{example2}。在该示例中，虽然度量元被划分为四个区间，若复杂度的可信性为\uppercase\expandafter{\romannumeral4}级同时也满足\uppercase\expandafter{\romannumeral5}级定义，该失信证据的可信度仍为\uppercase\expandafter{\romannumeral4}级对应的可信度。
+\begin{table}[htb]
+\centering
+\caption{循环复杂度与出错率对应关系}
+\begin{tabular}{c|c|c}
+\toprule
+循环复杂度 & 出错率 & 可信等级\\
+\midrule
+1--10 & 5\% & \uppercase\expandafter{\romannumeral4}\\
+20--30 & 20\% & \uppercase\expandafter{\romannumeral3}\\
+>50 & 40\% & \uppercase\expandafter{\romannumeral2}\\
+>100 & 60\% & \uppercase\expandafter{\romannumeral1}\\
+\bottomrule
+\end{tabular}
+\label{maccabe}
+\end{table}
+
+\begin{table}[htb]
+\centering
+\caption{失信证据“循环复杂度”示例}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Description & Type & Property & T-Value & T-Level & Attribute \\
+\hline
+循环复杂度为20 & D & 循环复杂度是否过高 & 20 & 3 & \tabincell{l}{可靠性\\可维护性} \\
+\hline
+\end{tabular}
+\label{example2}
+\end{table}
+
+用模型来表示数值型失信证据的等级判断：
+\begin{align}
+T-Level=\left\{
+\begin{array}{lr}
+T-Value\text{对应的区间级别},~if~T-Value\text{落在某区间内} \\
+T-Value\text{的较低临近区间级别},~if~T-Value\text{未在任何区间内}\\  
+highest\_level,~if~T-value\text{优于所有区间最优值}
+\end{array}
+\right.
+\end{align}
+\textbf{注意：}这里的$highest\_value$不是失信证据级别划分的最高等级，而是该失信证据所能达到最高等级。
+\subsubsection{百分比型失信证据}
+百分比型失信证据的度量值是百分比，通常是0--100\%。每个区间由两个百分比数进行限制。以失信证据“程序单元的输入输出没有相应的信息描述”为例，度量区间划分为0--10\%、10\% -- 30\%、30\% -- 60\%、>60\%。则该失信证据的具体形式如表\ref{example3}。
+\begin{table}[htbp]
+\caption{百分比型失信证据示例}
+\begin{tabular}{|p{3cm}|c|p{3cm}|c|c|p{2cm}|}
+\hline
+Description & Type & Property & T-Value & T-Level & Attribute \\
+\hline
+\multirow{5}{*}{\tabincell{c}{程序单元的输入\\输出没有相应的\\信息描述}}
+ & \multirow{5}{*}{P} & \multirow{5}{*}{\tabincell{c}{所有程序单元的\\输入输出是否\\都被识别和描述}} & 0--10\% & 1 & \multirow{5}{*}{\tabincell{c}{功能性\\可靠性}} \\
+ \cline{4-5}
+ & & & 10\% -- 30\% & 2 & \\
+ \cline{4-5}
+ & & & 30\% -- 60\% & 3 & \\
+ \cline{4-5}
+ & & & >60\% & 4 & \\
+ \cline{4-5}
+ & & & & 5 & \\ 
+\hline
+\end{tabular}
+\label{example3}
+\end{table}
+
+用模型来表示该数据类型的失信证据等级判断：
+\begin{align}
+T-Level=\left\{
+\begin{array}{lr}
+T-Value\text{对应的区间级别},~if~T-Value\text{落在某区间内} \\
+highest\_level,~if~T-value\text{优于所有区间最优值}
+\end{array}
+\right.
+\end{align}
+\textbf{注意：}这里的$highest\_value$不是失信证据级别划分的最高等级，而是该失信证据所能达到最高等级。
+\section{CWE中的失信证据统计}
+CWE（Common Weakness Enumeration）是一个软件社区项目，旨在创建一个软件缺陷漏洞枚举类目，以便人们更好地理解软件的缺陷并创建能够识别、修复以及阻止此类缺陷的自动化工具。针对常见的软件缺陷，MITRE组织列举了现实世界中1500多种不同的漏铜样本，形成了PLOVER\cite{PLOVER2006}文章公开使用。
+
+从该文章中整理出25类软件缺陷，包括268个缺陷条目。这里的缺陷指软件代码中的错误或容易遭受攻击的弱点，均属于失信证据的范畴。依据PLOVER中的详细介绍，将每一类软件缺陷映射到软件属性，同时给出对应的失信证据可信级别。
+
+表\ref{tab:CWEAttr}给出了每个CWE缺陷影响的可信属性。
+\begin{table}[htbp]
+\caption{CWE缺陷与可信属性对应关系表}
+\begin{tabular}{|l|l|l|}
+\hline
+类别 & 描述 & 可信属性 \\
+\hline
+BUFF & 缓冲区溢出 & 功能性，可靠性，可生存性 \\
+\hline
+SVM & 结构和有效性问题 & 功能性，可维护性，可生存性 \\
+\hline
+SPEC & 特殊元素问题 & 功能性，可维护性 \\
+\hline
+SPECM & 特殊元素操作问题 & 功能性，可靠性，可维护性 \\
+\hline
+PATH & 路径遍历问题 & 功能性，可维护性 \\
+\hline
+CCC & 代码整洁度、规范化和比较问题 & 功能性，可靠性，可维护性 \\
+\hline
+INFO & 信息管理问题 & 可靠性，可维护性，可生存性 \\
+\hline
+RACE & 资源竞争 & 功能性，可靠性，可生存性 \\
+\hline
+PPA & 权限问题 & 可生存性 \\
+\hline
+HAND & 处理程序错误 & 功能性，可靠性，可生存性 \\
+\hline
+UI & 界面设计问题 & 可靠性，可维护性 \\
+\hline
+INT & 交互错误 & 功能性，可靠性，可生存性 \\
+\hline
+INIT & 初始化错误 & 功能性，可靠性 \\
+\hline
+RES & 资源管理问题 & 功能性，可靠性，可生存性 \\
+\hline
+NUM & 数值问题 & 功能性，可靠性，可生存性 \\
+\hline
+AUTHENT & 授权问题 & 可靠性，可维护性，可生存性 \\
+\hline
+CRYPTO & 加密错误 & 可靠性，可生存性 \\
+\hline
+RAND & 随机性和可预测性问题 & 可靠性，可维护性 \\
+\hline
+ERS & 异常处理问题 & 功能性，可靠性 \\
+\hline
+VER & 数据验证不足 & 可靠性，可生存性 \\
+\hline
+ATTMIT & 攻击防御问题 & 可靠性，可生存性 \\
+\hline
+MAID & 假设不变数据更改错误 & 功能性，可靠性，可生存性 \\
+\hline
+MAL & 恶意代码嵌入问题 & 功能性，可靠性，可生存性 \\
+\hline
+CONT & 敏感数据问题 & 可靠性，可生存性 \\
+\hline
+MISC & 其他问题 & 功能性，可靠性，可维护性，可生存性 \\
+\hline
+\end{tabular}
+\label{tab:CWEAttr}
+\end{table}
+
+图\ref{fig:cweEvidences}给出了每个软件缺陷类别对应的失信证据数量，横轴用英文缩写表示每个软件缺陷类别，纵轴为每个缺陷类别包含的弱点数目，也即失信证据数目。
+\begin{figure}[htb]
+\centering
+\includegraphics[width=13cm]{fig/zhuzhuangtu1.eps}\\
+\caption{各缺陷类目对应的失信证据分布}
+\label{fig:cweEvidences}
+\end{figure}
+
+如图所示，“路径错误（PATH）”中包含的失信证据数目最多，这是由于路径中包含的特殊符号可能会被组合出多种错误；“不可变数据的更改（MAID）”中只包含一条失信证据，这是由于程序内部的静态变量很难被更改，只有在web服务器遭受攻击时才有可能被恶意篡改。
+
+图\ref{fig:cweLevel}显示全部失信证据在4个可信级别上的分布情况。本章提出的失信证据可信等级模型需要根据实际代码中的失信证据情况进行判定，而CEW中的失信证据仅仅是类型描述，因此这里只考虑失信证据的一般情况下达到的可信级别。由于\uppercase\expandafter{\romannumeral5}级失信证据对可信性基本无影响，本文不对该级别失信证据进行深入研究。
+\begin{figure}[htb]
+\centering
+\includegraphics[width=10cm]{fig/bingzhuangtu.eps}\\
+\caption{CWE中全部失信证据在可信级别上的分布}
+\label{fig:cweLevel}
+\end{figure}
+
+如图所示，CWE中只有3\%的失信证据达到可信\uppercase\expandafter{\romannumeral1}级，8\%的失信证据达到可信\uppercase\expandafter{\romannumeral2}级，74\%的失信证据达到可信\uppercase\expandafter{\romannumeral3}级，15\%的失信证据达到可信\uppercase\expandafter{\romannumeral4}级。该结果显示影响软件部分非关键功能或性能的失信证据数量最多，直接导致软件不能运行的失信证据数目最少。
+
+图\ref{fig:cweAttr}显示了全部失信证据与软件可信属性的映射情况。由于每条失信证据至少影响一个可信属性，映射到所有可信属性上的失信证据数目大于缺陷总数。
+\begin{figure}[htb]
+\centering
+\includegraphics[width=10cm]{fig/zhuzhuangtu2.eps}\\
+\caption{CWE中全部失信证据在可信属性上的分布}
+\label{fig:cweAttr}
+\end{figure}
+
+如图所示，可靠性对应的失信证据数量最多，可生存性最少，推测该结果与属性权重有关，在后面章节会具体说明。
+\section{本章小结}
+
+本章首先介绍了失信以及失信证据的定义，举例说明失信证据的提取分析过程，并将失信证据映射到可信属性；其次，提出三种失信证据分类方法；再次，按照失信严重程度划分失信证据级别，按照失信证据的数据类型分别给出判断失信证据等级的模型；最后，将失信证据模型应用到CWE缺陷库中。
+
+

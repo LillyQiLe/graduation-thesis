@@ -1,0 +1,589 @@
+\begin{thebibliography}{10}
+\providecommand{\bibauthor}[1]{#1}
+\providecommand{\bibeditor}[1]{#1}
+\providecommand{\bibtranslator}[1]{#1}
+\providecommand{\bibtitle}[1]{#1}
+\providecommand{\bibbooktitle}[1]{#1}
+\providecommand{\bibjournal}[1]{#1}
+\providecommand{\bibmark}[1]{#1}
+\providecommand{\bibcountry}[1]{#1}
+\providecommand{\bibpatentid}[1]{#1}
+\providecommand{\bibedition}[1]{#1}
+\providecommand{\biborganization}[1]{#1}
+\providecommand{\bibaddress}[1]{#1}
+\providecommand{\bibpublisher}[1]{#1}
+\providecommand{\bibinstitution}[1]{#1}
+\providecommand{\bibschool}[1]{#1}
+\providecommand{\bibvolume}[1]{#1}
+\providecommand{\bibnumber}[1]{#1}
+\providecommand{\bibversion}[1]{#1}
+\providecommand{\bibpages}[1]{#1}
+\providecommand{\bibmodifydate}[1]{#1}
+\providecommand{\bibcitedate}[1]{#1}
+\providecommand{\bibyear}[1]{#1}
+\providecommand{\bibdate}[1]{#1}
+\providecommand{\biburl}[1]{\newline\url{#1}}
+
+\bibitem{DBLP:conf/huc/ZhengLYX11}
+\bibauthor{ZHENG Y\@, LIU Y\@, YUAN J, et~al}\@. \bibtitle{Urban Computing with
+  Taxicabs}\bibmark{[C]} //\thinspace{}\bibbooktitle{Ubicomp'
+  11\thinspace{}\textnormal{: }Proceedings of the 13th international conference
+  on Ubiquitous computing, Beijing, China}\@.
+  \bibyear{2011}\thinspace{}\textnormal{:
+  }\bibpages{89\thinspace{}\textnormal{--}\thinspace{}98}\@.
+
+\bibitem{DBLP:conf/sigmod/LuoT0N13}
+\bibauthor{LUO W\@, TAN H\@, CHEN L, et~al}\@. \bibtitle{Finding time
+  period-based most frequent path in big trajectory data}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{SIGMOD' 13\thinspace{}\textnormal{: }Proceedings
+  of the 2013 ACM SIGMOD International Conference on Management of Data}\@.
+  \bibaddress{New York, NY, USA}\thinspace{}\textnormal{:
+  }\bibpublisher{ACM}\@, \bibyear{2013}\thinspace{}\textnormal{:
+  }\bibpages{713\thinspace{}\textnormal{--}\thinspace{}724}\@.
+
+\bibitem{DBLP:conf/icde/SuZHJ0Z14}
+\bibauthor{SU H\@, ZHENG K\@, HUANG J, et~al}\@. \bibtitle{CrowdPlanner: {A}
+  crowd-based route recommendation system}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{{ICDE}' 11\thinspace{}\textnormal{: }{IEEE} 30th
+  International Conference on Data Engineering, Chicago, IL, USA}\@.
+  \bibyear{2014}\thinspace{}\textnormal{:
+  }\bibpages{1144\thinspace{}\textnormal{--}\thinspace{}1155}\@.
+
+\bibitem{DBLP:conf/pervasive/CastroZL12}
+\bibauthor{CASTRO P~S\@, ZHANG D\@, LI S}\@. \bibtitle{Urban Traffic Modelling
+  and Prediction Using Large Scale Taxi {GPS} Traces}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{10th International Conference on Pervasive
+  Computing, Pervasive 2012}\@. \bibyear{2012}\thinspace{}\textnormal{:
+  }\bibpages{57\thinspace{}\textnormal{--}\thinspace{}72}\@.
+
+\bibitem{DBLP:conf/kdd/QuZLLX14}
+\bibauthor{QU M\@, ZHU H\@, LIU J, et~al}\@. \bibtitle{A cost-effective
+  recommender system for taxi drivers}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{KDD' 14\thinspace{}\textnormal{: }The 20th {ACM}
+  {SIGKDD} International Conference on Knowledge Discovery and Data Mining, New
+  York, NY, {USA}, 2014}\@. \bibyear{2014}\thinspace{}\textnormal{:
+  }\bibpages{45\thinspace{}\textnormal{--}\thinspace{}54}\@.
+
+\bibitem{song37}
+\bibauthor{宋乐怡\@, 熊辉\@, 张蓉}\@.
+  \bibtitle{下一代移动推荐系统}\bibmark{[J]}\@.
+  \bibjournal{华东师范大学学报(自然科学版)}\@, \bibyear{2013}\@,
+  \bibvolume{2013}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{37\thinspace{}\textnormal{--}\thinspace{}45}\@.
+
+\bibitem{DBLP:conf/huc/ZhangLZCSL11}
+\bibauthor{ZHANG D\@, LI N\@, ZHOU Z, et~al}\@. \bibtitle{iBAT: detecting
+  anomalous taxi trajectories from {GPS} traces}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Ubicomp' 11\thinspace{}\textnormal{: }Proceedings
+  of 13th International Conference on Ubiquitous Computing, Beijing, China,
+  September 17-21, 2011}\@. \bibyear{2011}\thinspace{}\textnormal{:
+  }\bibpages{99\thinspace{}\textnormal{--}\thinspace{}108}\@.
+
+\bibitem{DBLP:journals/dke/PangCLZ13}
+\bibauthor{PANG L~X\@, CHAWLA S\@, LIU W, et~al}\@. \bibtitle{On detection of
+  emerging anomalous traffic patterns using {GPS} data}\bibmark{[J]}\@.
+  \bibjournal{Data Knowl. Eng.}\@, \bibyear{2013}\@,
+  \bibvolume{87}\thinspace{}\textnormal{:
+  }\bibpages{357\thinspace{}\textnormal{--}\thinspace{}373}\@.
+
+\bibitem{export:191797}
+\bibauthor{BAO J\@, ZHENG Y\@, WILKIE D, et~al}\@. \bibtitle{A Survey on
+  Recommendations in Location-based Social Networks}\bibmark{[J]}\@.
+  \bibjournal{GeoInformatica}\@, \bibyear{2014}\@.
+
+\bibitem{export:201131}
+\bibauthor{PAN B\@, ZHENG Y\@, WILKIE D, et~al}\@. \bibtitle{Crowd sensing of
+  traffic anomalies based on human mobility and social media}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{{SIGSPATIAL}' 13\thinspace{}\textnormal{: }21st
+  {SIGSPATIAL} International Conference on Advances in Geographic Information
+  Systems, Orlando, FL, USA, November 5-8, 2013}\@.
+  \bibyear{2013}\thinspace{}\textnormal{:
+  }\bibpages{334\thinspace{}\textnormal{--}\thinspace{}343}\@.
+
+\bibitem{ayzhou_lba}
+\bibauthor{周傲英{，}杨彬{，}金澈清等}\@.
+  \bibtitle{基于位置的服务:架构与进展}\bibmark{[J]}\@.
+  \bibjournal{计算机学报}\@, \bibyear{2011}\@,
+  \bibvolume{2011}\bibnumber{(07)}\thinspace{}\textnormal{:
+  }\bibpages{1155\thinspace{}\textnormal{--}\thinspace{}1171}\@.
+
+\bibitem{Dhar:2011:CBM:1941487.1941515}
+\bibauthor{DHAR S\@, VARSHNEY U}\@. \bibtitle{Challenges and Business Models
+  for Mobile Location-based Services and Advertising}\bibmark{[J]}\@.
+  \bibjournal{Commun. ACM}\@, \bibyear{2011}\@,
+  \bibvolume{54}\bibnumber{(5)}\thinspace{}\textnormal{:
+  }\bibpages{121\thinspace{}\textnormal{--}\thinspace{}128}\@.
+
+\bibitem{brakatsoulas2005map}
+\bibauthor{BRAKATSOULAS S\@, PFOSER D\@, SALAS R, et~al}\@. \bibtitle{On
+  Map-Matching Vehicle Tracking Data}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{VLDB' 05\thinspace{}\textnormal{: }Proceedings of
+  the 31st international conference on Very Large Data Bases, VLDB 2005}\@.
+  \bibyear{2005}\thinspace{}\textnormal{:
+  }\bibpages{853\thinspace{}\textnormal{--}\thinspace{}864}\@.
+
+\bibitem{DBLP:journals/tkde/CivilisJP05}
+\bibauthor{CIVILIS A\@, JENSEN C~S\@, PAKALNIS S}\@. \bibtitle{Techniques for
+  Efficient Road-Network-Based Tracking of Moving Objects}\bibmark{[J]}\@.
+  \bibjournal{{IEEE} Trans. Knowl. Data Eng.}\@, \bibyear{2005}\@,
+  \bibvolume{17}\bibnumber{(5)}\thinspace{}\textnormal{:
+  }\bibpages{698\thinspace{}\textnormal{--}\thinspace{}712}\@.
+
+\bibitem{DBLP:conf/vldb/JensenP07}
+\bibauthor{JENSEN C~S\@, PAKALNIS S}\@. \bibtitle{{TRAX} - Real-World Tracking
+  of Moving Objects}\bibmark{[C]} //\thinspace{}\bibbooktitle{VLDB'
+  07\thinspace{}\textnormal{: }Proceedings of the 33rd international conference
+  on Very Large Data Bases, Vienna, Austria, September 23-27, 2007}\@.
+  \bibyear{2007}\thinspace{}\textnormal{:
+  }\bibpages{1362\thinspace{}\textnormal{--}\thinspace{}1365}\@.
+
+\bibitem{DBLP:journals/vldb/JeungYZJ10}
+\bibauthor{JEUNG H\@, YIU M~L\@, ZHOU X, et~al}\@. \bibtitle{Path prediction
+  and predictive range querying in road network databases}\bibmark{[J]}\@.
+  \bibjournal{{VLDB} J.}\@, \bibyear{2010}\@,
+  \bibvolume{19}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{585\thinspace{}\textnormal{--}\thinspace{}602}\@.
+
+\bibitem{DBLP:journals/tods/ChenNOT10}
+\bibauthor{CHEN S\@, NASCIMENTO M~A\@, OOI B~C, et~al}\@. \bibtitle{Continuous
+  online index tuning in moving object databases}\bibmark{[J]}\@.
+  \bibjournal{{ACM} Trans. Database Syst.}\@, \bibyear{2010}\@,
+  \bibvolume{35}\bibnumber{(3)}\@.
+
+\bibitem{Guttman:1984:RDI:971697.602266}
+\bibauthor{GUTTMAN A}\@. \bibtitle{R-trees: A Dynamic Index Structure for
+  Spatial Searching}\bibmark{[J]}\@. \bibjournal{SIGMOD Rec.}\@,
+  \bibyear{1984}\@, \bibvolume{14}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{47\thinspace{}\textnormal{--}\thinspace{}57}\@.
+
+\bibitem{DBLP:conf/icde/LeuteneggerEL97}
+\bibauthor{LEUTENEGGER S~T\@, EDGINGTON J~M\@, LOPEZ M~A}\@. \bibtitle{{STR:}
+  {A} Simple and Efficient Algorithm for R-Tree Packing}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{ICDE' 97\thinspace{}\textnormal{: }Proceedings of
+  the 13th International Conference on Data Engineering, ICDE 1997, April 7-11,
+  1997 Birmingham {U.K.}}\@. \bibyear{1997}\thinspace{}\textnormal{:
+  }\bibpages{497\thinspace{}\textnormal{--}\thinspace{}506}\@.
+
+\bibitem{li2013tsingnus}
+\bibauthor{LI G\@, ZHANG N\@, ZHONG R, et~al}\@. \bibtitle{TsingNUS: a
+  location-based service system towards live city}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{SIGMOD' 13\thinspace{}\textnormal{: }Proceedings
+  of the 2013 ACM SIGMOD International Conference on Management of Data}\@.
+  \bibyear{2013}\thinspace{}\textnormal{:
+  }\bibpages{957\thinspace{}\textnormal{--}\thinspace{}960}\@.
+
+\bibitem{meng2011moving}
+\bibauthor{MENG X\@, CHEN J}\@. \bibbooktitle{Moving Objects
+  Management}\bibmark{[M]}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibpublisher{Springer}\@, \bibyear{2011}\@.
+
+\bibitem{DBLP:conf/sigmod/SaltenisJLL00}
+\bibauthor{SALTENIS S\@, JENSEN C~S\@, LEUTENEGGER S~T, et~al}\@.
+  \bibtitle{Indexing the Positions of Continuously Moving Objects}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{SIGMOD' 2000\thinspace{}\textnormal{:
+  }Proceedings of the 2000 {ACM} {SIGMOD} International Conference on
+  Management of Data, May 16-18, 2000, Dallas, Texas, {USA.}}\@.
+  \bibyear{2000}\thinspace{}\textnormal{:
+  }\bibpages{331\thinspace{}\textnormal{--}\thinspace{}342}\@.
+
+\bibitem{DBLP:journals/csur/Samet84}
+\bibauthor{SAMET H}\@. \bibtitle{The Quadtree and Related Hierarchical Data
+  Structures}\bibmark{[J]}\@. \bibjournal{{ACM} Comput. Surv.}\@,
+  \bibyear{1984}\@, \bibvolume{16}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{187\thinspace{}\textnormal{--}\thinspace{}260}\@.
+
+\bibitem{DBLP:conf/vldb/PapadiasTS03}
+\bibauthor{TAO Y\@, PAPADIAS D\@, SUN J}\@. \bibtitle{The TPR*-Tree: An
+  Optimized Spatio-Temporal Access Method for Predictive Queries}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{{VLDB}}\@.
+  \bibyear{2003}\thinspace{}\textnormal{:
+  }\bibpages{790\thinspace{}\textnormal{--}\thinspace{}801}\@.
+
+\bibitem{Chow:2011:TPL:2031331.2031335}
+\bibauthor{CHOW C-Y\@, MOKBEL M~F}\@. \bibtitle{Trajectory Privacy in
+  Location-based Services and Data Publication}\bibmark{[J]}\@.
+  \bibjournal{SIGKDD Explor. Newsl.}\@, \bibyear{2011}\@,
+  \bibvolume{13}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{19\thinspace{}\textnormal{--}\thinspace{}29}\@.
+
+\bibitem{DBLP:journals/tods/ChowMA09}
+\bibauthor{CHOW C\@, MOKBEL M~F\@, AREF W~G}\@. \bibtitle{Casper*: Query
+  processing for location services without compromising
+  privacy}\bibmark{[J]}\@. \bibjournal{{ACM} Trans. Database Syst.}\@,
+  \bibyear{2009}\@, \bibvolume{34}\bibnumber{(4)}\@.
+
+\bibitem{Chow:2006:PSC:1183471.1183500}
+\bibauthor{CHOW C-Y\@, MOKBEL M~F\@, LIU X}\@. \bibtitle{A Peer-to-peer Spatial
+  Cloaking Algorithm for Anonymous Location-based Service}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{GIS' 06\thinspace{}\textnormal{: }Proceedings of
+  the 14th Annual ACM International Symposium on Advances in Geographic
+  Information Systems}\@. \bibaddress{New York, NY,
+  USA}\thinspace{}\textnormal{: }\bibpublisher{ACM}\@,
+  \bibyear{2006}\thinspace{}\textnormal{:
+  }\bibpages{171\thinspace{}\textnormal{--}\thinspace{}178}\@.
+
+\bibitem{DBLP:journals/tkde/KalnisGMP07}
+\bibauthor{KALNIS P\@, GHINITA G\@, MOURATIDIS K, et~al}\@.
+  \bibtitle{Preventing Location-Based Identity Inference in Anonymous Spatial
+  Queries}\bibmark{[J]}\@. \bibjournal{{IEEE} Trans. Knowl. Data Eng.}\@,
+  \bibyear{2007}\@, \bibvolume{19}\bibnumber{(12)}\thinspace{}\textnormal{:
+  }\bibpages{1719\thinspace{}\textnormal{--}\thinspace{}1733}\@.
+
+\bibitem{khoshgozaran2007blind}
+\bibauthor{KHOSHGOZARAN A\@, SHAHABI C}\@. \bibtitle{Blind evaluation of
+  nearest neighbor queries using space transformation to preserve location
+  privacy}\bibmark{[G]} //\thinspace{}\bibbooktitle{Advances in Spatial and
+  Temporal Databases}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibpublisher{Springer}\@, \bibyear{2007}\thinspace{}\textnormal{:
+  }\bibpages{239\thinspace{}\textnormal{--}\thinspace{}257}\@.
+
+\bibitem{jensen2009graph}
+\bibauthor{JENSEN C~S\@, LU H\@, YANG B}\@. \bibtitle{Graph model based indoor
+  tracking}\bibmark{[C]} //\thinspace{}\bibbooktitle{{MDM}'
+  09\thinspace{}\textnormal{: }10th International Conference on Mobile Data
+  Management: Systems, Services and Middleware}\@.
+  \bibyear{2009}\thinspace{}\textnormal{:
+  }\bibpages{122\thinspace{}\textnormal{--}\thinspace{}131}\@.
+
+\bibitem{lu2011spatio}
+\bibauthor{LU H\@, YANG B\@, JENSEN C~S}\@. \bibtitle{Spatio-temporal joins on
+  symbolic indoor tracking data}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{{ICDE}' 11\thinspace{}\textnormal{: }IEEE 27th
+  International Conference on Data Engineering}\@.
+  \bibyear{2011}\thinspace{}\textnormal{:
+  }\bibpages{816\thinspace{}\textnormal{--}\thinspace{}827}\@.
+
+\bibitem{Cao:2010:MSS:1920841.1920968}
+\bibauthor{CAO X\@, CONG G\@, JENSEN C~S}\@. \bibtitle{Mining Significant
+  Semantic Locations from GPS Data}\bibmark{[J]}\@. \bibjournal{Proc. VLDB
+  Endow.}\@, \bibyear{2010}\@,
+  \bibvolume{3}\bibnumber{(1-2)}\thinspace{}\textnormal{:
+  }\bibpages{1009\thinspace{}\textnormal{--}\thinspace{}1020}\@.
+
+\bibitem{Parent:2013:STM:2501654.2501656}
+\bibauthor{PARENT C\@, SPACCAPIETRA S\@, RENSO C, et~al}\@. \bibtitle{Semantic
+  Trajectories Modeling and Analysis}\bibmark{[J]}\@. \bibjournal{ACM Comput.
+  Surv.}\@, \bibyear{2013}\@,
+  \bibvolume{45}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{42:1\thinspace{}\textnormal{--}\thinspace{}42:32}\@.
+
+\bibitem{DBLP:journals/sigkdd/PelekisTJ13}
+\bibauthor{PELEKIS N\@, THEODORIDIS Y\@, JANSSENS D}\@. \bibtitle{On the
+  Management and Analysis of Our LifeSteps}\bibmark{[J]}\@.
+  \bibjournal{{SIGKDD} Explorations}\@, \bibyear{2013}\@,
+  \bibvolume{15}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{23\thinspace{}\textnormal{--}\thinspace{}32}\@.
+
+\bibitem{Yan:2011:SFS:1951365.1951398}
+\bibauthor{YAN Z\@, CHAKRABORTY D\@, PARENT C, et~al}\@. \bibtitle{SeMiTri: A
+  Framework for Semantic Annotation of Heterogeneous Trajectories}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{EDBT/ICDT '11\thinspace{}\textnormal{:
+  }Proceedings of the 14th International Conference on Extending Database
+  Technology}\@. \bibaddress{New York, NY, USA}\thinspace{}\textnormal{:
+  }\bibpublisher{ACM}\@, \bibyear{2011}\thinspace{}\textnormal{:
+  }\bibpages{259\thinspace{}\textnormal{--}\thinspace{}270}\@.
+
+\bibitem{hoffart2013yago2}
+\bibauthor{HOFFART J\@, SUCHANEK F~M\@, BERBERICH K, et~al}\@. \bibtitle{YAGO2:
+  A spatially and temporally enhanced knowledge base from
+  Wikipedia}\bibmark{[C]} //\thinspace{}\bibbooktitle{{IJCAI}
+  '13\thinspace{}\textnormal{: }Proceedings of the Twenty-Third international
+  joint conference on Artificial Intelligence}\@.
+  \bibyear{2013}\thinspace{}\textnormal{:
+  }\bibpages{3161\thinspace{}\textnormal{--}\thinspace{}3165}\@.
+
+\bibitem{spatialcompression}
+\bibauthor{MERATNIA N\@, de BY R~A}\@. \bibtitle{Spatiotemporal Compression
+  Techniques for Moving Point Objects}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Lecture Notes in Computer Science\@,
+  Vol~2992\thinspace{}\textnormal{: }EDBT}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{Springer}\@,
+  \bibyear{2004}\thinspace{}\textnormal{:
+  }\bibpages{765\thinspace{}\textnormal{--}\thinspace{}782}\@.
+
+\bibitem{DBLP:journals/pvldb/SongSZZ14}
+\bibauthor{SONG R\@, SUN W\@, ZHENG B, et~al}\@. \bibtitle{{PRESS:} {A} Novel
+  Framework of Trajectory Compression in Road Networks}\bibmark{[J]}\@.
+  \bibjournal{{PVLDB}}\@, \bibyear{2014}\@,
+  \bibvolume{7}\bibnumber{(9)}\thinspace{}\textnormal{:
+  }\bibpages{661\thinspace{}\textnormal{--}\thinspace{}672}\@.
+
+\bibitem{DBLP:journals/pervasive/FoxHLSB03}
+\bibauthor{FOX D\@, HIGHTOWER J\@, LIAO L, et~al}\@. \bibtitle{Bayesian
+  Filtering for Location Estimation}\bibmark{[J]}\@. \bibjournal{{IEEE}
+  Pervasive Computing}\@, \bibyear{2003}\@,
+  \bibvolume{2}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{24\thinspace{}\textnormal{--}\thinspace{}33}\@.
+
+\bibitem{DBLP:conf/huc/HightowerB04}
+\bibauthor{HIGHTOWER J\@, BORRIELLO G}\@. \bibtitle{Particle Filters for
+  Location Estimation in Ubiquitous Computing: {A} Case Study}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{UbiComp' 04\thinspace{}\textnormal{: }Proceedings
+  of 6th International Conference on Ubiquitous Computing, Nottingham, UK}\@.
+  \bibyear{2004}\thinspace{}\textnormal{:
+  }\bibpages{88\thinspace{}\textnormal{--}\thinspace{}106}\@.
+
+\bibitem{Mao2012}
+\bibauthor{MAO H\@, LUO W\@, TAN H, et~al}\@. \bibtitle{{Exploration of ground
+  truth from raw GPS data}}\bibmark{[C]} //\thinspace{}\bibbooktitle{Ubicomp'
+  12\thinspace{}\textnormal{: }Proceedings of the ACM SIGKDD International
+  Workshop on Urban Computing}\@. \bibyear{2012}\thinspace{}\textnormal{:
+  }\bibpages{118\thinspace{}\textnormal{--}\thinspace{}125}\@.
+
+\bibitem{DBLP:conf/dasfaa/YangMQZ09}
+\bibauthor{YANG B\@, MA Q\@, QIAN W, et~al}\@. \bibtitle{{TRUSTER:} TRajectory
+  Data Processing on ClUSTERs}\bibmark{[C]} //\thinspace{}\bibbooktitle{DASFAA'
+  09\thinspace{}\textnormal{: }Database Systems for Advanced Applications, 14th
+  International Conference, Brisbane, Australia, April 21-23, 2009.
+  Proceedings}\@. \bibyear{2009}\thinspace{}\textnormal{:
+  }\bibpages{768\thinspace{}\textnormal{--}\thinspace{}771}\@.
+
+\bibitem{DBLP:conf/cikm/TanLN12}
+\bibauthor{TAN H\@, LUO W\@, NI L~M}\@. \bibtitle{CloST: a hadoop-based storage
+  system for big spatio-temporal data analytics}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{CIKM' 12\thinspace{}\textnormal{: }21st {ACM}
+  International Conference on Information and Knowledge Management, Maui, HI,
+  USA, 2012}\@. \bibyear{2012}\thinspace{}\textnormal{:
+  }\bibpages{2139\thinspace{}\textnormal{--}\thinspace{}2143}\@.
+
+\bibitem{Eldawy:2013:DSE:2536274.2536283}
+\bibauthor{ELDAWY A\@, MOKBEL M~F}\@. \bibtitle{A Demonstration of
+  SpatialHadoop: An Efficient Mapreduce Framework for Spatial
+  Data}\bibmark{[J]}\@. \bibjournal{Proc. VLDB Endow.}\@, \bibyear{2013}\@,
+  \bibvolume{6}\bibnumber{(12)}\thinspace{}\textnormal{:
+  }\bibpages{1230\thinspace{}\textnormal{--}\thinspace{}1233}\@.
+
+\bibitem{DBLP:conf/kdd/WangZX14}
+\bibauthor{WANG Y\@, ZHENG Y\@, XUE Y}\@. \bibtitle{Travel time estimation of a
+  path using sparse trajectories}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{{KDD}' 14\thinspace{}\textnormal{: }The 20th
+  {ACM} {SIGKDD} International Conference on Knowledge Discovery and Data
+  Mining, New York, NY, {USA} - August 24 - 27, 2014}\@.
+  \thinspace{}\textnormal{:
+  }\bibpages{25\thinspace{}\textnormal{--}\thinspace{}34}\@.
+
+\bibitem{tdrive}
+\bibauthor{YUAN J\@, ZHENG Y\@, XIE X, et~al}\@. \bibtitle{T-Drive: Enhancing
+  Driving Directions with Taxi Drivers' Intelligence}\bibmark{[J]}\@.
+  \bibjournal{IEEE Transactions on Knowledge and Data Engineering (TKDE)}\@,
+  \bibyear{2012}\@.
+
+\bibitem{DBLP:journals/tkde/YuanZXWZX15}
+\bibauthor{YUAN N~J\@, ZHENG Y\@, XIE X, et~al}\@. \bibtitle{Discovering Urban
+  Functional ZonesUsing Latent Activity Trajectories}\bibmark{[J]}\@.
+  \bibjournal{{IEEE} Trans. Knowl. Data Eng.}\@, \bibyear{2015}\@,
+  \bibvolume{27}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{712\thinspace{}\textnormal{--}\thinspace{}725}\@.
+
+\bibitem{DBLP:journals/tist/LiHJTYDLK11}
+\bibauthor{LI Z\@, HAN J\@, JI M, et~al}\@. \bibtitle{MoveMine: Mining moving
+  object data for discovery of animal movement patterns}\bibmark{[J]}\@.
+  \bibjournal{{ACM} {TIST}}\@, \bibyear{2011}\@,
+  \bibvolume{2}\bibnumber{(4)}\thinspace{}\textnormal{: }\bibpages{37}\@.
+
+\bibitem{DBLP:conf/kdd/LiDHKN10}
+\bibauthor{LI Z\@, DING B\@, HAN J, et~al}\@. \bibtitle{Mining periodic
+  behaviors for moving objects}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 16th {ACM} {SIGKDD}
+  International Conference on Knowledge Discovery and Data Mining, Washington,
+  DC, USA, July 25-28, 2010}\@. \bibyear{2010}\thinspace{}\textnormal{:
+  }\bibpages{1099\thinspace{}\textnormal{--}\thinspace{}1108}\@.
+
+\bibitem{DBLP:journals/pvldb/JeungYZJS08}
+\bibauthor{JEUNG H\@, YIU M~L\@, ZHOU X, et~al}\@. \bibtitle{Discovery of
+  convoys in trajectory databases}\bibmark{[J]}\@. \bibjournal{{PVLDB}}\@,
+  \bibyear{2008}\@, \bibvolume{1}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{1068\thinspace{}\textnormal{--}\thinspace{}1080}\@.
+
+\bibitem{DBLP:journals/pvldb/LiDHK10}
+\bibauthor{LI Z\@, DING B\@, HAN J, et~al}\@. \bibtitle{Swarm: Mining Relaxed
+  Temporal Moving Object Clusters}\bibmark{[J]}\@. \bibjournal{{PVLDB}}\@,
+  \bibyear{2010}\@, \bibvolume{3}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{723\thinspace{}\textnormal{--}\thinspace{}734}\@.
+
+\bibitem{Giannotti:2007:TPM:1281192.1281230}
+\bibauthor{GIANNOTTI F\@, NANNI M\@, PINELLI F, et~al}\@. \bibtitle{Trajectory
+  Pattern Mining}\bibmark{[C]} //\thinspace{}\bibbooktitle{KDD
+  '07\thinspace{}\textnormal{: }Proceedings of the 13th ACM SIGKDD
+  International Conference on Knowledge Discovery and Data Mining}\@.
+  \bibaddress{New York, NY, USA}\thinspace{}\textnormal{:
+  }\bibpublisher{ACM}\@, \bibyear{2007}\thinspace{}\textnormal{:
+  }\bibpages{330\thinspace{}\textnormal{--}\thinspace{}339}\@.
+
+\bibitem{DBLP:conf/kdd/LiuLNFL10}
+\bibauthor{LIU S\@, LIU Y\@, NI L~M, et~al}\@. \bibtitle{Towards mobility-based
+  clustering}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of the 16th
+  {ACM} {SIGKDD} International Conference on Knowledge Discovery and Data
+  Mining, Washington, DC, USA, July 25-28, 2010}\@.
+  \bibyear{2010}\thinspace{}\textnormal{:
+  }\bibpages{919\thinspace{}\textnormal{--}\thinspace{}928}\@.
+
+\bibitem{DBLP:conf/sigmod/LeeHW07}
+\bibauthor{LEE J\@, HAN J\@, WHANG K}\@. \bibtitle{Trajectory clustering: a
+  partition-and-group framework}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the {ACM} {SIGMOD} International
+  Conference on Management of Data, Beijing, China, June 12-14, 2007}\@.
+  \bibyear{2007}\thinspace{}\textnormal{:
+  }\bibpages{593\thinspace{}\textnormal{--}\thinspace{}604}\@.
+
+\bibitem{DBLP:journals/tkde/YuanZZX13}
+\bibauthor{YUAN N~J\@, ZHENG Y\@, ZHANG L, et~al}\@. \bibtitle{T-Finder: A
+  Recommender System for Finding Passengers and Vacant Taxis}\bibmark{[J]}\@.
+  \bibjournal{{IEEE} Trans. Knowl. Data Eng.}\@, \bibyear{2013}\@,
+  \bibvolume{25}\bibnumber{(10)}\thinspace{}\textnormal{:
+  }\bibpages{2390\thinspace{}\textnormal{--}\thinspace{}2403}\@.
+
+\bibitem{DBLP:conf/www/ZhengZXY10}
+\bibauthor{ZHENG V~W\@, ZHENG Y\@, XIE X, et~al}\@. \bibtitle{Collaborative
+  location and activity recommendations with {GPS} history data}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{{WWW}'10\thinspace{}\textnormal{: }Proceedings of
+  the 19th International Conference on World Wide Web}\@. \@.
+
+\bibitem{cheng2013you}
+\bibauthor{CHENG C\@, YANG H\@, LYU M~R, et~al}\@. \bibtitle{Where you like to
+  go next: Successive point-of-interest recommendation}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the Twenty-Third international
+  joint conference on Artificial Intelligence}\@.
+  \bibyear{2013}\thinspace{}\textnormal{:
+  }\bibpages{2605\thinspace{}\textnormal{--}\thinspace{}2611}\@.
+
+\bibitem{export:138036}
+\bibauthor{YOON H\@, ZHENG Y\@, XIE X, et~al}\@. \bibtitle{Smart Itinerary
+  Recommendation Based on User-Generated {GPS} Trajectories}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{{UIC}' 10\thinspace{}\textnormal{: }Proceedings
+  of 7th International Conference on Ubiquitous Intelligence and Computing,
+  Xi'an, China}\@. \@.
+
+\bibitem{White200091}
+\bibauthor{ANON}\@. \bibtitle{Some map matching algorithms for personal
+  navigation assistants}\bibmark{[J]}\@. \bibjournal{Transportation Research
+  Part C: Emerging Technologies}\@, \bibyear{2000}\@,
+  \bibvolume{8}\bibnumber{(1–6)}\thinspace{}\textnormal{: }\bibpages{91
+  \thinspace{}\textnormal{--}\thinspace{} 108}\@.
+
+\bibitem{lou2009map}
+\bibauthor{LOU Y\@, ZHANG C\@, ZHENG Y, et~al}\@. \bibtitle{Map-matching for
+  low-sampling-rate GPS trajectories}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 17th ACM SIGSPATIAL
+  International Conference on Advances in Geographic Information Systems}\@.
+  \bibyear{2009}\thinspace{}\textnormal{:
+  }\bibpages{352\thinspace{}\textnormal{--}\thinspace{}361}\@.
+
+\bibitem{chawathe2007segment}
+\bibauthor{CHAWATHE S~S}\@. \bibtitle{Segment-based map matching}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Intelligent Vehicles Symposium}\@.
+  \bibyear{2007}\thinspace{}\textnormal{:
+  }\bibpages{1190\thinspace{}\textnormal{--}\thinspace{}1197}\@.
+
+\bibitem{newson2009hidden}
+\bibauthor{NEWSON P\@, KRUMM J}\@. \bibtitle{Hidden Markov map matching through
+  noise and sparseness}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of
+  the 17th ACM SIGSPATIAL International Conference on Advances in Geographic
+  Information Systems}\@. \bibyear{2009}\thinspace{}\textnormal{:
+  }\bibpages{336\thinspace{}\textnormal{--}\thinspace{}343}\@.
+
+\bibitem{6460610}
+\bibauthor{RAYMOND R\@, MORIMURA T\@, OSOGAMI T, et~al}\@. \bibtitle{Map
+  matching with Hidden Markov Model on sampled road network}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Pattern Recognition (ICPR), 2012 21st
+  International Conference on}\@. \bibyear{2012}\thinspace{}\textnormal{:
+  }\bibpages{2242\thinspace{}\textnormal{--}\thinspace{}2245}\@.
+
+\bibitem{DBLP:conf/mdm/UddinRT11}
+\bibauthor{UDDIN M~R\@, RAVISHANKAR C~V\@, TSOTRAS V~J}\@. \bibtitle{Finding
+  Regions of Interest from Trajectory Data}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{{MDM}' 11\thinspace{}\textnormal{: }12th {IEEE}
+  International Conference on Mobile Data Management, Lule{\aa}, Sweden, June
+  6-9, 2011, Volume 1}\@. \bibyear{2011}\thinspace{}\textnormal{:
+  }\bibpages{39\thinspace{}\textnormal{--}\thinspace{}48}\@.
+
+\bibitem{deGraaff:2013:PIR:2525314.2525442}
+\bibauthor{de GRAAFF V\@, de BY R~A\@, van KEULEN M, et~al}\@. \bibtitle{Point
+  of Interest to Region of Interest Conversion}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{SIGSPATIAL'13\thinspace{}\textnormal{:
+  }Proceedings of the 21st ACM SIGSPATIAL International Conference on Advances
+  in Geographic Information Systems}\@. \bibaddress{New York, NY,
+  USA}\thinspace{}\textnormal{: }\bibpublisher{ACM}\@,
+  \bibyear{2013}\thinspace{}\textnormal{:
+  }\bibpages{388\thinspace{}\textnormal{--}\thinspace{}391}\@.
+
+\bibitem{DBLP:journals/tkde/LuTY11}
+\bibauthor{LU E~H\@, TSENG V~S\@, YU P~S}\@. \bibtitle{Mining Cluster-Based
+  Temporal Mobile Sequential Patterns in Location-Based Service
+  Environments}\bibmark{[J]}\@. \bibjournal{{IEEE} Trans. Knowl. Data Eng.}\@,
+  \bibyear{2011}\@, \bibvolume{23}\bibnumber{(6)}\thinspace{}\textnormal{:
+  }\bibpages{914\thinspace{}\textnormal{--}\thinspace{}927}\@.
+
+\bibitem{DBLP:conf/www/ZhengZXM09}
+\bibauthor{ZHENG Y\@, ZHANG L\@, XIE X, et~al}\@. \bibtitle{Mining interesting
+  locations and travel sequences from {GPS} trajectories}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{{WWW}'09\thinspace{}\textnormal{: }Proceedings of
+  the 18th International Conference on World Wide Web, Madrid, Spain, April
+  20-24, 2009}\@. \bibyear{2009}\thinspace{}\textnormal{:
+  }\bibpages{791\thinspace{}\textnormal{--}\thinspace{}800}\@.
+
+\bibitem{DBLP:conf/icdcs/HanLO12}
+\bibauthor{HAN B\@, LIU L\@, OMIECINSKI E}\@. \bibtitle{{NEAT:} Road Network
+  Aware Trajectory Clustering}\bibmark{[C]} //\thinspace{}\bibbooktitle{2012
+  {IEEE} 32nd International Conference on Distributed Computing Systems, Macau,
+  China, June 18-21, 2012}\@. \bibyear{2012}\thinspace{}\textnormal{:
+  }\bibpages{142\thinspace{}\textnormal{--}\thinspace{}151}\@.
+
+\bibitem{DBLP:conf/kdd/EsterKSX96}
+\bibauthor{ESTER M\@, KRIEGEL H\@, SANDER J, et~al}\@. \bibtitle{A
+  Density-Based Algorithm for Discovering Clusters in Large Spatial Databases
+  with Noise}\bibmark{[C]} //\thinspace{}\bibbooktitle{KDD'96: Proceedings of
+  the Second International Conference on Knowledge Discovery and Data Mining
+  Portland, Oregon, {USA}}\@. \bibyear{1996}\thinspace{}\textnormal{:
+  }\bibpages{226\thinspace{}\textnormal{--}\thinspace{}231}\@.
+
+\bibitem{DBLP:journals/fcsc/HeTLFF14}
+\bibauthor{HE Y\@, TAN H\@, LUO W, et~al}\@. \bibtitle{{MR-DBSCAN:} a scalable
+  MapReduce-based {DBSCAN} algorithm for heavily skewed data}\bibmark{[J]}\@.
+  \bibjournal{Frontiers of Computer Science}\@, \bibyear{2014}\@,
+  \bibvolume{8}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{83\thinspace{}\textnormal{--}\thinspace{}99}\@.
+
+\bibitem{DBLP:journals/percom/LinH14}
+\bibauthor{LIN M\@, HSU W}\@. \bibtitle{Mining {GPS} data for mobility
+  patterns: {A} survey}\bibmark{[J]}\@. \bibjournal{Pervasive and Mobile
+  Computing}\@, \bibyear{2014}\@, \bibvolume{12}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}16}\@.
+
+\bibitem{DBLP:conf/icdm/BerminghamLL14}
+\bibauthor{BERMINGHAM L\@, LEE K\@, LEE I}\@. \bibtitle{Spatio-Temporal
+  Trajectory Region-of-Interest Mining Using Delaunay
+  Triangulation}\bibmark{[C]} //\thinspace{}\bibbooktitle{2014 {IEEE}
+  International Conference on Data Mining Workshops, {ICDM} Workshops 2014,
+  Shenzhen, China, December 14, 2014}\@.
+  \bibyear{2014}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}8}\@.
+
+\bibitem{graham1972efficient}
+\bibauthor{GRAHAM R~L}\@. \bibtitle{An efficient algorith for determining the
+  convex hull of a finite planar set}\bibmark{[J]}\@. \bibjournal{Information
+  processing letters}\@, \bibyear{1972}\@,
+  \bibvolume{1}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{132\thinspace{}\textnormal{--}\thinspace{}133}\@.
+
+\bibitem{rajaraman2011mining}
+\bibauthor{RAJARAMAN A\@, ULLMAN J~D}\@. \bibbooktitle{Mining of massive
+  datasets}\bibmark{[M]}\@. \bibaddress{Cambridge, UK}\thinspace{}\textnormal{:
+  }\bibpublisher{Cambridge University Press}\@, \bibyear{2011}\@.
+
+\bibitem{SMJ:SMJ819}
+\bibauthor{KETCHEN D~J\@, SHOOK C~L}\@. \bibtitle{The Application of Cluster
+  Analysis in Strategic Management Research: An Analysis and
+  Critique}\bibmark{[J]}\@. \bibjournal{Strategic Management Journal}\@,
+  \bibyear{1996}\@, \bibvolume{17}\bibnumber{(6)}\thinspace{}\textnormal{:
+  }\bibpages{441\thinspace{}\textnormal{--}\thinspace{}458}\@.
+
+\bibitem{Pelleg00x-means:extending}
+\bibauthor{PELLEG D\@, MOORE A}\@. \bibtitle{X-means: Extending K-means with
+  Efficient Estimation of the Number of Clusters}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{ICML' 00\thinspace{}\textnormal{: }Proceedings of
+  the 17th International Conference on Machine Learning}\@.
+  \bibyear{2000}\thinspace{}\textnormal{:
+  }\bibpages{727\thinspace{}\textnormal{--}\thinspace{}734}\@.
+
+\end{thebibliography}

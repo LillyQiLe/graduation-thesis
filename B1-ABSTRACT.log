@@ -1,0 +1,1154 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.14)  17 APR 2022 13:42
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**B1-ABSTRACT.tex
+(./B1-ABSTRACT.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+! Undefined control sequence.
+l.2 \chapter
+            *{\zihao{2}\heiti{摘~~~~要}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \chapter*
+             {\zihao{2}\heiti{摘~~~~要}}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no * ("2A) in font nullfont!
+! Undefined control sequence.
+l.2 \chapter*{\zihao
+                    {2}\heiti{摘~~~~要}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 2 ("32) in font nullfont!
+! Undefined control sequence.
+l.2 \chapter*{\zihao{2}\heiti
+                             {摘~~~~要}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 摘 ("6458) in font nullfont!
+Missing character: There is no 要 ("8981) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--4
+[]      
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 智
+     慧交通是智慧城市的一个重要研究领域，而面向应急车辆的信号控制方法是智慧交通的一个研究热点，其研究成果能够推动缩短应急车辆的救援时间，对挽救生命...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 智 ("667A) in font nullfont!
+Missing character: There is no 慧 ("6167) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 是 ("662F) in font nullfont!
+Missing character: There is no 智 ("667A) in font nullfont!
+Missing character: There is no 慧 ("6167) in font nullfont!
+Missing character: There is no 城 ("57CE) in font nullfont!
+Missing character: There is no 市 ("5E02) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 一 ("4E00) in font nullfont!
+Missing character: There is no 个 ("4E2A) in font nullfont!
+Missing character: There is no 重 ("91CD) in font nullfont!
+Missing character: There is no 要 ("8981) in font nullfont!
+Missing character: There is no 研 ("7814) in font nullfont!
+Missing character: There is no 究 ("7A76) in font nullfont!
+Missing character: There is no 领 ("9886) in font nullfont!
+Missing character: There is no 域 ("57DF) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 而 ("800C) in font nullfont!
+Missing character: There is no 面 ("9762) in font nullfont!
+Missing character: There is no 向 ("5411) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 信 ("4FE1) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no 控 ("63A7) in font nullfont!
+Missing character: There is no 制 ("5236) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 法 ("6CD5) in font nullfont!
+Missing character: There is no 是 ("662F) in font nullfont!
+Missing character: There is no 智 ("667A) in font nullfont!
+Missing character: There is no 慧 ("6167) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 一 ("4E00) in font nullfont!
+Missing character: There is no 个 ("4E2A) in font nullfont!
+Missing character: There is no 研 ("7814) in font nullfont!
+Missing character: There is no 究 ("7A76) in font nullfont!
+Missing character: There is no 热 ("70ED) in font nullfont!
+Missing character: There is no 点 ("70B9) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 其 ("5176) in font nullfont!
+Missing character: There is no 研 ("7814) in font nullfont!
+Missing character: There is no 究 ("7A76) in font nullfont!
+Missing character: There is no 成 ("6210) in font nullfont!
+Missing character: There is no 果 ("679C) in font nullfont!
+Missing character: There is no 能 ("80FD) in font nullfont!
+Missing character: There is no 够 ("591F) in font nullfont!
+Missing character: There is no 推 ("63A8) in font nullfont!
+Missing character: There is no 动 ("52A8) in font nullfont!
+Missing character: There is no 缩 ("7F29) in font nullfont!
+Missing character: There is no 短 ("77ED) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 救 ("6551) in font nullfont!
+Missing character: There is no 援 ("63F4) in font nullfont!
+Missing character: There is no 时 ("65F6) in font nullfont!
+Missing character: There is no 间 ("95F4) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 对 ("5BF9) in font nullfont!
+Missing character: There is no 挽 ("633D) in font nullfont!
+Missing character: There is no 救 ("6551) in font nullfont!
+Missing character: There is no 生 ("751F) in font nullfont!
+Missing character: There is no 命 ("547D) in font nullfont!
+Missing character: There is no 和 ("548C) in font nullfont!
+Missing character: There is no 减 ("51CF) in font nullfont!
+Missing character: There is no 少 ("5C11) in font nullfont!
+Missing character: There is no 财 ("8D22) in font nullfont!
+Missing character: There is no 产 ("4EA7) in font nullfont!
+Missing character: There is no 损 ("635F) in font nullfont!
+Missing character: There is no 失 ("5931) in font nullfont!
+Missing character: There is no 至 ("81F3) in font nullfont!
+Missing character: There is no 关 ("5173) in font nullfont!
+Missing character: There is no 重 ("91CD) in font nullfont!
+Missing character: There is no 要 ("8981) in font nullfont!
+Missing character: There is no 。 ("3002) in font nullfont!
+Missing character: There is no 传 ("4F20) in font nullfont!
+Missing character: There is no 统 ("7EDF) in font nullfont!
+Missing character: There is no 实 ("5B9E) in font nullfont!
+Missing character: There is no 现 ("73B0) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 快 ("5FEB) in font nullfont!
+Missing character: There is no 速 ("901F) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 行 ("884C) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 法 ("6CD5) in font nullfont!
+Missing character: There is no 大 ("5927) in font nullfont!
+Missing character: There is no 多 ("591A) in font nullfont!
+Missing character: There is no 是 ("662F) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 过 ("8FC7) in font nullfont!
+Missing character: There is no 传 ("4F20) in font nullfont!
+Missing character: There is no 感 ("611F) in font nullfont!
+Missing character: There is no 器 ("5668) in font nullfont!
+Missing character: There is no 或 ("6216) in font nullfont!
+Missing character: There is no 人 ("4EBA) in font nullfont!
+Missing character: There is no 工 ("5DE5) in font nullfont!
+Missing character: There is no 控 ("63A7) in font nullfont!
+Missing character: There is no 制 ("5236) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 式 ("5F0F) in font nullfont!
+Missing character: There is no 为 ("4E3A) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 提 ("63D0) in font nullfont!
+Missing character: There is no 供 ("4F9B) in font nullfont!
+Missing character: There is no 绿 ("7EFF) in font nullfont!
+Missing character: There is no 灯 ("706F) in font nullfont!
+Missing character: There is no 信 ("4FE1) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 使 ("4F7F) in font nullfont!
+Missing character: There is no 得 ("5F97) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 顺 ("987A) in font nullfont!
+Missing character: There is no 利 ("5229) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 过 ("8FC7) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 叉 ("53C9) in font nullfont!
+Missing character: There is no 路 ("8DEF) in font nullfont!
+Missing character: There is no 口 ("53E3) in font nullfont!
+Missing character: There is no 而 ("800C) in font nullfont!
+Missing character: There is no 无 ("65E0) in font nullfont!
+Missing character: There is no 需 ("9700) in font nullfont!
+Missing character: There is no 停 ("505C) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 。 ("3002) in font nullfont!
+Missing character: There is no 随 ("968F) in font nullfont!
+Missing character: There is no 着 ("7740) in font nullfont!
+Missing character: There is no 汽 ("6C7D) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 保 ("4FDD) in font nullfont!
+Missing character: There is no 有 ("6709) in font nullfont!
+Missing character: There is no 量 ("91CF) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 增 ("589E) in font nullfont!
+Missing character: There is no 加 ("52A0) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 分 ("5206) in font nullfont!
+Missing character: There is no 布 ("5E03) in font nullfont!
+Missing character: There is no 式 ("5F0F) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 信 ("4FE1) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no 控 ("63A7) in font nullfont!
+Missing character: There is no 制 ("5236) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 法 ("6CD5) in font nullfont!
+Missing character: There is no 成 ("6210) in font nullfont!
+Missing character: There is no 为 ("4E3A) in font nullfont!
+Missing character: There is no 了 ("4E86) in font nullfont!
+Missing character: There is no 智 ("667A) in font nullfont!
+Missing character: There is no 慧 ("6167) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 新 ("65B0) in font nullfont!
+Missing character: There is no 兴 ("5174) in font nullfont!
+Missing character: There is no 技 ("6280) in font nullfont!
+Missing character: There is no 术 ("672F) in font nullfont!
+Missing character: There is no 。 ("3002) in font nullfont!
+Missing character: There is no 本 ("672C) in font nullfont!
+Missing character: There is no 文 ("6587) in font nullfont!
+Missing character: There is no 提 ("63D0) in font nullfont!
+Missing character: There is no 出 ("51FA) in font nullfont!
+Missing character: There is no 了 ("4E86) in font nullfont!
+Missing character: There is no 一 ("4E00) in font nullfont!
+Missing character: There is no 种 ("79CD) in font nullfont!
+Missing character: There is no 面 ("9762) in font nullfont!
+Missing character: There is no 向 ("5411) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 优 ("4F18) in font nullfont!
+Missing character: There is no 先 ("5148) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 行 ("884C) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 信 ("4FE1) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no 灯 ("706F) in font nullfont!
+Missing character: There is no 智 ("667A) in font nullfont!
+Missing character: There is no 能 ("80FD) in font nullfont!
+Missing character: There is no 控 ("63A7) in font nullfont!
+Missing character: There is no 制 ("5236) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 法 ("6CD5) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 基 ("57FA) in font nullfont!
+Missing character: There is no 于 ("4E8E) in font nullfont!
+Missing character: There is no 分 ("5206) in font nullfont!
+Missing character: There is no 布 ("5E03) in font nullfont!
+Missing character: There is no 式 ("5F0F) in font nullfont!
+Missing character: There is no 智 ("667A) in font nullfont!
+Missing character: There is no 能 ("80FD) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 灯 ("706F) in font nullfont!
+Missing character: There is no 实 ("5B9E) in font nullfont!
+Missing character: There is no 现 ("73B0) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 不 ("4E0D) in font nullfont!
+Missing character: There is no 停 ("505C) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 快 ("5FEB) in font nullfont!
+Missing character: There is no 速 ("901F) in font nullfont!
+Missing character: There is no 地 ("5730) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 过 ("8FC7) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 灯 ("706F) in font nullfont!
+Missing character: There is no 路 ("8DEF) in font nullfont!
+Missing character: There is no 口 ("53E3) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 为 ("4E3A) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 提 ("63D0) in font nullfont!
+Missing character: There is no 供 ("4F9B) in font nullfont!
+Missing character: There is no 一 ("4E00) in font nullfont!
+Missing character: There is no 条 ("6761) in font nullfont!
+Missing character: There is no 能 ("80FD) in font nullfont!
+Missing character: There is no 够 ("591F) in font nullfont!
+Missing character: There is no 高 ("9AD8) in font nullfont!
+Missing character: There is no 速 ("901F) in font nullfont!
+Missing character: There is no 行 ("884C) in font nullfont!
+Missing character: There is no 驶 ("9A76) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 一 ("4E00) in font nullfont!
+Missing character: There is no 路 ("8DEF) in font nullfont!
+Missing character: There is no 畅 ("7545) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no “ ("201C) in font nullfont!
+Missing character: There is no 绿 ("7EFF) in font nullfont!
+Missing character: There is no 波 ("6CE2) in font nullfont!
+Missing character: There is no 带 ("5E26) in font nullfont!
+Missing character: There is no ” ("201D) in font nullfont!
+Missing character: There is no 。 ("3002) in font nullfont!
+Missing character: There is no 本 ("672C) in font nullfont!
+Missing character: There is no 文 ("6587) in font nullfont!
+Missing character: There is no 主 ("4E3B) in font nullfont!
+Missing character: There is no 要 ("8981) in font nullfont!
+Missing character: There is no 从 ("4ECE) in font nullfont!
+Missing character: There is no 一 ("4E00) in font nullfont!
+Missing character: There is no 下 ("4E0B) in font nullfont!
+Missing character: There is no 三 ("4E09) in font nullfont!
+Missing character: There is no 个 ("4E2A) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 面 ("9762) in font nullfont!
+Missing character: There is no 进 ("8FDB) in font nullfont!
+Missing character: There is no 行 ("884C) in font nullfont!
+Missing character: There is no 了 ("4E86) in font nullfont!
+Missing character: There is no 研 ("7814) in font nullfont!
+Missing character: There is no 究 ("7A76) in font nullfont!
+Missing character: There is no ： ("FF1A) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 6--8
+[] 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 首
+      先，构建面向应急车辆优先通行的最快路径“绿波带”模型，在此基础上，构建分布式智能体模型和面向应急车辆优先通行的交通信号灯智能控制系统架构，并...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 首 ("9996) in font nullfont!
+Missing character: There is no 先 ("5148) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 构 ("6784) in font nullfont!
+Missing character: There is no 建 ("5EFA) in font nullfont!
+Missing character: There is no 面 ("9762) in font nullfont!
+Missing character: There is no 向 ("5411) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 优 ("4F18) in font nullfont!
+Missing character: There is no 先 ("5148) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 行 ("884C) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 最 ("6700) in font nullfont!
+Missing character: There is no 快 ("5FEB) in font nullfont!
+Missing character: There is no 路 ("8DEF) in font nullfont!
+Missing character: There is no 径 ("5F84) in font nullfont!
+Missing character: There is no “ ("201C) in font nullfont!
+Missing character: There is no 绿 ("7EFF) in font nullfont!
+Missing character: There is no 波 ("6CE2) in font nullfont!
+Missing character: There is no 带 ("5E26) in font nullfont!
+Missing character: There is no ” ("201D) in font nullfont!
+Missing character: There is no 模 ("6A21) in font nullfont!
+Missing character: There is no 型 ("578B) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 在 ("5728) in font nullfont!
+Missing character: There is no 此 ("6B64) in font nullfont!
+Missing character: There is no 基 ("57FA) in font nullfont!
+Missing character: There is no 础 ("7840) in font nullfont!
+Missing character: There is no 上 ("4E0A) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 构 ("6784) in font nullfont!
+Missing character: There is no 建 ("5EFA) in font nullfont!
+Missing character: There is no 分 ("5206) in font nullfont!
+Missing character: There is no 布 ("5E03) in font nullfont!
+Missing character: There is no 式 ("5F0F) in font nullfont!
+Missing character: There is no 智 ("667A) in font nullfont!
+Missing character: There is no 能 ("80FD) in font nullfont!
+Missing character: There is no 体 ("4F53) in font nullfont!
+Missing character: There is no 模 ("6A21) in font nullfont!
+Missing character: There is no 型 ("578B) in font nullfont!
+Missing character: There is no 和 ("548C) in font nullfont!
+Missing character: There is no 面 ("9762) in font nullfont!
+Missing character: There is no 向 ("5411) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 优 ("4F18) in font nullfont!
+Missing character: There is no 先 ("5148) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 行 ("884C) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 信 ("4FE1) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no 灯 ("706F) in font nullfont!
+Missing character: There is no 智 ("667A) in font nullfont!
+Missing character: There is no 能 ("80FD) in font nullfont!
+Missing character: There is no 控 ("63A7) in font nullfont!
+Missing character: There is no 制 ("5236) in font nullfont!
+Missing character: There is no 系 ("7CFB) in font nullfont!
+Missing character: There is no 统 ("7EDF) in font nullfont!
+Missing character: There is no 架 ("67B6) in font nullfont!
+Missing character: There is no 构 ("6784) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 并 ("5E76) in font nullfont!
+Missing character: There is no 设 ("8BBE) in font nullfont!
+Missing character: There is no 计 ("8BA1) in font nullfont!
+Missing character: There is no 了 ("4E86) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 信 ("4FE1) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no 灯 ("706F) in font nullfont!
+Missing character: There is no 智 ("667A) in font nullfont!
+Missing character: There is no 能 ("80FD) in font nullfont!
+Missing character: There is no 控 ("63A7) in font nullfont!
+Missing character: There is no 制 ("5236) in font nullfont!
+Missing character: There is no 算 ("7B97) in font nullfont!
+Missing character: There is no 法 ("6CD5) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 使 ("4F7F) in font nullfont!
+Missing character: There is no 得 ("5F97) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 信 ("4FE1) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no 灯 ("706F) in font nullfont!
+Missing character: There is no 在 ("5728) in font nullfont!
+Missing character: There is no 未 ("672A) in font nullfont!
+Missing character: There is no 请 ("8BF7) in font nullfont!
+Missing character: There is no 求 ("6C42) in font nullfont!
+Missing character: There is no 阶 ("9636) in font nullfont!
+Missing character: There is no 段 ("6BB5) in font nullfont!
+Missing character: There is no 、 ("3001) in font nullfont!
+Missing character: There is no 降 ("964D) in font nullfont!
+Missing character: There is no 低 ("4F4E) in font nullfont!
+Missing character: There is no 道 ("9053) in font nullfont!
+Missing character: There is no 路 ("8DEF) in font nullfont!
+Missing character: There is no 饱 ("9971) in font nullfont!
+Missing character: There is no 和 ("548C) in font nullfont!
+Missing character: There is no 度 ("5EA6) in font nullfont!
+Missing character: There is no 阶 ("9636) in font nullfont!
+Missing character: There is no 段 ("6BB5) in font nullfont!
+Missing character: There is no 、 ("3001) in font nullfont!
+Missing character: There is no 信 ("4FE1) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no 抢 ("62A2) in font nullfont!
+Missing character: There is no 占 ("5360) in font nullfont!
+Missing character: There is no 阶 ("9636) in font nullfont!
+Missing character: There is no 段 ("6BB5) in font nullfont!
+Missing character: There is no 以 ("4EE5) in font nullfont!
+Missing character: There is no 及 ("53CA) in font nullfont!
+Missing character: There is no 恢 ("6062) in font nullfont!
+Missing character: There is no 复 ("590D) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 流 ("6D41) in font nullfont!
+Missing character: There is no 阶 ("9636) in font nullfont!
+Missing character: There is no 段 ("6BB5) in font nullfont!
+Missing character: There is no 过 ("8FC7) in font nullfont!
+Missing character: There is no 渡 ("6E21) in font nullfont!
+Missing character: There is no 。 ("3002) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 13--14
+[] 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 其
+      次，设计面向应急车辆优先的交通信号灯智能控制方法。第一步通过调整交通信号灯绿灯时间，降低应急车辆行驶路径上的道路饱和度，使得应急车辆前方的其...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 其 ("5176) in font nullfont!
+Missing character: There is no 次 ("6B21) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 设 ("8BBE) in font nullfont!
+Missing character: There is no 计 ("8BA1) in font nullfont!
+Missing character: There is no 面 ("9762) in font nullfont!
+Missing character: There is no 向 ("5411) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 优 ("4F18) in font nullfont!
+Missing character: There is no 先 ("5148) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 信 ("4FE1) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no 灯 ("706F) in font nullfont!
+Missing character: There is no 智 ("667A) in font nullfont!
+Missing character: There is no 能 ("80FD) in font nullfont!
+Missing character: There is no 控 ("63A7) in font nullfont!
+Missing character: There is no 制 ("5236) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 法 ("6CD5) in font nullfont!
+Missing character: There is no 。 ("3002) in font nullfont!
+Missing character: There is no 第 ("7B2C) in font nullfont!
+Missing character: There is no 一 ("4E00) in font nullfont!
+Missing character: There is no 步 ("6B65) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 过 ("8FC7) in font nullfont!
+Missing character: There is no 调 ("8C03) in font nullfont!
+Missing character: There is no 整 ("6574) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 信 ("4FE1) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no 灯 ("706F) in font nullfont!
+Missing character: There is no 绿 ("7EFF) in font nullfont!
+Missing character: There is no 灯 ("706F) in font nullfont!
+Missing character: There is no 时 ("65F6) in font nullfont!
+Missing character: There is no 间 ("95F4) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 降 ("964D) in font nullfont!
+Missing character: There is no 低 ("4F4E) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 行 ("884C) in font nullfont!
+Missing character: There is no 驶 ("9A76) in font nullfont!
+Missing character: There is no 路 ("8DEF) in font nullfont!
+Missing character: There is no 径 ("5F84) in font nullfont!
+Missing character: There is no 上 ("4E0A) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 道 ("9053) in font nullfont!
+Missing character: There is no 路 ("8DEF) in font nullfont!
+Missing character: There is no 饱 ("9971) in font nullfont!
+Missing character: There is no 和 ("548C) in font nullfont!
+Missing character: There is no 度 ("5EA6) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 使 ("4F7F) in font nullfont!
+Missing character: There is no 得 ("5F97) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 前 ("524D) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 其 ("5176) in font nullfont!
+Missing character: There is no 他 ("4ED6) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 有 ("6709) in font nullfont!
+Missing character: There is no 空 ("7A7A) in font nullfont!
+Missing character: There is no 间 ("95F4) in font nullfont!
+Missing character: There is no 为 ("4E3A) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 让 ("8BA9) in font nullfont!
+Missing character: There is no 行 ("884C) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 从 ("4ECE) in font nullfont!
+Missing character: There is no 而 ("800C) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 能 ("80FD) in font nullfont!
+Missing character: There is no 够 ("591F) in font nullfont!
+Missing character: There is no 高 ("9AD8) in font nullfont!
+Missing character: There is no 速 ("901F) in font nullfont!
+Missing character: There is no 行 ("884C) in font nullfont!
+Missing character: There is no 驶 ("9A76) in font nullfont!
+Missing character: There is no 。 ("3002) in font nullfont!
+Missing character: There is no 第 ("7B2C) in font nullfont!
+Missing character: There is no 二 ("4E8C) in font nullfont!
+Missing character: There is no 步 ("6B65) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 过 ("8FC7) in font nullfont!
+Missing character: There is no 非 ("975E) in font nullfont!
+Missing character: There is no 侵 ("4FB5) in font nullfont!
+Missing character: There is no 入 ("5165) in font nullfont!
+Missing character: There is no 式 ("5F0F) in font nullfont!
+Missing character: There is no 抢 ("62A2) in font nullfont!
+Missing character: There is no 占 ("5360) in font nullfont!
+Missing character: There is no 与 ("4E0E) in font nullfont!
+Missing character: There is no 侵 ("4FB5) in font nullfont!
+Missing character: There is no 入 ("5165) in font nullfont!
+Missing character: There is no 式 ("5F0F) in font nullfont!
+Missing character: There is no 抢 ("62A2) in font nullfont!
+Missing character: There is no 占 ("5360) in font nullfont!
+Missing character: There is no 相 ("76F8) in font nullfont!
+Missing character: There is no 结 ("7ED3) in font nullfont!
+Missing character: There is no 合 ("5408) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 信 ("4FE1) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no 抢 ("62A2) in font nullfont!
+Missing character: There is no 占 ("5360) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 法 ("6CD5) in font nullfont!
+Missing character: There is no 为 ("4E3A) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 提 ("63D0) in font nullfont!
+Missing character: There is no 供 ("4F9B) in font nullfont!
+Missing character: There is no 绿 ("7EFF) in font nullfont!
+Missing character: There is no 灯 ("706F) in font nullfont!
+Missing character: There is no 信 ("4FE1) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 使 ("4F7F) in font nullfont!
+Missing character: There is no 得 ("5F97) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 在 ("5728) in font nullfont!
+Missing character: There is no 绿 ("7EFF) in font nullfont!
+Missing character: There is no 灯 ("706F) in font nullfont!
+Missing character: There is no 状 ("72B6) in font nullfont!
+Missing character: There is no 态 ("6001) in font nullfont!
+Missing character: There is no 下 ("4E0B) in font nullfont!
+Missing character: There is no 快 ("5FEB) in font nullfont!
+Missing character: There is no 速 ("901F) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 过 ("8FC7) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 灯 ("706F) in font nullfont!
+Missing character: There is no 路 ("8DEF) in font nullfont!
+Missing character: There is no 口 ("53E3) in font nullfont!
+Missing character: There is no 。 ("3002) in font nullfont!
+Missing character: There is no 第 ("7B2C) in font nullfont!
+Missing character: There is no 三 ("4E09) in font nullfont!
+Missing character: There is no 步 ("6B65) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 过 ("8FC7) in font nullfont!
+Missing character: There is no 线 ("7EBF) in font nullfont!
+Missing character: There is no 性 ("6027) in font nullfont!
+Missing character: There is no 规 ("89C4) in font nullfont!
+Missing character: There is no 划 ("5212) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 法 ("6CD5) in font nullfont!
+Missing character: There is no 恢 ("6062) in font nullfont!
+Missing character: There is no 复 ("590D) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 叉 ("53C9) in font nullfont!
+Missing character: There is no 口 ("53E3) in font nullfont!
+Missing character: There is no 各 ("5404) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 向 ("5411) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 流 ("6D41) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 以 ("4EE5) in font nullfont!
+Missing character: There is no 降 ("964D) in font nullfont!
+Missing character: There is no 低 ("4F4E) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 优 ("4F18) in font nullfont!
+Missing character: There is no 先 ("5148) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 行 ("884C) in font nullfont!
+Missing character: There is no 对 ("5BF9) in font nullfont!
+Missing character: There is no 整 ("6574) in font nullfont!
+Missing character: There is no 个 ("4E2A) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 造 ("9020) in font nullfont!
+Missing character: There is no 成 ("6210) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 影 ("5F71) in font nullfont!
+Missing character: There is no 响 ("54CD) in font nullfont!
+Missing character: There is no 。 ("3002) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 15--16
+[] 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 最
+      后，本文在城市交通模拟器SUMO中对面向应急车辆优先通行的交通信号灯智能控制方法的可行性及先进性进行了一系列实验。结果表明，与固定时长信号控...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 最 ("6700) in font nullfont!
+Missing character: There is no 后 ("540E) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 本 ("672C) in font nullfont!
+Missing character: There is no 文 ("6587) in font nullfont!
+Missing character: There is no 在 ("5728) in font nullfont!
+Missing character: There is no 城 ("57CE) in font nullfont!
+Missing character: There is no 市 ("5E02) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 模 ("6A21) in font nullfont!
+Missing character: There is no 拟 ("62DF) in font nullfont!
+Missing character: There is no 器 ("5668) in font nullfont!
+Missing character: There is no S ("53) in font nullfont!
+Missing character: There is no U ("55) in font nullfont!
+Missing character: There is no M ("4D) in font nullfont!
+Missing character: There is no O ("4F) in font nullfont!
+Missing character: There is no 中 ("4E2D) in font nullfont!
+Missing character: There is no 对 ("5BF9) in font nullfont!
+Missing character: There is no 面 ("9762) in font nullfont!
+Missing character: There is no 向 ("5411) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 优 ("4F18) in font nullfont!
+Missing character: There is no 先 ("5148) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 行 ("884C) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 信 ("4FE1) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no 灯 ("706F) in font nullfont!
+Missing character: There is no 智 ("667A) in font nullfont!
+Missing character: There is no 能 ("80FD) in font nullfont!
+Missing character: There is no 控 ("63A7) in font nullfont!
+Missing character: There is no 制 ("5236) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 法 ("6CD5) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 可 ("53EF) in font nullfont!
+Missing character: There is no 行 ("884C) in font nullfont!
+Missing character: There is no 性 ("6027) in font nullfont!
+Missing character: There is no 及 ("53CA) in font nullfont!
+Missing character: There is no 先 ("5148) in font nullfont!
+Missing character: There is no 进 ("8FDB) in font nullfont!
+Missing character: There is no 性 ("6027) in font nullfont!
+Missing character: There is no 进 ("8FDB) in font nullfont!
+Missing character: There is no 行 ("884C) in font nullfont!
+Missing character: There is no 了 ("4E86) in font nullfont!
+Missing character: There is no 一 ("4E00) in font nullfont!
+Missing character: There is no 系 ("7CFB) in font nullfont!
+Missing character: There is no 列 ("5217) in font nullfont!
+Missing character: There is no 实 ("5B9E) in font nullfont!
+Missing character: There is no 验 ("9A8C) in font nullfont!
+Missing character: There is no 。 ("3002) in font nullfont!
+Missing character: There is no 结 ("7ED3) in font nullfont!
+Missing character: There is no 果 ("679C) in font nullfont!
+Missing character: There is no 表 ("8868) in font nullfont!
+Missing character: There is no 明 ("660E) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 与 ("4E0E) in font nullfont!
+Missing character: There is no 固 ("56FA) in font nullfont!
+Missing character: There is no 定 ("5B9A) in font nullfont!
+Missing character: There is no 时 ("65F6) in font nullfont!
+Missing character: There is no 长 ("957F) in font nullfont!
+Missing character: There is no 信 ("4FE1) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no 控 ("63A7) in font nullfont!
+Missing character: There is no 制 ("5236) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 法 ("6CD5) in font nullfont!
+Missing character: There is no （ ("FF08) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no h ("68) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 简 ("7B80) in font nullfont!
+Missing character: There is no 称 ("79F0) in font nullfont!
+Missing character: There is no F ("46) in font nullfont!
+Missing character: There is no T ("54) in font nullfont!
+Missing character: There is no C ("43) in font nullfont!
+Missing character: There is no M ("4D) in font nullfont!
+Missing character: There is no ） ("FF09) in font nullfont!
+Missing character: There is no 相 ("76F8) in font nullfont!
+Missing character: There is no 比 ("6BD4) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 本 ("672C) in font nullfont!
+Missing character: There is no 文 ("6587) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 法 ("6CD5) in font nullfont!
+Missing character: There is no 能 ("80FD) in font nullfont!
+Missing character: There is no 够 ("591F) in font nullfont!
+Missing character: There is no 有 ("6709) in font nullfont!
+Missing character: There is no 效 ("6548) in font nullfont!
+Missing character: There is no 缩 ("7F29) in font nullfont!
+Missing character: There is no 短 ("77ED) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 旅 ("65C5) in font nullfont!
+Missing character: There is no 行 ("884C) in font nullfont!
+Missing character: There is no 时 ("65F6) in font nullfont!
+Missing character: There is no 间 ("95F4) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 6 ("36) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no % ("25) in font nullfont!
+Missing character: There is no ； ("FF1B) in font nullfont!
+Missing character: There is no 与 ("4E0E) in font nullfont!
+Missing character: There is no 弹 ("5F39) in font nullfont!
+Missing character: There is no 性 ("6027) in font nullfont!
+Missing character: There is no 型 ("578B) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no 抢 ("62A2) in font nullfont!
+Missing character: There is no 占 ("5360) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 法 ("6CD5) in font nullfont!
+Missing character: There is no （ ("FF08) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no h ("68) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 简 ("7B80) in font nullfont!
+Missing character: There is no 称 ("79F0) in font nullfont!
+Missing character: There is no F ("46) in font nullfont!
+Missing character: There is no S ("53) in font nullfont!
+Missing character: There is no P ("50) in font nullfont!
+Missing character: There is no M ("4D) in font nullfont!
+Missing character: There is no ） ("FF09) in font nullfont!
+Missing character: There is no 相 ("76F8) in font nullfont!
+Missing character: There is no 比 ("6BD4) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 本 ("672C) in font nullfont!
+Missing character: There is no 文 ("6587) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 法 ("6CD5) in font nullfont!
+Missing character: There is no 能 ("80FD) in font nullfont!
+Missing character: There is no 够 ("591F) in font nullfont!
+Missing character: There is no 有 ("6709) in font nullfont!
+Missing character: There is no 效 ("6548) in font nullfont!
+Missing character: There is no 缩 ("7F29) in font nullfont!
+Missing character: There is no 短 ("77ED) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 旅 ("65C5) in font nullfont!
+Missing character: There is no 行 ("884C) in font nullfont!
+Missing character: There is no 时 ("65F6) in font nullfont!
+Missing character: There is no 间 ("95F4) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no % ("25) in font nullfont!
+Missing character: There is no ； ("FF1B) in font nullfont!
+Missing character: There is no 与 ("4E0E) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 信 ("4FE1) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no 抢 ("62A2) in font nullfont!
+Missing character: There is no 占 ("5360) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 法 ("6CD5) in font nullfont!
+Missing character: There is no （ ("FF08) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no h ("68) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 简 ("7B80) in font nullfont!
+Missing character: There is no 称 ("79F0) in font nullfont!
+Missing character: There is no E ("45) in font nullfont!
+Missing character: There is no V ("56) in font nullfont!
+Missing character: There is no S ("53) in font nullfont!
+Missing character: There is no P ("50) in font nullfont!
+Missing character: There is no ） ("FF09) in font nullfont!
+Missing character: There is no 相 ("76F8) in font nullfont!
+Missing character: There is no 比 ("6BD4) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 本 ("672C) in font nullfont!
+Missing character: There is no 文 ("6587) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 法 ("6CD5) in font nullfont!
+Missing character: There is no 能 ("80FD) in font nullfont!
+Missing character: There is no 够 ("591F) in font nullfont!
+Missing character: There is no 有 ("6709) in font nullfont!
+Missing character: There is no 效 ("6548) in font nullfont!
+Missing character: There is no 缩 ("7F29) in font nullfont!
+Missing character: There is no 短 ("77ED) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no 旅 ("65C5) in font nullfont!
+Missing character: There is no 行 ("884C) in font nullfont!
+Missing character: There is no 时 ("65F6) in font nullfont!
+Missing character: There is no 间 ("95F4) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no 6 ("36) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no % ("25) in font nullfont!
+Missing character: There is no 。 ("3002) in font nullfont!
+Missing character: There is no 此 ("6B64) in font nullfont!
+Missing character: There is no 外 ("5916) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 实 ("5B9E) in font nullfont!
+Missing character: There is no 验 ("9A8C) in font nullfont!
+Missing character: There is no 结 ("7ED3) in font nullfont!
+Missing character: There is no 果 ("679C) in font nullfont!
+Missing character: There is no 表 ("8868) in font nullfont!
+Missing character: There is no 明 ("660E) in font nullfont!
+Missing character: There is no 本 ("672C) in font nullfont!
+Missing character: There is no 文 ("6587) in font nullfont!
+Missing character: There is no 方 ("65B9) in font nullfont!
+Missing character: There is no 法 ("6CD5) in font nullfont!
+Missing character: There is no 不 ("4E0D) in font nullfont!
+Missing character: There is no 会 ("4F1A) in font nullfont!
+Missing character: There is no 对 ("5BF9) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 路 ("8DEF) in font nullfont!
+Missing character: There is no 网 ("7F51) in font nullfont!
+Missing character: There is no 造 ("9020) in font nullfont!
+Missing character: There is no 成 ("6210) in font nullfont!
+Missing character: There is no 明 ("660E) in font nullfont!
+Missing character: There is no 显 ("663E) in font nullfont!
+Missing character: There is no 影 ("5F71) in font nullfont!
+Missing character: There is no 响 ("54CD) in font nullfont!
+Missing character: There is no 。 ("3002) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 17--18
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \hspace{-0.5cm}
+                    
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.21 \sihao
+           {\heiti{关键词:}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.21 \sihao{\heiti
+                  {关键词:}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 关 ("5173) in font nullfont!
+Missing character: There is no 键 ("952E) in font nullfont!
+Missing character: There is no 词 ("8BCD) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+! Undefined control sequence.
+l.23 \xiaosi
+            {智慧交通系统，交通信号控制，应急车辆，信号抢占，信号配时}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 智 ("667A) in font nullfont!
+Missing character: There is no 慧 ("6167) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 系 ("7CFB) in font nullfont!
+Missing character: There is no 统 ("7EDF) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 交 ("4EA4) in font nullfont!
+Missing character: There is no 通 ("901A) in font nullfont!
+Missing character: There is no 信 ("4FE1) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no 控 ("63A7) in font nullfont!
+Missing character: There is no 制 ("5236) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 应 ("5E94) in font nullfont!
+Missing character: There is no 急 ("6025) in font nullfont!
+Missing character: There is no 车 ("8F66) in font nullfont!
+Missing character: There is no 辆 ("8F86) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 信 ("4FE1) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no 抢 ("62A2) in font nullfont!
+Missing character: There is no 占 ("5360) in font nullfont!
+Missing character: There is no ， ("FF0C) in font nullfont!
+Missing character: There is no 信 ("4FE1) in font nullfont!
+Missing character: There is no 号 ("53F7) in font nullfont!
+Missing character: There is no 配 ("914D) in font nullfont!
+Missing character: There is no 时 ("65F6) in font nullfont!
+)
+! Emergency stop.
+<*> B1-ABSTRACT.tex
+                   
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 15 strings out of 476919
+ 313 string characters out of 5816463
+ 292906 words of memory out of 5000000
+ 20119 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 12i,1n,15p,425b,18s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.

@@ -1,0 +1,82 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/leyi/Library/Mobile Documents/com~apple~CloudDocs/Thesis/latexback0530/.texpadtmp/Song-2015.aux
+The style file: ../GBT7714-2005.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: ../bib/tex.bib
+Warning--string name "may" is undefined
+--line 357 of file ../bib/tex.bib
+Warning--string name "jun" is undefined
+--line 425 of file ../bib/tex.bib
+Warning--string name "aug" is undefined
+--line 540 of file ../bib/tex.bib
+Warning--string name "aug" is undefined
+--line 602 of file ../bib/tex.bib
+Warning--string name "sep" is undefined
+--line 618 of file ../bib/tex.bib
+Warning--string name "aug" is undefined
+--line 693 of file ../bib/tex.bib
+I was expecting a `,' or a `}'---line 791 of file ../bib/tex.bib
+ :   
+ :   pages     = {1029--1038},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 913 of file ../bib/tex.bib
+ :   
+ :   pages     = {19--34},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+A bad cross reference---entry "DBLP:conf/kdd/WangZX14"
+refers to entry "DBLP:conf/kdd/2014", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:conf/kdd/2014"
+Warning--Require address: meng2011moving
+Warning--Require address: khoshgozaran2007blind
+Warning--Require address: spatialcompression
+Warning--Require year: DBLP:conf/kdd/WangZX14
+Warning--Require year: DBLP:conf/www/ZhengZXY10
+Warning--Require year: export:138036
+Warning--Require author: White200091
+You've used 76 entries,
+            3050 wiz_defined-function locations,
+            1197 strings with 23525 characters,
+and the built_in function-call counts, 146085 in all, are:
+= -- 16043
+> -- 279
+< -- 634
++ -- 12451
+- -- 1013
+* -- 3890
+:= -- 15902
+add.period$ -- 0
+call.type$ -- 76
+change.case$ -- 406
+chr.to.int$ -- 0
+cite$ -- 83
+duplicate$ -- 21107
+empty$ -- 5943
+format.name$ -- 812
+if$ -- 38982
+int.to.chr$ -- 0
+int.to.str$ -- 76
+missing$ -- 0
+newline$ -- 255
+num.names$ -- 76
+pop$ -- 2239
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1268
+stack$ -- 0
+substring$ -- 17565
+swap$ -- 3838
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 7
+while$ -- 2024
+width$ -- 78
+write$ -- 1037
+(There were 3 error messages)

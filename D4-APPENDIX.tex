@@ -1,0 +1,142 @@
+%\clearpage{\pagestyle{empty}\cleardoublepage}
+%\linespread{1.4}\selectfont
+\chapter*{附录}
+%\addcontentsline{toc}{chapter}{附录}
+
+\begin{table}[H]
+	\centering
+	\caption{缩写速查表}
+	\label{table:abbreviations}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		缩写 & 含义 & 英文释义 \\ \hline
+		EV	 &	应急车辆	  &	emergency vehicle \\ \hline
+		DRRS &	降低道路饱和度需求程度	&	demand for reducing road saturation  \\ \hline
+		ERL  &  应急响应等级	& emergency response level  \\ \hline
+		CLRS &  路段拥堵等级	& congestion level of the road section  \\ \hline
+		TUL  &  时间紧迫等级	& time urgency level    \\ \hline
+		QP   &  二次规划	  & quadratic programming \\ \hline
+		LP   &  线性规划 	  & linear programming \\ \hline
+		FTCM &  固定时长信号控制方法 & fixed-time control method \\ \hline
+		FSPM &  弹性信号抢占方法 & flexible signal preemption method\cite{min} \\ \hline
+		EVSP &  应急车辆信号抢占 & emergency vehicle signal pre-emption\cite{qin_control_2012} \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{center}
+	\begin{longtable}{|c|l|}
+		\caption{符号速查表} 
+		\label{table:symbols} \\
+		\hline
+		符号 & 含义 \\ \hline
+		${I}$ & 交叉口集和 \\ \hline
+		${E}$ & 路段集和 \\ \hline
+		${AGT}$ & 智能体集和 \\ \hline
+		${I_i}$ & 第${i}$个交叉口 \\ \hline
+		${AGT_i}$ & 第${i}$个智能体 \\ \hline
+		${t_i}$ & 预计到达第${i}$个交叉口的时间 \\ \hline
+		${v}$ & 应急车辆的平均速度 \\ \hline
+		${s_i^t}$ & 应急车辆到达第${i}$个交叉口的距离 \\ \hline
+		${\delta}$ & 时间偏差 \\ \hline
+		${T_i}$ & 初始信号周期长度 \\ \hline
+		${{T_i}^\prime}$ & 新周期长度 \\ \hline
+		${L_i^t}$ & 表时刻${t}$到新周期${{T_i}^\prime}$第一次开始时间的间隔 \\ \hline
+		${n_i}$ & 交叉口${I_i}$信号灯从${t}$时刻到${t_i}$时间范围内完整新周期${{T_i}^\prime}$的个数 \\ \hline
+		${P_i}$ & ${n_i}$个新周期结束到${t_i}$的时间间隔 \\ \hline
+		${Q_i}$ & 清空应急车辆入口车道方向的排队车辆所需时间 \\ \hline
+		${N_i^t}$ & \tabincell{l}{${t}$时刻交叉口${I_i}$在应急车辆入口车道方向的排队车辆数目} \\ \hline
+		${S_i}$ & 交叉口${I_i}$应急车辆入口车道方向的通行能力 \\ \hline
+		${A_i}$ & 交叉口${I_i}$应急车辆入口车道方向的车辆到达率 \\ \hline
+		${\Delta{w_i}}$ & 代价时间 \\ \hline
+		${T_{lost}}$ & 车辆启动损失时间 \\ \hline
+		${SIT}$ & 保证该交叉口行车安全的安全时间间隔 \\\hline
+		${YT}$ & 普通车辆为应急车辆让行所需的时间 \\ \hline
+		${\Delta{i}}$ & \tabincell{l}{表示交叉口${v_i}$的应急车辆入口车道是否存在排队车辆，若应急车辆
+			\\入口车道不存在排队车辆，其值为0，若存在，值为1} \\ \hline
+		${\beta}$ & 目标函数中平衡总周期变化与单相时长变化的参数 \\ \hline
+		${PN}$ &代表周期中信号相位个数 \\ \hline
+		${TP}$ & 目标相位 \\ \hline
+		${g_i^k}$ & 交叉口${I_i}$原本周期中第${k}$信号相位时长 \\ \hline
+		${{g_i^k}^\prime}$ & 交叉口${I_i}$新周期中第${k}$信号相位时长 \\ \hline
+		${{T_i}^{max}}$ & 交叉口${I_i}$交通信号灯信号控制周期的上界 \\ \hline
+		${{T_i}^{min}}$ & 交叉口${I_i}$交通信号灯信号控制周期的下界 \\ \hline
+		${\tau_i^{max}}$ & 交叉口${I_i}$单相位时长的上界 \\ \hline
+		${\tau_i^{min}}$ & 交叉口${I_i}$单相位时长的下界 \\ \hline
+		${YR_i}$ & 交叉口${I_i}$黄灯与全红时长 \\ \hline
+		${{LJT}_i^{TP}}$ & 交叉口${I_i}$的交通信号灯最迟跳转到目标相位${TP}$的时刻 \\ \hline
+		${PST_i}$ & ${{LJT}_i^{TP}}$在原信号控制策略中所处相位开始时刻 \\ \hline
+		${D_i}$ & 若信号灯在${{LJT}_i^o}$时刻跳转到目标相位，被抢占相位持续的时间 \\ \hline
+		${{Jump}_i^{TP}}$ & 交叉口${I_i}$智能体控制交通信号灯跳转到目标相位${TP}$的时刻 \\ \hline
+		${G_{minS}}$ & 保证行车安全的最短绿灯时间 \\ \hline
+		${AVE_i^k}$  & 交叉口${I_i}$在第${k}$相位绿灯方向的平均排队车辆数 \\ \hline
+		${x_i^k}$ & 交叉口${I_i}$的交通信号灯在恢复阶段第${k}$相位的时长 \\ \hline
+		${N_i^k}$ & \tabincell{l}{恢复阶段开始时交叉口${I_i}$交通信号灯${k}$相位绿灯方向排队车辆数较大
+			\\一边车道聚集的排队车辆数} \\ \hline
+		${A_i^k}$ & 交叉口${I_i}$第${k}$相位绿灯方向车道的到达率 \\ \hline
+		${S_i^k}$ & 交叉口${I_i}$交通信号灯${k}$相位绿灯方向车道的饱和流率 \\ \hline
+		${EQN_i^k}$ & 第${i}$个交叉口第${k}$相位预计排队车辆数 \\ \hline
+		${VC_i^k}$ & 第${i}$个交叉口第${k}$相位在该相位时间内能够清除的排队车辆数 \\ \hline
+	\end{longtable}
+\end{center}
+
+\begin{center}
+	\begin{longtable}{|c|c|c|c|c|}
+		\caption{目标相位延长时间速查表} 
+		\label{table:fulu_extendtime} \\
+		\hline
+		\tabincell{c}{应急救援等级\\(ERL)} & \tabincell{c}{路段拥堵等级\\(CLRS)}	& \tabincell{c}{时间紧迫等级\\(TUL)} & \tabincell{c}{降低道路\\饱和度程度\\(DRRS)} & \tabincell{c}{延长时间\\（s） }\\ \hline
+		特别重大(I级响应) & 严重拥堵（I）&    严重紧急（I）      &      1			 & 40         \\  \hline
+		特别重大(I级响应) & 严重拥堵（I）&	 比较紧急（II）	      &  1.223912143	 & 40  \\ \hline
+		特别重大(I级响应) & 严重拥堵（I）&	 一般紧急（III）      &  	1.377465866	 & 40 \\ \hline
+		特别重大(I级响应) & 中度拥堵（II）&	 严重紧急（I）	      &  1.521295065	 & 30 \\ \hline
+		特别重大(I级响应) & 中度拥堵（II）&	 比较紧急（II）      &  	1.861931503	 & 30 \\ \hline
+		特别重大(I级响应) & 中度拥堵（II）&	 一般紧急（III）      &  	2.095532024	 & 20 \\  \hline
+		特别重大(I级响应) & 轻微拥堵（III）&	 严重紧急（I）      &  	1.944471112	 & 30 \\  \hline
+		特别重大(I级响应) & 轻微拥堵（III）&	 比较紧急（II）      &  	2.379861806	 & 20 \\ \hline
+		特别重大(I级响应) & 轻微拥堵（III）&	 一般紧急（III）      &  	2.678442585	 & 10 \\ \hline
+		特别重大(I级响应) & 畅通（IV）	&      严重紧急（I）      &  2.314338674 &  20 \\ \hline
+		特别重大(I级响应) & 畅通（IV）	& 	   比较紧急（II）      &  	  2.832547207 &  10 \\ \hline
+		特别重大(I级响应) & 畅通（IV）	&      一般紧急（III）      &    3.187922526 &  0 \\ \hline
+		重大（II级响应）&   严重拥堵（I）&	 严重紧急（I）      &  1.074078919	 & 40 \\ \hline
+		重大（II级响应）&   严重拥堵（I）&	 比较紧急（II）	      &  1.314578231	 & 40 \\ \hline
+		重大（II级响应）&   严重拥堵（I）&	 一般紧急（III）      &  	1.479507048	 & 30 \\ \hline
+		重大（II级响应）&   中度拥堵（II）&	 严重紧急（I）	      &  1.633990958	 & 30 \\ \hline
+		重大（II级响应）&   中度拥堵（II）&	 比较紧急（II）      &  	1.999861375	 & 20\\ \hline
+		重大（II级响应）&   中度拥堵（II）&	 一般紧急（III）      &  	2.25076677	 & 20\\ \hline
+		重大（II级响应）&   轻微拥堵（III）&	 严重紧急（I）      &  	2.088515429	 & 20\\ \hline
+		重大（II级响应）&   轻微拥堵（III）&	 比较紧急（II）      &  	2.556159395	 & 10\\ \hline
+		重大（II级响应）&   轻微拥堵（III）&	 一般紧急（III）      & 	2.876858715	 & 10\\ \hline
+		重大（II级响应）&   畅通（IV）&	  严重紧急（I）	       &   2.48578238   & 20\\ \hline
+		重大（II级响应）&   畅通（IV）&	  比较紧急（II）	      &    3.042379241  & 10\\ \hline
+		重大（II级响应）&   畅通（IV）&	  一般紧急（III）      &  	  3.424080379 &  0\\ \hline
+		较大（III级响应）&  严重拥堵（I）&   严重紧急（I）	      &      1.119930833	 & 40\\ \hline
+		较大（III级响应）&  严重拥堵（I）&   比较紧急（II）      &  	1.370696946	 & 40\\ \hline
+		较大（III级响应）&  严重拥堵（I）&   一般紧急（III）      &  	1.542666495	 & 30\\ \hline
+		较大（III级响应）&  中度拥堵（II）& 	严重紧急（I）	      &      1.703745249	 & 30\\ \hline
+		较大（III级响应）&  中度拥堵（II）& 	比较紧急（II）      &  	2.085234499	 & 20\\ \hline
+		较大（III级响应）&  中度拥堵（II）& 	一般紧急（III）      & 	2.346850925	 & 20\\ \hline
+		较大（III级响应）&  轻微拥堵（III）&	严重紧急（I）	      &      2.177673152	 & 20\\ \hline
+		较大（III级响应）&  轻微拥堵（III）&	比较紧急（II）      &  	2.665280615	 & 10\\ \hline
+		较大（III级响应）&  轻微拥堵（III）&	一般紧急（III）      &  	2.999670434	 & 10\\ \hline
+		较大（III级响应）&  畅通（IV）&	 严重紧急（I）	        &  2.591899239  & 10\\ \hline
+		较大（III级响应）&  畅通（IV）&	 比较紧急（II）	       &   3.172256952 &  0\\ \hline
+		较大（III级响应）&  畅通（IV）&	 一般紧急（III）	      &    3.57025273  &  0\\ \hline
+		一般（IV级响应）&   严重拥堵（I）&	严重紧急（I）	        &    1.153645523	 & 40\\ \hline
+		一般（IV级响应）&   严重拥堵（I）&	比较紧急（II）	      &  1.411960765	 & 40\\ \hline
+		一般（IV级响应）&   严重拥堵（I）&	一般紧急（III）	      &  1.58910733	 & 30\\ \hline
+		一般（IV级响应）&   中度拥堵（II）&  严重紧急（I）	      &      1.755035241	 & 30\\ \hline
+		一般（IV级响应）&   中度拥堵（II）&  比较紧急（II）      &  	2.148008943	 & 20\\ \hline
+		一般（IV级响应）&   中度拥堵（II）&  一般紧急（III）      &  	2.417501138	 & 20\\ \hline
+		一般（IV级响应）&   轻微拥堵（III）& 严重紧急（I）	      &      2.243230394	 & 20\\  \hline
+		一般（IV级响应）&   轻微拥堵（III）& 比较紧急（II）      &  	2.745516919	 & 10\\ \hline
+		一般（IV级响应）&   轻微拥堵（III）& 一般紧急（III）      &  	3.089973297 & 	0\\ \hline
+		一般（IV级响应）&   畅通（IV）&     严重紧急（I）      &  	  2.669926451  & 10\\ \hline
+		一般（IV级响应）&   畅通（IV）&     比较紧急（II）      &  	  3.267755404 &  0\\ \hline
+		一般（IV级响应）&   畅通（IV）&     一般紧急（III）      &  	  3.677732551 &  0\\ \hline
+	\end{longtable}
+\end{center}
+
+
+
+
+

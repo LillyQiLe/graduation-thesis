@@ -1,0 +1,71 @@
+\contentsline {chapter}{\numberline {第一章\hspace {0.3em}}绪\hskip 0.4cm 论}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}研究背景}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}本文工作与主要贡献}{3}{section.1.2}
+\contentsline {paragraph}{对轨迹数据的分布式处理}{3}{section*.4}
+\contentsline {paragraph}{兴趣点和兴趣区域挖掘}{3}{section*.5}
+\contentsline {paragraph}{出租车扬招推荐服务和候车时间预测}{4}{section*.6}
+\contentsline {paragraph}{本文主要贡献如下：}{4}{section*.7}
+\contentsline {section}{\numberline {1.3}组织结构}{4}{section.1.3}
+\contentsline {chapter}{\numberline {第二章\hspace {0.3em}}研究现状}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}基于位置的服务发展现状}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}轨迹数据挖掘研究现状}{6}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}轨迹数据的处理}{7}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}基于轨迹数据的知识发现和推荐}{8}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}本章小结}{9}{section.2.3}
+\contentsline {chapter}{\numberline {第三章\hspace {0.3em}}海量轨迹数据分布式处理}{10}{chapter.3}
+\contentsline {section}{\numberline {3.1}出租车轨迹数据介绍}{10}{section.3.1}
+\contentsline {section}{\numberline {3.2}路网数据介绍}{11}{section.3.2}
+\contentsline {subsubsection}{路网分割}{11}{section*.9}
+\contentsline {section}{\numberline {3.3}分布式轨迹预处理}{12}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}分布式处理框架}{12}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}基于规则的轨迹处理}{13}{subsection.3.3.2}
+\contentsline {paragraph}{异常轨迹点判定规则}{13}{section*.11}
+\contentsline {section}{\numberline {3.4}路网匹配}{14}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}相关工作}{14}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}动态适应的路网匹配算法}{17}{subsection.3.4.2}
+\contentsline {subsubsection}{问题描述}{17}{section*.12}
+\contentsline {paragraph}{输入：}{17}{section*.13}
+\contentsline {paragraph}{输出：}{17}{section*.14}
+\contentsline {subsubsection}{降低路网匹配算法准确度的关键因素}{18}{section*.15}
+\contentsline {subsubsection}{RouteFit算法}{18}{section*.16}
+\contentsline {subsection}{\numberline {3.4.3}实验结果与总结}{20}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}本章小结}{22}{section.3.5}
+\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}基于聚类的兴趣点发现}{24}{chapter.4}
+\contentsline {section}{\numberline {4.1}预备知识}{24}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}POI与ROI}{24}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}基于位置的聚类算法}{25}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}候选扬招POI发现}{26}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}基于密度聚类的候选扬招位置点发现}{27}{subsection.4.2.1}
+\contentsline {paragraph}{索引建立}{27}{section*.17}
+\contentsline {paragraph}{轨迹点聚类}{27}{section*.18}
+\contentsline {paragraph}{生成POI}{29}{section*.19}
+\contentsline {subsection}{\numberline {4.2.2}实验与结果分析}{30}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}热门目的地发现}{31}{section.4.3}
+\contentsline {section}{\numberline {4.4}本章小结}{32}{section.4.4}
+\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}基于出租车轨迹的位置推荐}{34}{chapter.5}
+\contentsline {section}{\numberline {5.1}出租车扬招点推荐系统}{34}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}系统框架}{34}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}特征抽取}{35}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}路段聚类}{36}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}候车时间预测与查询}{38}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}候车时间预测模型建立}{38}{subsection.5.2.1}
+\contentsline {subsubsection}{泊松过程}{38}{section*.22}
+\contentsline {subsubsection}{回归模型}{39}{section*.23}
+\contentsline {subsection}{\numberline {5.2.2}模型评估与选择}{41}{subsection.5.2.2}
+\contentsline {subsubsection}{评估数据集生成}{41}{section*.24}
+\contentsline {subsubsection}{预测模型}{41}{section*.25}
+\contentsline {subsection}{\numberline {5.2.3}候选扬招点查询}{42}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}实验及原型系统}{44}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}实验与分析}{44}{subsection.5.3.1}
+\contentsline {subsubsection}{数据集}{44}{section*.26}
+\contentsline {subsubsection}{特征选择对比分析}{44}{section*.27}
+\contentsline {subsubsection}{预测模型对比分析}{45}{section*.28}
+\contentsline {subsubsection}{查询准确度 与性能}{46}{section*.31}
+\contentsline {subsection}{\numberline {5.3.2}扬招点位置推荐原型系统}{46}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}本章小结}{47}{section.5.4}
+\contentsline {chapter}{\numberline {第六章\hspace {0.3em}}总结与展望}{48}{chapter.6}
+\contentsline {chapter}{\numberline {附录\nobreakspace {}A\hspace {0.3em}}TaxiHailer系统展示}{50}{appendix.A}
+\contentsline {chapter}{参考文献}{52}{appendix.A}
+\contentsline {chapter}{致谢}{62}{section*.33}
+\contentsline {chapter}{发表论文和科研情况}{64}{section*.35}
+\contentsfinish 
