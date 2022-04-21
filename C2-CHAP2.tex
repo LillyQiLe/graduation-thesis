@@ -1,5 +1,5 @@
 \chapter{预备知识}
-本章将要介绍的预备知识包括饱和流量、饱和流率、信号相位以及绿“波带灯”。接着介绍K-Means均值聚类算法和二次规划算法。
+本章将要介绍的预备知识包括饱和流量、饱和流率、信号相位以及绿“波带灯”。接着介绍K均值聚类均值聚类算法和二次规划算法。
 %本章将介绍文章中所涉及的预备知识，包括饱和流量和饱和流率、信号相位和“绿波带”等交通工程相关知识，还包括了。
 \section{交通工程相关理论}
 
@@ -87,28 +87,47 @@ T型交叉路口通常使用两相位组成信号相位，信号相位图如\ref
 	\label{fig:greenwave}
 \end{figure}
 
-\section{K-Means算法}
+%\section{K-Means算法}
+\section{K均值聚类算法}
 %K-Means算法\cite{K_Means_1979}用于把样本集分割成${K}$个簇，并要求簇内元素尽量密集，簇间元素尽量无关。给定一个数据集合，其中包含了${n}$个样本，每个样本都是${d}$维数据点，数据集${X=\{x_1,x_2,\ldots,x_n\}}$，其中${x_i \in R^d}$，需要生成子集的个数为${k}$，簇划分为${C=c_1, c_2, \ldots, c_k}$，每一个簇${c_i}$都有一个质心，表示簇${c_i}$均值向量，质心的值为簇内样本均值，质心定义为
 
 %K-Means算法\cite{K_Means_1979}是无监督的聚类算法，它的算法思想是对于给定的样本集，按照样本间的距离大小，将样本集划分为${K}$个簇，让簇内的点尽量地紧密，而簇间的距离尽量的大。
-K-Means算法\cite{K_Means_1979}用于把样本集分割成${K}$个簇，并要求簇内元素尽量密集，簇间元素尽量无关。给定一个数据集合，其中包含了${n}$个样本，每个样本都是${d}$维数据点，数据集${X=\{x_1,x_2,\ldots,x_n\}}$，其中${x_i \in R^d}$，需要将数据集划分为${k}$个簇，有${C=c_1, c_2, \ldots, c_k}$，每个簇都有对应的质心，表示簇${c_i}$均值向量，质心的值为簇内样本均值，质心定义为
+%\subsection{定义}
+K均值聚类算法\cite{K_Means_1979}用于把样本集分割成${k}$个簇，并要求簇内元素尽量密集，簇间元素尽量无关。
+
+输入：训练数据集
+\begin{equation}
+	X=\{x_1,x_2,\ldots,x_n\}
+\end{equation}
+其中，包含了${n}$个样本，每个样本都是${d}$维数据点，有${x_i \in R^d}$。
+
+输出：数据集划分得到的${k}$个簇
+
+\begin{equation}
+	C=\{c_1, c_2, \ldots, c_k\}
+\end{equation}
+
+有${C=c_1, c_2, \ldots, c_k}$，每个簇都有对应的质心，表示簇${c_i}$的均值向量，质心的值为簇内样本均值，质心定义为
+
 \begin{equation}
 	\mu_i=\frac{1}{\left|c_i\right|}\sum_{x\in c_i} x
 \end{equation}
-
-聚类目标是使得各簇总的平方误差${E}$最小，公式如下：
-
+聚类目标是使得各簇总的平方误差${E}$最小，平方误差${E}$定义为
 \begin{equation}
 	E=\sum_{i=1}^{k}\sum_{x\in c_i}\left|\left|x-\mu_i\right|\right|_2^2
 \end{equation}
 %其中${\mu_i}$表示簇${C_i}$的均值向量，也可称为质心，质心的值为簇内样本均值。
 
+%给定一个数据集合，其中包含了${n}$个样本，每个样本都是${d}$维数据点，数据集${X=\{x_1,x_2,\ldots,x_n\}}$，其中${x_i \in R^d}$，需要将数据集划分为${k}$个簇，有${C=c_1, c_2, \ldots, c_k}$，每个簇都有对应的质心，表示簇${c_i}$均值向量，质心的值为簇内样本均值，质心定义为
+%\begin{equation}
+%	\mu_i=\frac{1}{\left|c_i\right|}\sum_{x\in c_i} x
+%\end{equation}
 
-
-K-Means算法流程如下：
+%\subsection{算法步骤}
+K均值聚类算法流程如下：
 \begin{enumerate}
-	\item 在确定了需要生成的样本集个数${k}$后，在数据集中，随机地选择${k}$个样本作为初始质心： ${{\mu_1,\mu_2,\ldots,\mu_k}}$。%由于K-Means算法是启发式方法，${k}$个初始化的质心的位置选择对最后的聚类结果和运行时间都有很大的影响，因此需要选择合适的质心，最好这些质心不能太近。
-	\item 初始化${k}$个簇，有${C_t=\phi,t=1,2,\ldots,k}$，按照样本与${k}$个质心之间的欧式距离，把他们分配给距离最近的质心所代表的簇。计算样本${x_i}$和各个质心向量${\mu_j}$的欧式距离如下式所示：
+	\item 在确定了需要生成的样本集个数${k}$后，在数据集中，随机地选择${k}$个样本作为初始质心： ${{\mu_1,\mu_2,\ldots,\mu_k}}$。%由于K均值聚类算法是启发式方法，${k}$个初始化的质心的位置选择对最后的聚类结果和运行时间都有很大的影响，因此需要选择合适的质心，最好这些质心不能太近。
+	\item 初始化${k}$个簇，有${C_t=\phi,t=1,2,\ldots,k}$，按照样本与${k}$个质心之间的欧式距离，把他们分配给距离最近的质心所代表的簇。样本${x_i}$和各个质心向量${\mu_j}$的欧式距离定义为
 	%\item 将簇划分初始化为${C_t=\phi,t=1,2,\ldots,k}$，对于样本中的数据对象，根据他们与${k}$个质心的欧式距离，按照距离最近准则将他们分配给相应的质心所代表的簇。计算样本${x_i}(i=1,2,\ldots,n)$和各个质心向量${\mu_j (j=1,2,...k)}$的距离如下式所示：
 	\begin{equation}
 		d_{ij}=\left|\left|x_i-\mu_j\right|\right|_2^2
@@ -120,178 +139,185 @@ K-Means算法流程如下：
 \end{enumerate}
 
 
-%若给定足够的迭代次数，K-Means算法就能收敛，但是有可能在局部最小值点收敛。K-Means收敛局部极值的原因很可能是初始化簇类中心的距离很接近，而且算法的收敛时间也加长了，为了避免这一情况，多次运行K-Means算法，每次运行初始化不同的簇类中心。
+%若给定足够的迭代次数，K均值聚类算法就能收敛，但是有可能在局部最小值点收敛。K均值聚类收敛局部极值的原因很可能是初始化簇类中心的距离很接近，而且算法的收敛时间也加长了，为了避免这一情况，多次运行K均值聚类算法，每次运行初始化不同的簇类中心。
 
-%为了避免K-Means算法在局部最小值点收敛，应多次运算K-Means算法，并且每次初始化的质心不同。
-为防止K-Means算法在局部的最小值点上收敛，将反复运算K-Means算法，并且每次初始化的质心都不同。
+%为了避免K均值聚类算法在局部最小值点收敛，应多次运算K均值聚类算法，并且每次初始化的质心不同。
+为防止K均值聚类算法在局部的最小值点上收敛，将反复运算K均值聚类算法，并且每次初始化的质心都不同。
 
 %\section{工具开发相关技术}
 
 \section{二次规划}
-二次规划已经被研究了几十年，自1956年二次规划算法被提出，到1986年Garcia等人\cite{Garcia_1986}利用二次规划解决动态矩阵问题，再到1995年Boggs等人\cite{Boggs_1995}对二次规划进行了梳理，到2005年Gill等人\cite{Gill_2001}提出了一种用于大规模约束优化算法，然后在2006年Nocedal等人\cite{Nocedal_2006}发表了序列二次规划，二次规划被数学家们广泛研究，且在不断地进步。
+二次规划是非线性规划中的一种特殊形式，带有二次目标函以及线性约束条件，在实际生活中得到了广泛的应用，它可以用于时间调度、规模经济学、工程设计以及控制领域、设施分配、选址问题、二次分配问题以及微观经济学等很多领域中。二次规划1956年被提出，到1986年Garcia等人\cite{Garcia_1986}利用二次规划解决动态矩阵问题，1995年Boggs等人\cite{Boggs_1995}对二次规划进行了梳理，2005年Gill等人\cite{Gill_2001}提出了一种用于大规模约束优化算法，在2006年Nocedal等人\cite{Nocedal_2006}发表了序列二次规划，二次规划被数学家们广泛研究，且在不断地进步。二次规划的标准形式为
+%\begin{equation}
+%	\label{qp:target_sample}
+%	\min_{x} \frac{1}{2}x^THx+g^Tx
+%\end{equation}
+%
+%\begin{equation}
+%	s.t.
+%	\begin{cases}
+%		a_i^Tx=b_i, & i \in E \\
+%		h_i^Tx \leq t_j, & j \in I
+%	\end{cases}
+%	\label{equation:bound}
+%\end{equation}
 
-二次规划是非线性规划中的一种特殊形式，带有二次目标函以及线性约束条件，在实际生活中得到了广泛的应用，它可以用于时间调度、规模经济学、工程设计以及控制领域、设施分配、选址问题、二次分配问题以及微观经济学等很多领域中。其标准形式如下：
 \begin{equation}
 	\label{qp:target_sample}
-	\min q(x)=\frac{1}{2}x^THx+g^Tx
+	\min_{x} \frac{1}{2}x^THx+f^Tx
 \end{equation}
 
 \begin{equation}
 	s.t.
 	\begin{cases}
-		a_i^Tx=b_i, & i \in E \\
-		h_i^Tx \leq t_j, & j \in I
+		A \cdot x \leq b \\
+		Aeq \cdot x  = beq \\
+		lb \leq x \leq ub
 	\end{cases}
-	\label{equation:jump}
+	\label{equation:bound}
 \end{equation}
+其中\ref{qp:target_sample}为目标函数，需要找到满足式\ref{equation:bound}的约束条件的最小值。二次规划的输出为${x}$，代表在满足所有边界和线性约束的条件下对${\frac{1}{2}x^THx+f^Tx}$进行最小化的向量。式\ref{qp:target_sample}中，$H$为二次目标项，是${n \times n}$的对称矩阵，需要注意的是当${H}$为正定矩阵时，可以在多项式时间内求解出二次规划问题，否则，二次规划问题就成为了一个NP难问题。${f}$为线性目标项。式\ref{equation:bound}中，${A}$为线性等式约束的实矩阵，${b}$为线性等式约束的实数向量。${Aeq}$为线性不等式约束的实矩阵，${beq}$为线性不等式约束的实数向量。${lb}$为下界，指定为实数向量或实数数组，${ub}$为上界，指定为实数向量或实数数组。
 
+%${E}$代表对应等式约束集和，有${i \in E}$，${I}$代表不等式约束的集和，有${j \in I}$，假设有${m}$个等式约束集和和${n}$个不等式约束集和。${g}$、${x}$、${a_i(i \in E)}$和${h_j(j \in I)}$是${n}$维向量。
 %其中$H$是${n \times n}$的对称矩阵，需要注意的是当${H}$为正定矩阵时，用椭圆法可以在多项式时间内求解出二次规划问题，但是当${H}$不是正定矩阵时，二次规划问题就成为了一个NP难问题，即使${H}$只存在一个负特征值，二次规划问题也是NP困难的。${E,I}$分别代表对应等式约束和不等式约束的集和，${i \in E}$表示${m}$个等式约束集和，${j \in I}$表示${n}$个等式约束集和。${g}$、${x}$、${a_i(i \in E)}$和${h_j(j \in I)}$是${n}$维向量。
-
-其中$H$是${n \times n}$的对称矩阵，需要注意的是当${H}$为正定矩阵时，可以在多项式时间内求解出二次规划问题，否则，二次规划问题就成为了一个NP难问题。${E}$代表对应等式约束集和，有${i \in E}$，${I}$代表不等式约束的集和，有${j \in I}$，假设有${m}$个等式约束集和和${n}$个不等式约束集和。${g}$、${x}$、${a_i(i \in E)}$和${h_j(j \in I)}$是${n}$维向量。
-
 %E代表所有不等式约束的集和，I∈E代表所有m个式子的约束集和，j∈i代表n个式子的约束集和。
 
-人们通常用内点法和积极集法求解二次规划问题。本文以内点法为例，标准形式的拉格朗日函数为
+%人们通常用内点法和积极集法求解二次规划问题。本文以内点法为例，标准形式的拉格朗日函数为
+%
+%\begin{equation}
+%	L(x,\lambda,\mu) = \frac{1}{2}x^THx+g^Tx+\sum_{i=1}^{m}\lambda_i(a_i^T-b_i) + \sum_{j=1}^{n}\mu_j(h_j^T-t_i)
+%\end{equation}
 
-\begin{equation}
-	L(x,\lambda,\mu) = \frac{1}{2}x^THx+g^Tx+\sum_{i=1}^{m}\lambda_i(a_i^T-b_i) + \sum_{j=1}^{n}\mu_j(h_j^T-t_i)
-\end{equation}
-
-%Karush-Kuhn-Tucker (KKT)条件是非线性规划(nonlinear programming)最佳解的必要条件。KKT条件将拉格朗日乘数法所处理涉及等式的约束优化问题推广至不等式。使用原始对偶内点法，向KKT条件中加入微小量${\tau}$,如下
-
-KKT（Karush-Kuhn-Tucker）条件是非线性规划最佳解的必要条件。KKT条件使得拉格朗日乘数法可以处理不等式。应用原始对偶内点法，向KKT条件中加入微小量${\tau}$，如下所示：
-\begin{equation}
-	\begin{cases}
-		Hx+g+\sum_{i=1}^{m}\lambda_ia_i+\sum_{j=1}^{n}\mu_jh_j=0\\
-		a_i^Tx=b_i, i=1,\ldots,m \\
-		h_j^Tx \leq t_j \\
-		\mu_j(h_jx-t_j)=-\tau_j \\
-		\mu_j \geq 0, j = 1, \ldots ,n
-	\end{cases}
-\end{equation}
-为了验证解是否在约束空间内，在不等式方程组中引入松弛变量${s_j}$，有
-\begin{equation}
-	s_j=t_j-h_jx
-\end{equation}
-则KKT条件成为
-\begin{equation}
-	\begin{cases}
-		Hx+g+\sum_{i=1}^{m}\lambda_ia_i+\sum_{j=1}^{n}\mu_jh_j=0\\
-		a_i^Tx=b_i, i=1,\ldots,m \\
-		h_j^Tx +s_j = t_j \\
-		\mu_js_j=\tau_j \\
-		\mu_j,s_j \geq 0, j = 1, \ldots ,n
-	\end{cases}.
-\end{equation}
-将其写成矩阵形式为
-\begin{equation}
-F(x,s,\lambda,\mu)=
-\begin{bmatrix}
-	Hx+g+\lambda a + \mu h \\
-	h^Tx+s-t \\
-	a^Tx - b \\
-	\mu s - \tau 
-\end{bmatrix}
-=0
-\end{equation}
-其中
-\begin{equation}
-	\lambda=
-	\begin{bmatrix}
-		\lambda_1 & 0 & \ldots & 0 \\
-		0 & \lambda_2 & \ldots & 0 \\
-		\vdots & \vdots & \ldots & \vdots \\
-		0 & 0 & \ldots & \lambda_m
-	\end{bmatrix}
-\end{equation}
-
-\begin{equation}
-	a^T=
-	\begin{bmatrix}
-		a_1^T \\
-		a_2^T \\
-		\vdots \\
-		a_m^T 
-	\end{bmatrix}
-	,
-	b=
-	\begin{bmatrix}
-		b_1 \\
-		b_2 \\
-		\vdots \\
-		b_m 
-	\end{bmatrix}
-\end{equation}
-
-\begin{equation}
-	\mu=
-	\begin{bmatrix}
-		\mu_1 & 0 & \ldots & 0 \\
-		0 & \mu_2 & \ldots & 0 \\
-		\vdots & \vdots & \ldots & \vdots \\
-		0 & 0 & \ldots & \mu_n
-	\end{bmatrix}
-\end{equation}
-\begin{equation}
-	h^T=
-	\begin{bmatrix}
-		h_1^T \\
-		h_2^T \\
-		\vdots \\
-		h_n^T 
-	\end{bmatrix}
-	,
-	t=
-	\begin{bmatrix}
-		t_1 \\
-		t_2 \\
-		\vdots \\
-		t_n 
-	\end{bmatrix}
-	,
-	s=
-	\begin{bmatrix}
-		s_1 \\
-		s_2 \\
-		\vdots \\
-		s_n 
-	\end{bmatrix}
-\end{equation}
-使用牛顿法解方程组有
-\begin{equation}
-	\begin{bmatrix}
-		H & 0 & a^T & h^T \\
-		h^T & I & 0 & 0 \\
-		a^T & 0 & 0 & 0 \\
-		0 & \mu_k & 0 & s_k^T 
-	\end{bmatrix}
-	\begin{bmatrix}
-		\Delta x_k \\
-		\Delta s_k \\
-		\Delta \lambda_k \\
-		\Delta \mu_k 
-	\end{bmatrix}
-	= -
-	\begin{bmatrix}
-		Hx_k+g+\lambda_k a + \mu_k h \\
-		h^Tx_k+s_k-t \\
-		a^Tx_k - b \\
-		\mu_ks_k - \tau_k 
-	\end{bmatrix}
-\end{equation}
-得到$(\Delta x_k, \Delta s_k, \Delta \lambda_k, \Delta \mu_k )$后更新变量
-\begin{equation}
-	(x_{k+1}, s_{k+1}, \lambda_{k+1}, \mu_{k+1}) = (x_k, s_k, \lambda_k, \mu_k ) + \alpha (\Delta x_k, \Delta s_k, \Delta \lambda_k, \Delta \mu_k )
-\end{equation}
-同时更新
-\begin{equation}
-	\tau_{k+1} = - \sigma \sum_{j=1}^{n}\mu_{j,k}s_{j,k},\sigma \in [0,1]
-\end{equation}
-接下来进行第${k+1}$次迭代，直至得到方程的最终解。
+%KKT（Karush-Kuhn-Tucker）条件是非线性规划最佳解的必要条件。KKT条件使得拉格朗日乘数法可以处理不等式。应用原始对偶内点法，向KKT条件中加入微小量${\tau}$，如下所示：
+%\begin{equation}
+%	\begin{cases}
+%		Hx+g+\sum_{i=1}^{m}\lambda_ia_i+\sum_{j=1}^{n}\mu_jh_j=0\\
+%		a_i^Tx=b_i, i=1,\ldots,m \\
+%		h_j^Tx \leq t_j \\
+%		\mu_j(h_jx-t_j)=-\tau_j \\
+%		\mu_j \geq 0, j = 1, \ldots ,n
+%	\end{cases}
+%\end{equation}
+%为了验证解是否在约束空间内，在不等式方程组中引入松弛变量${s_j}$，有
+%\begin{equation}
+%	s_j=t_j-h_jx
+%\end{equation}
+%则KKT条件成为
+%\begin{equation}
+%	\begin{cases}
+%		Hx+g+\sum_{i=1}^{m}\lambda_ia_i+\sum_{j=1}^{n}\mu_jh_j=0\\
+%		a_i^Tx=b_i, i=1,\ldots,m \\
+%		h_j^Tx +s_j = t_j \\
+%		\mu_js_j=\tau_j \\
+%		\mu_j,s_j \geq 0, j = 1, \ldots ,n
+%	\end{cases}.
+%\end{equation}
+%将其写成矩阵形式为
+%\begin{equation}
+%F(x,s,\lambda,\mu)=
+%\begin{bmatrix}
+%	Hx+g+\lambda a + \mu h \\
+%	h^Tx+s-t \\
+%	a^Tx - b \\
+%	\mu s - \tau 
+%\end{bmatrix}
+%=0
+%\end{equation}
+%其中
+%\begin{equation}
+%	\lambda=
+%	\begin{bmatrix}
+%		\lambda_1 & 0 & \ldots & 0 \\
+%		0 & \lambda_2 & \ldots & 0 \\
+%		\vdots & \vdots & \ldots & \vdots \\
+%		0 & 0 & \ldots & \lambda_m
+%	\end{bmatrix}
+%\end{equation}
 
 
-
-
+%\begin{equation}
+%	a^T=
+%	\begin{bmatrix}
+%		a_1^T \\
+%		a_2^T \\
+%		\vdots \\
+%		a_m^T 
+%	\end{bmatrix}
+%	,
+%	b=
+%	\begin{bmatrix}
+%		b_1 \\
+%		b_2 \\
+%		\vdots \\
+%		b_m 
+%	\end{bmatrix}
+%\end{equation}
+%
+%\begin{equation}
+%	\mu=
+%	\begin{bmatrix}
+%		\mu_1 & 0 & \ldots & 0 \\
+%		0 & \mu_2 & \ldots & 0 \\
+%		\vdots & \vdots & \ldots & \vdots \\
+%		0 & 0 & \ldots & \mu_n
+%	\end{bmatrix}
+%\end{equation}
+%\begin{equation}
+%	h^T=
+%	\begin{bmatrix}
+%		h_1^T \\
+%		h_2^T \\
+%		\vdots \\
+%		h_n^T 
+%	\end{bmatrix}
+%	,
+%	t=
+%	\begin{bmatrix}
+%		t_1 \\
+%		t_2 \\
+%		\vdots \\
+%		t_n 
+%	\end{bmatrix}
+%	,
+%	s=
+%	\begin{bmatrix}
+%		s_1 \\
+%		s_2 \\
+%		\vdots \\
+%		s_n 
+%	\end{bmatrix}
+%\end{equation}
+%使用牛顿法解方程组有
+%\begin{equation}
+%	\begin{bmatrix}
+%		H & 0 & a^T & h^T \\
+%		h^T & I & 0 & 0 \\
+%		a^T & 0 & 0 & 0 \\
+%		0 & \mu_k & 0 & s_k^T 
+%	\end{bmatrix}
+%	\begin{bmatrix}
+%		\Delta x_k \\
+%		\Delta s_k \\
+%		\Delta \lambda_k \\
+%		\Delta \mu_k 
+%	\end{bmatrix}
+%	= -
+%	\begin{bmatrix}
+%		Hx_k+g+\lambda_k a + \mu_k h \\
+%		h^Tx_k+s_k-t \\
+%		a^Tx_k - b \\
+%		\mu_ks_k - \tau_k 
+%	\end{bmatrix}
+%\end{equation}
+%得到$(\Delta x_k, \Delta s_k, \Delta \lambda_k, \Delta \mu_k )$后更新变量
+%\begin{equation}
+%	(x_{k+1}, s_{k+1}, \lambda_{k+1}, \mu_{k+1}) = (x_k, s_k, \lambda_k, \mu_k ) + \alpha (\Delta x_k, \Delta s_k, \Delta \lambda_k, \Delta \mu_k )
+%\end{equation}
+%同时更新
+%\begin{equation}
+%	\tau_{k+1} = - \sigma \sum_{j=1}^{n}\mu_{j,k}s_{j,k},\sigma \in [0,1]
+%\end{equation}
+%接下来进行第${k+1}$次迭代，直至得到方程的最终解。
 
 %\section{线性规划}
 %线性规划，其标准形式如下
@@ -299,7 +325,7 @@ F(x,s,\lambda,\mu)=
 %	\label{qp:target_sample}
 %	\min C^Tx
 %\end{equation}
-
+%
 %\begin{equation}
 %	s.t.
 %	\begin{cases}
@@ -311,7 +337,7 @@ F(x,s,\lambda,\mu)=
 
 
 \section{本章小结}
-本章介绍了文章中所涉及的预备知识，首先介绍了饱和流量和饱和流率、信号相位和“绿波带”等交通工程相关知识，然后介绍了K-Means算法和二次规划以及它们的解法。
+本章介绍了文章中所涉及的预备知识，首先介绍了饱和流量和饱和流率、信号相位和“绿波带”等交通工程相关知识，然后介绍了K均值聚类算法和二次规划以及它们的解法。
 \label{ch2}
 
 

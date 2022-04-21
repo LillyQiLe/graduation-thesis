@@ -2,20 +2,21 @@
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
-\contentsline {table}{\numberline {4.1}{\ignorespaces 突发事件应急响应等级\relax }}{29}{table.caption.23}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces 针对应急车辆的城市路段平均速度与路段拥堵等级的关系\relax }}{30}{table.caption.24}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces 预计到达时间与时间紧迫等级的关系\relax }}{30}{table.caption.25}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces 关于ERL、CLRS和TUL的正互反矩阵\relax }}{31}{table.caption.26}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces 目标相位延长时间参照表\relax }}{32}{table.caption.27}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces 突发事件应急响应等级\relax }}{27}{table.caption.23}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces 针对应急车辆的城市路段平均速度与路段拥堵等级的关系\relax }}{28}{table.caption.24}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces 预计到达时间与时间紧迫等级的关系\relax }}{28}{table.caption.25}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces 关于ERL、CLRS和TUL的正互反矩阵\relax }}{29}{table.caption.26}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces 目标相位延长时间参照表\relax }}{30}{table.caption.27}%
 \addvspace {10.0pt}
-\contentsline {table}{\numberline {5.1}{\ignorespaces 路线及其距离\relax }}{44}{table.caption.34}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces 实验环境配置\relax }}{49}{table.caption.40}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces 实验参数配置\relax }}{49}{table.caption.41}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces 本文方法与FTCM相比旅行时间的优化结果\relax }}{56}{table.caption.50}%
-\contentsline {table}{\numberline {5.5}{\ignorespaces 本文方法与FSPM相比旅行时间的优化结果\relax }}{56}{table.caption.51}%
-\contentsline {table}{\numberline {5.6}{\ignorespaces 本文方法与EVSP相比旅行时间的优化结果\relax }}{57}{table.caption.52}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces 路线及其距离\relax }}{42}{table.caption.34}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces 实验环境配置\relax }}{47}{table.caption.40}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces 实验参数配置\relax }}{47}{table.caption.41}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces 本文方法与FTCM相比旅行时间的优化结果\relax }}{54}{table.caption.50}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces 本文方法与FSPM相比旅行时间的优化结果\relax }}{54}{table.caption.51}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces 本文方法与EVSP相比旅行时间的优化结果\relax }}{55}{table.caption.52}%
 \addvspace {10.0pt}
-\contentsline {table}{\numberline {A1}{\ignorespaces 缩写速查表\relax }}{73}{table.caption.61}%
-\contentsline {table}{\numberline {A2}{\ignorespaces 符号速查表\relax }}{73}{table.Alph0.2}%
-\contentsline {table}{\numberline {A3}{\ignorespaces 目标相位延长时间速查表\relax }}{75}{table.Alph0.3}%
+\contentsline {table}{\numberline {A1}{\ignorespaces 缩写速查表\relax }}{71}{table.caption.61}%
+\contentsline {table}{\numberline {A2}{\ignorespaces 符号速查表\relax }}{71}{table.Alph0.2}%
+\contentsline {table}{\numberline {A3}{\ignorespaces 目标相位延长时间速查表\relax }}{73}{table.Alph0.3}%
+\contentsline {table}{\numberline {B1}{\ignorespaces Santy1-9标度方法\relax }}{76}{table.caption.64}%
 \contentsfinish 
