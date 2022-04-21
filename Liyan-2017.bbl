@@ -1,4 +1,4 @@
-\begin{thebibliography}{64}
+\begin{thebibliography}{63}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -23,24 +23,27 @@
 LI~M, LI~L.
 \newblock Intelligent transportation system in china: The optimal evaluation
   period of transportation's application performance[J].
-\newblock Journal of Intelligent and Fuzzy Systems, 2020, 38\allowbreak (6):
-  1-12.
+\newblock Journal of Intelligent and Fuzzy Systems, 2020, 38\allowbreak (06):
+  6979-6990.
 
 \bibitem[吴黎兵\ 等(2016)吴黎兵, 聂雷, 刘冰艺, 吴妮, 邹逸飞,
   and 叶璐瑶]{wulibin_vanet}
 吴黎兵, 聂雷, 刘冰艺, 等.
 \newblock 一种VANET环境下的智能交通信号控制方法[J].
-\newblock 计算机学报, 2016.
+\newblock 计算机学报, 2016, 39\allowbreak (6): 1105-1119.
 
 \bibitem[陈虹宇\ 等(2021)陈虹宇, 艾红, 王晓, 吕宜生, 陈圆圆,
   and 王飞跃]{chenhongyu}
 陈虹宇, 艾红, 王晓, 等.
-\newblock 社会交通中的社会信号分析与感知[J].
-\newblock 自动化学报, 2021, 47\allowbreak (6): 17.
+\newblock 社会交通中的社会信号分析与感知[J/OL].
+\newblock 自动化学报, 2021, 47\allowbreak (06): 1256-1272.
+\newblock DOI: \doi{10.16383/j.aas.c200055}.
 
-\bibitem[Chaganty et~al.()Chaganty, Karadkar, and Mangala]{0TRAFFIC}
-CHAGANTY~K, KARADKAR~T, MANGALA~R.
-\newblock Traffic signal preemption for emergency vehicles[J].
+\bibitem[Zhong et~al.(2022)Zhong and Chen]{0TRAFFIC}
+ZHONG~L, CHEN~Y.
+\newblock A novel real-time traffic signal control strategy for emergency
+  vehicles[J].
+\newblock IEEE ACCESS, 2022, 10: 19481-19492.
 
 \bibitem[Nguyen et~al.(2019)Nguyen, Ngo, Tran, and Vu]{nguyen2019combining}
 NGUYEN~B~L, NGO~D~T, TRAN~N~H, et~al.
@@ -52,15 +55,17 @@ NGUYEN~B~L, NGO~D~T, TRAN~N~H, et~al.
 \bibitem[李金洋\ 等(2016)李金洋, 陈仪香, and 王振辉]{lijinyang}
 李金洋, 陈仪香, 王振辉.
 \newblock 基于车速的自适应交通信号灯控制系统[J].
-\newblock 计算机技术与发展, 2016, 26\allowbreak (9): 6.
+\newblock 计算机技术与发展, 2016, 26\allowbreak (9): 21-25.
 
-\bibitem[Oza et~al.(2020)Oza, Chantem, and Murray-Tuite]{Oza_2020}
-OZA~P, CHANTEM~T, MURRAY-TUITE~P.
+\bibitem[Oza et~al.(2020)Oza, Chantem, and Murray{-}Tuite]{Oza_2020}
+OZA~P, CHANTEM~T, MURRAY{-}TUITE~P~M.
 \newblock A coordinated spillback-aware traffic optimization and recovery at
-  multiple intersections[C]//\allowbreak
-2020 IEEE 26th International Conference on Embedded and Real-Time Computing
-  Systems and Applications (RTCSA).
-\newblock IEEE, 2020: 1-10.
+  multiple intersections[C/OL]//\allowbreak
+26th {IEEE} International Conference on Embedded and Real-Time Computing
+  Systems and Applications, {RTCSA} 2020, Gangnueng, Korea (South), August
+  19-21, 2020.
+\newblock {IEEE}, 2020: 1-10.
+\newblock \url{https://doi.org/10.1109/RTCSA50079.2020.9203582}.
 
 \bibitem[Chang et~al.(2020)Chang, Roy, Zhao, Annaswamy, and
   Chakraborty]{chang2020cps}
@@ -73,20 +78,19 @@ CHANG~W, ROY~D, ZHAO~S, et~al.
 \bibitem[徐杨\ 等(2012)徐杨, 张玉林, 孙婷婷, and 苏艳芳]{xuyang}
 徐杨, 张玉林, 孙婷婷, 等.
 \newblock 基于多智能体交通绿波效应分布式协同控制算法[J].
-\newblock 软件学报, 2012, 23\allowbreak (11): 9.
+\newblock 软件学报, 2012, 23\allowbreak (11): 2937-2945.
 
 \bibitem[中华人民共和国交通运输部(2021)]{gongbao}
 中华人民共和国交通运输部.
 \newblock 2020年交通运输行业发展统计公报[J].
-\newblock 交通财会, 2021\allowbreak (6): 6.
+\newblock 交通财会, 2021\allowbreak (6): 92-97.
 
 \bibitem[Wang et~al.(2013)Wang, Wu, Yang, and Huang]{wang_design_2013}
 WANG~Y, WU~Z, YANG~X, et~al.
 \newblock Design and {Implementation} of an {Emergency} {Vehicle} {Signal}
   {Preemption} {System} {Based} on {Cooperative} {Vehicle}-{Infrastructure}
   {Technology}[J/OL].
-\newblock Advances in Mechanical Engineering, 2013, 5:
-  834976\allowbreak[2021-11-16].
+\newblock Advances in Mechanical Engineering, 2013, 2013\allowbreak (5): 1-10.
 \newblock \url{http://journals.sagepub.com/doi/10.1155/2013/834976}.
 
 \bibitem[NHS(2017, Jan. 23)]{NHS}
@@ -122,14 +126,13 @@ SINGH~T.
   traffic[C]//\allowbreak
 2019 10th International Conference on Computing, Communication and Networking
   Technologies (ICCCNT).
-\newblock 2019.
+\newblock IEEE, 2019: 1-7.
 
 \bibitem[Koike et~al.(2003)Koike and Fukai]{koike_study_2003}
 KOIKE~N, FUKAI~T.
 \newblock Study on {Signal} {Priority} {Systems} for {Vehicles} in {Emergency}
   {Dispatch}[J/OL].
-\newblock IFAC Proceedings Volumes, 2003, 36\allowbreak (14):
-  197-202\allowbreak[2021-11-16].
+\newblock IFAC Proceedings Volumes, 2003, 36\allowbreak (14): 197-202.
 \newblock \url{https://linkinghub.elsevier.com/retrieve/pii/S1474667017324199}.
 \newblock DOI: \doi{10.1016/S1474-6670(17)32419-9}.
 
@@ -140,11 +143,12 @@ CHEN~S, SUN~D~J.
 \newblock IEEE Intelligent Transportation Systems Magazine, 2016, 8\allowbreak
   (4): 4-14.
 
-\bibitem[Nellore et~al.(2016)Nellore and Hancke]{nellore2016traffic}
-NELLORE~K, HANCKE~G~P.
+\bibitem[Kapileswar et~al.(2016)Kapileswar and Hancke]{nellore2016traffic}
+KAPILESWAR~N, HANCKE~G~P.
 \newblock Traffic management for emergency vehicle priority based on visual
-  sensing[J].
+  sensing[J/OL].
 \newblock Sensors, 2016, 16\allowbreak (11): 1892.
+\newblock \url{https://doi.org/10.3390/s16111892}.
 
 \bibitem[Yao et~al.(2020)Yao, Jiang, Zhao, Luo, and Peng]{2020Yao}
 YAO~Z, JIANG~Y, ZHAO~B, et~al.
@@ -155,11 +159,12 @@ YAO~Z, JIANG~Y, ZHAO~B, et~al.
 
 \bibitem[Ashish et~al.(2021)Ashish, Gandhiraj, and Panda]{Ashish_2021}
 ASHISH~A, GANDHIRAJ~R, PANDA~M.
-\newblock V2x based emergency corridor for safe and fast passage of emergency
-  vehicle[C]//\allowbreak
-2021 12th International Conference on Computing Communication and Networking
-  Technologies (ICCCNT).
-\newblock IEEE, 2021: 1-7.
+\newblock {V2X} based emergency corridor for safe and fast passage of emergency
+  vehicle[C/OL]//\allowbreak
+12th International Conference on Computing Communication and Networking
+  Technologies, {ICCCNT} 2021, Kharagpur, India, July 6-8, 2021.
+\newblock {IEEE}, 2021: 1-7.
+\newblock \url{https://doi.org/10.1109/ICCCNT51525.2021.9580034}.
 
 \bibitem[Ebizuka et~al.(2019)Ebizuka, Kato, and Itami]{Ebizuka_2019}
 EBIZUKA~Y, KATO~S, ITAMI~M.
@@ -174,17 +179,19 @@ SO~J~J, KANG~J, PARK~S, et~al.
   driving controls[J].
 \newblock Journal of Advanced Transportation, 2020, 2020: 1-11.
 
-\bibitem[Younes et~al.(2017)Younes and Boukerche]{2017Younes}
+\bibitem[Younes et~al.(2018)Younes and Boukerche]{2017Younes}
 YOUNES~M~B, BOUKERCHE~A.
 \newblock An efficient dynamic traffic light scheduling algorithm considering
-  emergency vehicles for intelligent transportation systems[J].
-\newblock Wireless Networks, 2017.
+  emergency vehicles for intelligent transportation systems[J/OL].
+\newblock Wirel. Networks, 2018, 24\allowbreak (7): 2451-2463.
+\newblock \url{https://doi.org/10.1007/s11276-017-1482-5}.
 
 \bibitem[夏元清\ 等(2019)夏元清, 闫策, 王笑京, and
   宋向辉]{xiayuanqing}
 夏元清, 闫策, 王笑京, 等.
-\newblock 智能交通信息物理融合云控制系统[J].
-\newblock 自动化学报, 2019, 45\allowbreak (1): 11.
+\newblock 智能交通信息物理融合云控制系统[J/OL].
+\newblock 自动化学报, 2019, 45\allowbreak (01): 132-142.
+\newblock DOI: \doi{10.16383/j.aas.c180370}.
 
 \bibitem[Shrivastava et~al.(2019)Shrivastava, Rawat, Singh, Neelam, Prasad, and
   Nath]{Shrivastava_2019}
@@ -205,7 +212,7 @@ MASOUD~M, BELKASIM~S.
 \bibitem[Peng-peng et~al.(2021)Peng-peng, Zi-yu, Wei-qi, and Ze-hao]{Peng_2021}
 PENG-PENG~J, ZI-YU~Y, WEI-QI~H, et~al.
 \newblock Lane changing guidance method for vehicle platoon to avoid emergency
-  vehicles of cvis[J].
+  vehicles of {CVIS}[J].
 \newblock China Journal of Highway and Transport, 2021, 34\allowbreak (7): 95.
 
 \bibitem[Qin et~al.(2012)Qin and Khan]{qin_control_2012}
@@ -213,7 +220,7 @@ QIN~X, KHAN~A~M.
 \newblock Control strategies of traffic signal timing transition for emergency
   vehicle preemption[J/OL].
 \newblock Transportation Research Part C: Emerging Technologies, 2012, 25:
-  1-17\allowbreak[2021-11-16].
+  1-17.
 \newblock \url{https://linkinghub.elsevier.com/retrieve/pii/S0968090X1200054X}.
 \newblock DOI: \doi{10.1016/j.trc.2012.04.004}.
 
@@ -229,7 +236,7 @@ MIN~W, YU~L, CHEN~P, et~al.
 \newblock On-{Demand} {Greenwave} for {Emergency} {Vehicles} in a
   {Time}-{Varying} {Road} {Network} {With} {Uncertainties}[J/OL].
 \newblock IEEE Transactions on Intelligent Transportation Systems, 2020,
-  21\allowbreak (7): 3056-3068\allowbreak[2021-11-16].
+  21\allowbreak (7): 3056-3068.
 \newblock \url{https://ieeexplore.ieee.org/document/8751138/}.
 \newblock DOI: \doi{10.1109/TITS.2019.2923802}.
 
@@ -239,7 +246,7 @@ MIN~W, YU~L, CHEN~P, et~al.
 \newblock Traffic signal coordination for emergency vehicles[C/OL]//\allowbreak
 17th {International} {IEEE} {Conference} on {Intelligent} {Transportation}
   {Systems} ({ITSC}).
-\newblock Qingdao, China: IEEE, 2014: 157-161\allowbreak[2021-11-16].
+\newblock Qingdao, China: IEEE, 2014: 157-161.
 \newblock \url{http://ieeexplore.ieee.org/document/6957683/}.
 \newblock DOI: \doi{10.1109/ITSC.2014.6957683}.
 
@@ -271,23 +278,29 @@ CAO~M, SHUAI~Q, LI~V~O.
 2019 IEEE Intelligent Transportation Systems Conference (ITSC).
 \newblock IEEE, 2019: 4525-4531.
 
-\bibitem[Mu et~al.(2018)Mu, Liu, and Li]{Mu_2018}
-MU~H, LIU~L, LI~X.
+\bibitem[H. et~al.(2018)H., L., and X.]{Mu_2018}
+H.~M, L.~L, X.~L.
 \newblock Signal preemption control of emergency vehicles based on timed
-  colored petri nets[J].
-\newblock Discrete Dynamics in Nature and Society, 2018, 2018.
+  colored petri nets[J/OL].
+\newblock Discrete Dynamics in Nature and Society, 2018, 2018\allowbreak (3):
+  2183-2188.
+\newblock
+  \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-85051583045&doi=10.1155%2f2018%2f7095485&partnerID=40&md5=e04cdbb01c97c5594f804cfb58759a8e}.
+\newblock DOI: \doi{10.1155/2018/7095485}.
 
 \bibitem[邵明莉\ 等(2021)邵明莉, 曹鹗, 胡铭, 章玥, 陈闻杰, and
   陈铭松]{shaomingli}
 邵明莉, 曹鹗, 胡铭, 等.
-\newblock 面向优先车辆感知的交通灯优化控制方法[J].
-\newblock 软件学报, 2021, 32\allowbreak (8): 14.
+\newblock 面向优先车辆感知的交通灯优化控制方法[J/OL].
+\newblock 软件学报, 2021, 32\allowbreak (08): 2425-2438.
+\newblock DOI: \doi{10.13328/j.cnki.jos.006191}.
 
 \bibitem[闫飞\ 等(2021)闫飞, 李浦, 阎高伟, and 任密蜂]{yanfei}
 闫飞, 李浦, 阎高伟, 等.
 \newblock
-  考虑交通流非线性特性的交通信号迭代学习控制策略[J].
-\newblock 自动化学报, 2021, 47\allowbreak (9): 12.
+  考虑交通流非线性特性的交通信号迭代学习控制策略[J/OL].
+\newblock 自动化学报, 2021, 47\allowbreak (9): 2238-2249.
+\newblock DOI: \doi{10.16383/j.aas.c190183}.
 
 \bibitem[Behrisch et~al.(2011)Behrisch, Bieker, Erdmann, and
   Krajzewicz]{behrisch2011sumo}
@@ -300,55 +313,61 @@ Proceedings of SIMUL 2011, The Third International Conference on Advances in
 \bibitem[吴震\ 等(2008)吴震 and 杨晓光]{wuzhen2008}
 吴震, 杨晓光.
 \newblock 信号交叉口右转车道饱和流量研究[J].
-\newblock 同济大学学报：自然科学版, 2008, 36\allowbreak (1): 5.
+\newblock 同济大学学报：自然科学版, 2008, 36\allowbreak (01):
+  37-41.
 
 \bibitem[刘意\ 等(2010)刘意, 张永, and 任刚]{liuyi2010}
 刘意, 张永, 任刚.
 \newblock 信号交叉口直行车道饱和流率研究[J].
-\newblock 交通运输工程与信息学报, 2010, 8\allowbreak (3): 6.
+\newblock 交通运输工程与信息学报, 2010, 8\allowbreak (03): 62-67.
 
 \bibitem[吴震\ 等(2009)吴震 and 杨晓光]{wuzhen2009}
 吴震, 杨晓光.
-\newblock 车道宽度,转弯半径对左转饱和流量的影响研究[J].
-\newblock 武汉理工大学学报：交通科学与工程版, 2009,
-  33\allowbreak (5): 4.
+\newblock 车道宽度、转弯半径对左转饱和流量的影响研究[J].
+\newblock 武汉理工大学学报(交通科学与工程版), 2009,
+  33\allowbreak (05): 996-999.
 
 \bibitem[李克平\ 等(2007)李克平 and 盖松雪]{likeping2007}
 李克平, 盖松雪.
-\newblock 信号控制交叉口周期时长对饱和流量的影响研究[J].
-\newblock 城市道桥与防洪, 2007\allowbreak (9): 3.
+\newblock
+  信号控制交叉口周期时长对饱和流量的影响研究[J/OL].
+\newblock 城市道桥与防洪, 2007\allowbreak (9): 6-8.
+\newblock DOI: \doi{10.16799/j.cnki.csdqyfh.2007.09.003}.
 
 \bibitem[邵长桥\ 等(2011)邵长桥, 荣建, and 赵林]{shaochangqiao2011}
 邵长桥, 荣建, 赵林.
 \newblock 信号交叉口饱和流率及其影响因素研究[J].
-\newblock 北京工业大学学报, 2011, 37\allowbreak (10): 6.
+\newblock 北京工业大学学报, 2011, 37\allowbreak (10): 1505-1510.
 
-\bibitem[Shanteau(1988)]{1988Using}
-SHANTEAU~R~M.
-\newblock Using cumulative curves to measure saturation flow and lost time[J].
-\newblock Ite J, 1988.
+\bibitem[Day(2018)]{1988Using}
+DAY~C~M.
+\newblock Platoon dispersion and saturation flow rates in cellular automata
+  models of signal-controlled roadway traffic[J/OL].
+\newblock 2018: 2583-2588.
+\newblock \url{https://doi.org/10.1109/ITSC.2018.8569769}.
 
-\bibitem[徐立群\ 等(2001)徐立群, 吴聪, and 杨兆升]{xuliqun2001}
-徐立群, 吴聪, 杨兆升.
-\newblock 信号交叉口通行能力计算方法[J].
-\newblock 交通运输工程学报, 2001, 1\allowbreak (1): 4.
+\bibitem[袁晶矜\ 等(2006)袁晶矜 and 袁振洲]{xuliqun2001}
+袁晶矜, 袁振洲.
+\newblock 信号交叉口通行能力计算方法的比较分析[J].
+\newblock 公路交通技术, 2006, 05\allowbreak (1): 123-128.
 
-\bibitem[王嘉文\ 等(2021)王嘉文, 邹林志, and
+\bibitem[王嘉文\ 等(2020)王嘉文, 邹林志, and
   杭佳宇]{wangjiawen2021}
 王嘉文, 邹林志, 杭佳宇.
 \newblock
   考虑人车交互的两相位信号控制交叉口的配时优化方法[J].
-\newblock 中国市政工程, 2021\allowbreak (5): 5.
+\newblock 中国水运(下半月), 2020, 20\allowbreak (01): 80-82.
 
-\bibitem[Washington(2000)]{2000Highway}
-WASHINGTON~D.
-\newblock Highway capacity manual[J].
-\newblock Special Report, 2000, 1\allowbreak (1-2): 5-7.
-
-\bibitem[Sector=Government(2003)]{2003Manual}
-SECTOR=GOVERNMENT~T.
-\newblock Manual of uniform traffic control devices[J].
-\newblock Australian Standard, 2003.
+\bibitem[Mirzahossein et~al.(2021)Mirzahossein, Safari, and
+  Hassannayebi]{2000Highway}
+MIRZAHOSSEIN~H, SAFARI~F, HASSANNAYEBI~E.
+\newblock Estimation of highway capacity under environmental constraints vs.
+  conventional traffic flow criteria: A case study of tehran[J/OL].
+\newblock Journal of Traffic and Transportation Engineering (English Edition),
+  2021, 8\allowbreak (5): 751-761.
+\newblock
+  \url{https://www.sciencedirect.com/science/article/pii/S209575642030146X}.
+\newblock DOI: \doi{https://doi.org/10.1016/j.jtte.2020.04.006}.
 
 \bibitem[杨佩昆(2003)]{yangpeikun2003}
 杨佩昆.
@@ -362,19 +381,22 @@ SECTOR=GOVERNMENT~T.
 \bibitem[沈家军\ 等(2014)沈家军 and 王炜]{shenjiajun2014}
 沈家军, 王炜.
 \newblock
-  基于交叉口通行效率的两相位与四相位控制方式临界流量研究[J].
-\newblock 交通运输系统工程与信息, 2014, 14\allowbreak (4): 6.
+  基于交叉口通行效率的两相位与四相位控制方式临界流量研究[J/OL].
+\newblock 交通运输系统工程与信息, 2014, 14\allowbreak (04): 53-58.
+\newblock DOI: \doi{10.16097/j.cnki.1009-6744.2014.04.013}.
 
-\bibitem[树爱兵\ 等()树爱兵, 王云霞, 张雷元, 徐新东, 付强,
-  王婷婷, and 刘成生]{shuaibing}
-树爱兵, 王云霞, 张雷元, 等.
+\bibitem[张雷元\ 等(2012)张雷元 and 树爱兵]{shuaibing}
+张雷元, 树爱兵.
 \newblock 道路交叉口信号相位设计实用方法[C]//\allowbreak
 第七届中国智能交通年会优秀论文集——智能交通技术.
+\newblock 2012: 160-169.
 
-\bibitem[Yi\ 等()Yi and 赵益]{zhaoyi}
-YI~Z, 赵益.
-\newblock 城市道路干线协调控制方法综述[C]//\allowbreak
+\bibitem[赵益(2020)]{zhaoyi}
+赵益.
+\newblock 城市道路干线协调控制方法综述[C/OL]//\allowbreak
 第十五届中国智能交通年会.
+\newblock 2020: 257-263.
+\newblock DOI: \doi{10.26914/c.cnkihy.2020.028384}.
 
 \bibitem[Ma et~al.(2019)Ma and He]{ma2019green}
 MA~C, HE~R.
@@ -383,36 +405,38 @@ MA~C, HE~R.
 \newblock Neural Computing and Applications, 2019, 31\allowbreak (7):
   2073-2083.
 
-\bibitem[Hartigan et~al.(1979)Hartigan and Wong]{K_Means_1979}
+\bibitem[Hartigan et~al.(1985)Hartigan and Wong]{K_Means_1979}
 HARTIGAN~J~A, WONG~M~A.
-\newblock A k-means clustering algorithm[J].
-\newblock Applied Statistics, 1979, 28\allowbreak (1).
+\newblock Statistical theory in clustering[J].
+\newblock Journal of Classification, 1985, 2\allowbreak (01): 63-67.
 
 \bibitem[Garcia et~al.(1986)Garcia and Morshedi]{Garcia_1986}
 GARCIA~C~E, MORSHEDI~A~M.
 \newblock Quadratic programming solution of dynamic matrix control (qdmc)[J].
-\newblock Chemical Engineering Communications, 1986, 46\allowbreak (73-87).
+\newblock Chemical Engineering Communications, 1986, 46: 73-87.
 
-\bibitem[Boggs et~al.(1995)Boggs and Tolle]{Boggs_1995}
+\bibitem[P.T. et~al.(1995)P.T. and J.W.]{Boggs_1995}
+P.T.~B, J.W.~T.
+\newblock Sequential quadratic programming[J/OL].
+\newblock Acta Numerica, 1995, 4: 1 – 51.
+\newblock
+  \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-44649149897&doi=10.1017%2fS0962492900002518&partnerID=40&md5=cc9b5148a47c58687f746bd3ec66695b}.
+\newblock DOI: \doi{10.1017/S0962492900002518}.
+
+\bibitem[Gill et~al.(2005)Gill, Murray, and Saunders]{Gill_2001}
+GILL~P~E, MURRAY~W, SAUNDERS~M~A.
+\newblock Snopt: An sqp algorithm for large-scale constrained optimization[J].
+\newblock SIAM review, 2005, 47\allowbreak (1): 99-131.
+
+\bibitem[Boggs et~al.(1995)Boggs and Tolle]{Nocedal_2006}
 BOGGS~P~T, TOLLE~J~W.
 \newblock Sequential quadratic programming[J].
-\newblock Acta Numerica, 1995, 4.
-
-\bibitem[Gill et~al.(2001)Gill, Murray, Saunders, Drud, and
-  Kalvelagen]{Gill_2001}
-GILL~P~E, MURRAY~W, SAUNDERS~M~A, et~al.
-\newblock Snopt: An sqp algorithm for large-scale constrained optimization[J].
-\newblock SIAM Review, 2001, 47\allowbreak (1).
-
-\bibitem[Nocedal et~al.(2006)Nocedal and Wright]{Nocedal_2006}
-NOCEDAL~J, WRIGHT~S~J.
-\newblock Sequential quadratic programming[J].
-\newblock 2006.
+\newblock Acta numerica, 1995, 4: 1-51.
 
 \bibitem[国务院(2006)]{erl_2019}
 国务院.
 \newblock 国家突发公共事件总体应急预案[J].
-\newblock 中国中医基础医学杂志, 2006, 12\allowbreak (1): 3.
+\newblock 中国防汛抗旱, 2006, 12\allowbreak (01): 16-19.
 
 \bibitem[{GA/T 115-2020}()]{GA_T_115_2020}
 {GA/T 115-2020}.

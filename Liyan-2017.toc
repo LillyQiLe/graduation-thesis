@@ -39,7 +39,7 @@
 \contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结和展望}{61}{chapter.6}%
 \contentsline {section}{\numberline {6.1}总结}{61}{section.6.1}%
 \contentsline {section}{\numberline {6.2}展望}{62}{section.6.2}%
-\contentsline {chapter}{参考文献}{62}{Item.34}%
+\contentsline {chapter}{参考文献}{62}{Item.33}%
 \contentsline {chapter}{附录}{70}{chapter*.59}%
 \contentsline {chapter}{致谢}{78}{section*.65}%
 \contentsline {chapter}{发表论文和科研情况}{80}{section*.67}%

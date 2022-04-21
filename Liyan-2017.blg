@@ -10,31 +10,25 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bibs/all.bib
-I was expecting a `,' or a `}'---line 409 of file bibs/all.bib
+I was expecting a `,' or a `}'---line 443 of file bibs/all.bib
  :  
  :  organization={IEEE}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 461 of file bibs/all.bib
+Repeated entry---line 495 of file bibs/all.bib
  : @article{ChenHongyu
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 479 of file bibs/all.bib
+Repeated entry---line 513 of file bibs/all.bib
  : @article{lijinyang
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 643 of file bibs/all.bib
+Repeated entry---line 663 of file bibs/all.bib
  : @article{Shaomingli
  :                    ,
 I'm skipping whatever remains of this entry
-Warning--empty year in 0TRAFFIC
-Warning--empty year in 0TRAFFIC
 Warning--empty year in GB_T_31418
 Warning--empty year in GB_T_31418
-Warning--empty year in shuaibing
-Warning--empty year in shuaibing
-Warning--empty year in zhaoyi
-Warning--empty year in zhaoyi
 Name 1 in "Garcia, C. E., and Morshedi, A. M." has a comma at the end for entry Garcia_1986
 while executing---line 2355 of file gbt7714-numerical.bst
 Name 1 in "Garcia, C. E., and Morshedi, A. M." has a comma at the end for entry Garcia_1986
@@ -43,62 +37,56 @@ Name 1 in "Garcia, C. E., and Morshedi, A. M." has a comma at the end for entry 
 while executing---line 2355 of file gbt7714-numerical.bst
 Warning--empty year in GA_T_115_2020
 Warning--empty year in GA_T_115_2020
-Warning--empty journal in 0TRAFFIC
-Warning--empty year in 0TRAFFIC
+Warning--empty journal in 1988Using
 Warning--empty year in GB_T_31418
 Warning--empty year in GB_T_31418
-Warning--empty year in shuaibing
-Warning--empty year in shuaibing
-Warning--empty year in zhaoyi
-Warning--empty year in zhaoyi
 Name 1 in "Garcia, C. E., and Morshedi, A. M." has a comma at the end for entry Garcia_1986
 while executing---line 2371 of file gbt7714-numerical.bst
 Name 1 in "Garcia, C. E., and Morshedi, A. M." has a comma at the end for entry Garcia_1986
 while executing---line 2371 of file gbt7714-numerical.bst
 Name 1 in "Garcia, C. E., and Morshedi, A. M." has a comma at the end for entry Garcia_1986
 while executing---line 2371 of file gbt7714-numerical.bst
-Warning--empty journal in Nocedal_2006
 Warning--empty year in GA_T_115_2020
 Warning--empty year in GA_T_115_2020
-You've used 64 entries,
+You've used 63 entries,
             5246 wiz_defined-function locations,
-            1381 strings with 18571 characters,
-and the built_in function-call counts, 386774 in all, are:
-= -- 9801
-> -- 42198
-< -- 54249
-+ -- 16253
-- -- 3861
-* -- 2732
-:= -- 55138
-add.period$ -- 200
-call.type$ -- 64
-change.case$ -- 315
-chr.to.int$ -- 14264
-cite$ -- 85
-duplicate$ -- 1513
-empty$ -- 4213
-format.name$ -- 1698
-if$ -- 100017
+            1436 strings with 20172 characters,
+and the built_in function-call counts, 397443 in all, are:
+= -- 11306
+> -- 42419
+< -- 53985
++ -- 16161
+- -- 4246
+* -- 3349
+:= -- 56764
+add.period$ -- 218
+call.type$ -- 63
+change.case$ -- 310
+chr.to.int$ -- 14169
+cite$ -- 72
+duplicate$ -- 1521
+empty$ -- 5269
+format.name$ -- 1655
+if$ -- 102529
 int.to.chr$ -- 1
-int.to.str$ -- 65
+int.to.str$ -- 64
 missing$ -- 0
-newline$ -- 356
-num.names$ -- 192
-pop$ -- 16309
+newline$ -- 372
+num.names$ -- 189
+pop$ -- 16518
 preamble$ -- 1
-purify$ -- 64
+purify$ -- 63
 quote$ -- 0
-skip$ -- 39991
+skip$ -- 40761
 stack$ -- 0
-substring$ -- 19120
-swap$ -- 64
+substring$ -- 21296
+swap$ -- 63
 text.length$ -- 1015
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 794
-warning$ -- 21
-while$ -- 1270
+type$ -- 781
+warning$ -- 9
+while$ -- 1316
 width$ -- 0
-write$ -- 910
+write$ -- 958
 (There were 10 error messages)
