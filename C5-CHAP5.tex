@@ -13,7 +13,7 @@
 为了使得应急车辆在道路上行驶的过程中受普通车辆的影响尽可能小，本文通过降低道路饱和度的方式使得普通车辆有空间为应急车辆让行，如图\ref{fig:highsituration}所示，当道路饱和度较高时，普通车辆无法为应急车辆让行，因此普通车辆限制了应急车辆的行驶，使得应急车辆无法以更快的速度行驶，进而间接性地延长了应急车辆的旅行时间。
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=\textwidth]{figures/highsituration.png}
+	\includegraphics[width=0.5\textwidth]{figures/highsituration.png}
 	\caption{道路饱和度较高，普通车辆无法让行}
 	\label{fig:highsituration}
 \end{figure}
@@ -22,7 +22,7 @@
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=\textwidth]{figures/lowsituration.png}
+	\includegraphics[width=0.5\textwidth]{figures/lowsituration.png}
 	\caption{道路饱和度降低，普通车辆让行}
 	\label{fig:lowsituration}
 \end{figure}
@@ -30,9 +30,6 @@
 在交叉口层面，当道路饱和度较高时，交叉口在应急车辆前进方向的入口道上聚集了大量的社会车辆。本文希望在应急车辆到达交叉口之前，尽量减少应急车辆入口车道的排队车辆数，并且在应急车辆通过路口后，前方的排队车辆也可以及时地给紧急车辆让行，这将体现在下一节的信号抢占部分。
 
 为了更好地解释降低道路饱和度在交叉口层面的作用，用图\ref{fig:tl_unreduce}和\ref{fig:tl_unreduce_passed}表示没有使用降低道路饱和度信号控制算法，应急车辆在到达交叉口之前与到达交叉口时入口车道上的交通情况。图\ref{fig:tl_reduce}和\ref{fig:tl_reduce_passed}表示使用降低道路饱和度信号控制算法，应急车辆在到达交叉口之前与到达交叉口时入口车道上的交通情况。图中仅画出应急车辆所在车道的车辆，其余车辆暂不考虑。
-
-
-图\ref{fig:tl_unreduce}表示在不实施降低道路光饱和度信号控制算法的情形下，由于应急车到达路口时的前面排队车辆较多，因此必须等到前面的排队车辆全部清空后方可通过路口。图\ref{fig:tl_unreduce_passed}的情况下，应急车辆通过交叉口后，前方有普通车辆阻碍了应急车辆的前进，使得应急车辆无法以更快的速度行驶。
 
 \begin{figure}[H]
 	\centering
@@ -48,8 +45,7 @@
 	\label{fig:tl_unreduce_passed}
 \end{figure}
 
-图\ref{fig:tl_reduce}表示在采取降低道路饱和度信号控制算法的情况下，应急车辆到达交叉口时的前方排队车辆与图\ref{fig:tl_unreduce_passed}相对减少，需要等待前方排队车辆清空的时间也会相对地减少。图\ref{fig:tl_reduce_passed}表示在采取降低道路饱和度信号控制算法的情况下，应急车辆通过交叉口后，前方没有普通车辆阻碍应急车辆的前进，使得应急车辆能够以更快的速度行驶。
-
+图\ref{fig:tl_unreduce}表示在不实施降低道路光饱和度信号控制算法的情形下，由于应急车到达路口时的前面排队车辆较多，因此必须等到前面的排队车辆全部清空后方可通过路口。图\ref{fig:tl_unreduce_passed}的情况下，应急车辆通过交叉口后，前方有普通车辆阻碍了应急车辆的前进，使得应急车辆无法以更快的速度行驶。
 
 \begin{figure}[H]
 	\centering
@@ -64,6 +60,8 @@
 	\caption{采取降低道路饱和度信号控制算法，应急车辆通过交叉口后道路情形图}
 	\label{fig:tl_reduce_passed}
 \end{figure}
+
+图\ref{fig:tl_reduce}表示在采取降低道路饱和度信号控制算法的情况下，应急车辆到达交叉口时的前方排队车辆与图\ref{fig:tl_unreduce_passed}相对减少，需要等待前方排队车辆清空的时间也会相对地减少。图\ref{fig:tl_reduce_passed}表示在采取降低道路饱和度信号控制算法的情况下，应急车辆通过交叉口后，前方没有普通车辆阻碍应急车辆的前进，使得应急车辆能够以更快的速度行驶。
 
 由上文可知，采取降低道路饱和度算法有三个突出优势:
 \begin{enumerate}
@@ -319,7 +317,7 @@ ${P_i}$代表${n_i}$个新周期结束到${t_i}$的时间间隔，${P_i}$的计�
 	\item 中间变量：${k}$代表信号相位序号，${i}$代表交叉口序号，${T_i}$和${{T_i}^\prime}$分别为交叉口${I_i}$当前周期时长与优化后的新周期时长、${n_i}$为第${i}$交叉口应急车辆预计到达时间之前的新周期个数。
 \end{enumerate}
 
-\newpage
+%\newpage
 
 \begin{equation}
 	\label{qp:target}
@@ -355,7 +353,7 @@ ${P_i}$代表${n_i}$个新周期结束到${t_i}$的时间间隔，${P_i}$的计�
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=\textwidth]{figures/invasive.png}
+	\includegraphics[width=0.8\textwidth]{figures/invasive.png}
 	\caption{侵入式信号抢占方法}
 	\label{fig:invasive}
 \end{figure}
@@ -388,10 +386,10 @@ ${P_i}$代表${n_i}$个新周期结束到${t_i}$的时间间隔，${P_i}$的计�
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=\textwidth]{figures/jump_time.png}
+	\includegraphics[width=0.8\textwidth]{figures/jump_time.png}
 	\caption{信号跳转的时刻}
 	\label{fig:jump_time}
-\end{figure}WW
+\end{figure}
 
 \begin{algorithm}[!ht]
 	\renewcommand{\algorithmicrequire}{\textbf{Input:}}
