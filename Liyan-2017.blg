@@ -48,45 +48,45 @@ Name 1 in "Garcia, C. E., and Morshedi, A. M." has a comma at the end for entry 
 while executing---line 2371 of file gbt7714-numerical.bst
 Warning--empty year in GA_T_115_2020
 Warning--empty year in GA_T_115_2020
-You've used 63 entries,
+You've used 65 entries,
             5246 wiz_defined-function locations,
-            1436 strings with 20172 characters,
-and the built_in function-call counts, 397443 in all, are:
-= -- 11306
-> -- 42419
-< -- 53985
-+ -- 16161
-- -- 4246
-* -- 3349
-:= -- 56764
-add.period$ -- 218
-call.type$ -- 63
-change.case$ -- 310
-chr.to.int$ -- 14169
-cite$ -- 72
-duplicate$ -- 1521
-empty$ -- 5269
-format.name$ -- 1655
-if$ -- 102529
+            1448 strings with 20519 characters,
+and the built_in function-call counts, 414013 in all, are:
+= -- 11630
+> -- 44376
+< -- 56428
++ -- 16827
+- -- 4371
+* -- 3443
+:= -- 59042
+add.period$ -- 224
+call.type$ -- 65
+change.case$ -- 325
+chr.to.int$ -- 14770
+cite$ -- 74
+duplicate$ -- 1567
+empty$ -- 5385
+format.name$ -- 1716
+if$ -- 106835
 int.to.chr$ -- 1
-int.to.str$ -- 64
+int.to.str$ -- 66
 missing$ -- 0
-newline$ -- 372
-num.names$ -- 189
-pop$ -- 16518
+newline$ -- 382
+num.names$ -- 195
+pop$ -- 17445
 preamble$ -- 1
-purify$ -- 63
+purify$ -- 65
 quote$ -- 0
-skip$ -- 40761
+skip$ -- 42454
 stack$ -- 0
-substring$ -- 21296
-swap$ -- 63
-text.length$ -- 1015
+substring$ -- 22050
+swap$ -- 65
+text.length$ -- 1048
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 781
+type$ -- 807
 warning$ -- 9
-while$ -- 1316
+while$ -- 1359
 width$ -- 0
-write$ -- 958
+write$ -- 988
 (There were 10 error messages)

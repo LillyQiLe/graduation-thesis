@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.14)  6 MAY 2022 19:14
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.14)  10 MAY 2022 00:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2110,8 +2110,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [48]
 File: figures/std_smooth.png Graphic file (type bmp)
 <figures/std_smooth.png>
-File: figures/std_relatively.png Graphic file (type bmp)
-<figures/std_relatively.png>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2122,8 +2120,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
 
 [49]
+File: figures/std_relatively.png Graphic file (type bmp)
+<figures/std_relatively.png>
 File: figures/std_moderate.png Graphic file (type bmp)
 <figures/std_moderate.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.62503pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.62503pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
+
+[50]
 File: figures/std_severely.png Graphic file (type bmp)
 <figures/std_severely.png>
 
@@ -2135,20 +2145,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
 
-[50]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.62503pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.62503pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
-
 [51]
 File: figures/travel_time1.png Graphic file (type bmp)
 <figures/travel_time1.png>
-File: figures/travel_time2.png Graphic file (type bmp)
-<figures/travel_time2.png>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2159,8 +2158,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
 
 [52]
+File: figures/travel_time2.png Graphic file (type bmp)
+<figures/travel_time2.png>
 File: figures/travel_time3.png Graphic file (type bmp)
 <figures/travel_time3.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.62503pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.62503pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
+
+[53]
 File: figures/travel_time4.png Graphic file (type bmp)
 <figures/travel_time4.png>
 
@@ -2172,22 +2183,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
 
-[53]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.62503pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.62503pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
-
 [54]
-Overfull \hbox (6.78032pt too wide) in paragraph at lines 264--273
- [][] 
- []
-
-
-Overfull \hbox (5.43266pt too wide) in paragraph at lines 281--290
+Overfull \hbox (6.78032pt too wide) in paragraph at lines 272--281
  [][] 
  []
 
@@ -2200,9 +2197,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
 
 [55]
+Overfull \hbox (5.43266pt too wide) in paragraph at lines 289--298
+ [][] 
+ []
+
 File: figures/ave_travel_time.png Graphic file (type bmp)
 <figures/ave_travel_time.png>
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.62503pt, for example:
@@ -2212,9 +2212,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
 
 [56]
-File: figures/awt1.png Graphic file (type bmp)
-<figures/awt1.png>
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.62503pt, for example:
@@ -2224,12 +2221,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
 
 [57]
+File: figures/awt1.png Graphic file (type bmp)
+<figures/awt1.png>
 File: figures/awt2.png Graphic file (type bmp)
 <figures/awt2.png>
 File: figures/awt3.png Graphic file (type bmp)
 <figures/awt3.png>
-File: figures/awt4.png Graphic file (type bmp)
-<figures/awt4.png>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2240,6 +2237,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
 
 [58]
+File: figures/awt4.png Graphic file (type bmp)
+<figures/awt4.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.62503pt, for example:
@@ -2260,7 +2260,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
 
-[60]) (./C7-CHAP7.tex
+[60]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.62503pt, for example:
@@ -2269,9 +2269,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
 
-[61]
+[61]) (./C7-CHAP7.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.62503pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.62503pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
+
+[62]
 第六章
-[62
+[63
 
 ]) (./Liyan-2017.bbl
 
@@ -2282,18 +2291,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
 
-[63] [64
+[64] [65
 
 ]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.62503pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.62503pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
-
-[65]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.62503pt, for example:
@@ -2338,7 +2338,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
 
-[70]) (./D4-APPENDIX.tex
+[70]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.62503pt, for example:
@@ -2347,7 +2347,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
 
-[71]
+[71]) (./D4-APPENDIX.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.62503pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.62503pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
+
+[72]
 Overfull \hbox (5.16525pt too wide) in alignment at lines 27--49
  [] [] 
  []
@@ -2357,7 +2366,7 @@ Overfull \hbox (5.16525pt too wide) in alignment at lines 49--70
  [] [] 
  []
 
-[72
+[73
 
 ]
 Overfull \hbox (5.16525pt too wide) in alignment at lines 70--79
@@ -2372,7 +2381,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
 
-[73]
+[74]
 Overfull \hbox (1.35747pt too wide) in alignment at lines 83--105
  [] [] [] [] [] 
  []
@@ -2390,7 +2399,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
 
-[74]
+[75]
 Overfull \hbox (1.35747pt too wide) in alignment at lines 125--136
  [] [] [] [] [] 
  []
@@ -2403,7 +2412,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
 
-[75]
+[76]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.62503pt, for example:
@@ -2412,10 +2421,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
 
-[76]
+[77]
 File: figures/qrcode.png Graphic file (type bmp)
 <figures/qrcode.png>
- [77
+ [78
 
 ])
 
@@ -2426,7 +2435,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.62503pt}.
 
-[78] (./D2-ACHNOWLEDGEMENT.tex [79
+[79] (./D2-ACHNOWLEDGEMENT.tex [80
 
 
 ]
@@ -2434,7 +2443,7 @@ Overfull \hbox (254.01472pt too wide) in paragraph at lines 13--16
 []  \TU/FandolKai-Regular(0)/m/n/12 钟 力   
  []
 
-) [80] (./D3-MYACHIEVEMENTS.tex
+) [81] (./D3-MYACHIEVEMENTS.tex
 
 Package fontspec Warning: Font "FandolSong-Regular" does not contain requested
 (fontspec)                Script "CJK".
@@ -2457,7 +2466,7 @@ Package fontspec Info: Font family 'FandolSong-Regular(1)' created for font
 
 )
 No file Liyan-2017.ind.
-[81
+[82
 
 ] (./Liyan-2017.aux)
 
@@ -2474,12 +2483,12 @@ Package rerunfilecheck Info: File `Liyan-2017.out' has not changed.
 (rerunfilecheck)             Checksum: 7B85962E349C50C49212C5155DE6CA3C;4958.
  ) 
 Here is how much of TeX's memory you used:
- 34706 strings out of 476919
- 759643 string characters out of 5816463
- 1103208 words of memory out of 5000000
- 53865 multiletter control sequences out of 15000+600000
+ 34703 strings out of 476919
+ 759128 string characters out of 5816463
+ 1103329 words of memory out of 5000000
+ 53862 multiletter control sequences out of 15000+600000
  446504 words of font info for 284 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,16n,104p,1339b,1091s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Liyan-2017.pdf (95 pages).
+Output written on Liyan-2017.pdf (96 pages).

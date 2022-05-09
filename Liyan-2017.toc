@@ -30,17 +30,17 @@
 \contentsline {section}{\numberline {5.1}实验目的}{41}{section.5.1}%
 \contentsline {section}{\numberline {5.2}实验设计}{41}{section.5.2}%
 \contentsline {section}{\numberline {5.3}实验环境及参数设置}{47}{section.5.3}%
-\contentsline {section}{\numberline {5.4}实验结果分析}{48}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}应急车辆速度平稳性分析}{48}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}应急车辆旅行时间分析}{51}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.4}实验结果分析}{49}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}应急车辆速度平稳性分析}{49}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}应急车辆旅行时间分析}{52}{subsection.5.4.2}%
 \contentsline {subsection}{\numberline {5.4.3}应急车辆优先对路网的影响分析}{57}{subsection.5.4.3}%
-\contentsline {section}{\numberline {5.5}实验分析与总结}{60}{section.5.5}%
-\contentsline {section}{\numberline {5.6}本章小结}{61}{section.5.6}%
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结和展望}{62}{chapter.6}%
-\contentsline {section}{\numberline {6.1}总结}{62}{section.6.1}%
-\contentsline {section}{\numberline {6.2}展望}{63}{section.6.2}%
-\contentsline {chapter}{参考文献}{63}{Item.33}%
-\contentsline {chapter}{附录}{71}{chapter*.61}%
-\contentsline {chapter}{致谢}{79}{section*.67}%
-\contentsline {chapter}{发表论文和科研情况}{81}{section*.69}%
+\contentsline {section}{\numberline {5.5}实验分析与总结}{61}{section.5.5}%
+\contentsline {section}{\numberline {5.6}本章小结}{62}{section.5.6}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结和展望}{63}{chapter.6}%
+\contentsline {section}{\numberline {6.1}总结}{63}{section.6.1}%
+\contentsline {section}{\numberline {6.2}展望}{64}{section.6.2}%
+\contentsline {chapter}{参考文献}{64}{Item.33}%
+\contentsline {chapter}{附录}{72}{chapter*.61}%
+\contentsline {chapter}{致谢}{80}{section*.67}%
+\contentsline {chapter}{发表论文和科研情况}{82}{section*.69}%
 \contentsfinish 

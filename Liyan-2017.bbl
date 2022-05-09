@@ -1,4 +1,4 @@
-\begin{thebibliography}{63}
+\begin{thebibliography}{65}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -441,5 +441,17 @@ BOGGS~P~T, TOLLE~J~W.
 \bibitem[{GA/T 115-2020}()]{GA_T_115_2020}
 {GA/T 115-2020}.
 \newblock 道路交通拥堵度评价方法[S].
+
+\bibitem[Diamond et~al.(2016)Diamond and Boyd]{diamond2016cvxpy}
+DIAMOND~S, BOYD~S.
+\newblock {CVXPY}: {A} {P}ython-embedded modeling language for convex
+  optimization[J].
+\newblock Journal of Machine Learning Research, 2016, 17\allowbreak (83): 1-5.
+
+\bibitem[Agrawal et~al.(2018)Agrawal, Verschueren, Diamond, and
+  Boyd]{agrawal2018rewriting}
+AGRAWAL~A, VERSCHUEREN~R, DIAMOND~S, et~al.
+\newblock A rewriting system for convex optimization problems[J].
+\newblock Journal of Control and Decision, 2018, 5\allowbreak (1): 42-60.
 
 \end{thebibliography}
