@@ -16,10 +16,10 @@
 \contentsline {section}{\numberline {3.2}系统架构}{17}{section.3.2}%
 \contentsline {section}{\numberline {3.3}算法描述}{19}{section.3.3}%
 \contentsline {section}{\numberline {3.4}本章小结}{23}{section.3.4}%
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}交通信号灯控制方法}{24}{chapter.4}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}交通信号灯智能控制方法}{24}{chapter.4}%
 \contentsline {section}{\numberline {4.1}按需降低道路饱和度及普通车辆让行}{24}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}降低道路饱和度的目的}{24}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}降低道路饱和度程度模型构建}{28}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}降低道路饱和度模型构建}{28}{subsection.4.1.2}%
 \contentsline {subsection}{\numberline {4.1.3}面向应急车辆的降低道路饱和度方法}{30}{subsection.4.1.3}%
 \contentsline {section}{\numberline {4.2}信号抢占方法}{31}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}非侵入式信号抢占方法}{31}{subsection.4.2.1}%
